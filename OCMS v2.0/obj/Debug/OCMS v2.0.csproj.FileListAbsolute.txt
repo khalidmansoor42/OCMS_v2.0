@@ -1,0 +1,29 @@
+C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\bin\Debug\OCMS v2.0.exe.config
+C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\bin\Debug\OCMS v2.0.exe
+C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\bin\Debug\OCMS v2.0.pdb
+C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\bin\Debug\MetroFramework.Design.dll
+C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\bin\Debug\MetroFramework.dll
+C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.csprojResolveAssemblyReference.cache
+C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.Properties.Resources.resources
+C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.csproj.GenerateResource.Cache
+C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.exe
+C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.pdb
+C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.Login.resources
+C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.Doctor.resources
+C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\bin\Debug\OCMS v2.0.exe.config
+C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.exe
+C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.pdb
+C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\bin\Debug\OCMS v2.0.exe
+C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\bin\Debug\OCMS v2.0.pdb
+C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\bin\Debug\MetroFramework.Design.dll
+C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\bin\Debug\MetroFramework.dll
+C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.csprojResolveAssemblyReference.cache
+C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.Doctor.resources
+C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.Login.resources
+C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.Properties.Resources.resources
+C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.csproj.GenerateResource.Cache
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\bin\Debug\OCMS v2.0.exe.config
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.exe
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.pdb

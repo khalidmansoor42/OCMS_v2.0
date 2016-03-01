@@ -16,42 +16,13 @@ namespace OCMS_v2._0
         public Doctor()
         {
             InitializeComponent();
-            notifyIcon1.BalloonTipText = "Application Minimized";
-            notifyIcon1.BalloonTipTitle = "Eminence";
-            dateLabel.Text = DateTime.Now.ToString("dddd  dd, MMM yyyy");
             company.Text = "© Techagentx";
-        }
-
-        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
-        {
-            ShowInTaskbar = true;
-            notifyIcon1.Visible = false;
-            WindowState = FormWindowState.Normal;
-        }
-
-        private void Doctor_Resize(object sender, EventArgs e)
-        {
-            if (WindowState == FormWindowState.Minimized)
-            {
-                ShowInTaskbar = false;
-                notifyIcon1.Visible = true;
-                notifyIcon1.ShowBalloonTip(1000);
-            }
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            timeLabel.Text = DateTime.Now.ToString("hh:mm:ss tt");
-            menuProgressBar.Value = menuProgressBar.Value + 5;
-            if (menuProgressBar.Value == 100)
-            {
-                menuProgressBar.Visible = false;
-            }
+            dateLabel.Text = DateTime.Now.ToString("dddd  dd, MMM yyyy");
         }
 
         private void button2_MouseEnter(object sender, EventArgs e)
         {
-            button2.BackColor = System.Drawing.Color.Red;
+            button2.BackColor = System.Drawing.Color.SlateGray;
         }
 
         private void button2_MouseLeave(object sender, EventArgs e)
@@ -61,7 +32,7 @@ namespace OCMS_v2._0
 
         private void button3_MouseEnter(object sender, EventArgs e)
         {
-            button3.BackColor = System.Drawing.Color.Red;
+            button3.BackColor = System.Drawing.Color.SlateGray;
         }
 
         private void button3_MouseLeave(object sender, EventArgs e)
@@ -71,7 +42,7 @@ namespace OCMS_v2._0
 
         private void button4_MouseEnter(object sender, EventArgs e)
         {
-            button4.BackColor = System.Drawing.Color.Red;
+            button4.BackColor = System.Drawing.Color.SlateGray;
         }
 
         private void button4_MouseLeave(object sender, EventArgs e)
@@ -81,7 +52,7 @@ namespace OCMS_v2._0
 
         private void button9_MouseEnter(object sender, EventArgs e)
         {
-            button9.BackColor = System.Drawing.Color.Red;
+            button9.BackColor = System.Drawing.Color.SlateGray;
         }
 
         private void button9_MouseLeave(object sender, EventArgs e)
@@ -91,7 +62,7 @@ namespace OCMS_v2._0
 
         private void button8_MouseEnter(object sender, EventArgs e)
         {
-            button8.BackColor = System.Drawing.Color.Red;
+            button8.BackColor = System.Drawing.Color.SlateGray;
         }
 
         private void button8_MouseLeave(object sender, EventArgs e)
@@ -101,7 +72,7 @@ namespace OCMS_v2._0
 
         private void button10_MouseEnter(object sender, EventArgs e)
         {
-            button10.BackColor = System.Drawing.Color.Red;
+            button10.BackColor = System.Drawing.Color.SlateGray;
         }
 
         private void button10_MouseLeave(object sender, EventArgs e)
@@ -111,7 +82,7 @@ namespace OCMS_v2._0
 
         private void button7_MouseEnter(object sender, EventArgs e)
         {
-            button7.BackColor = System.Drawing.Color.Red;
+            button7.BackColor = System.Drawing.Color.SlateGray;
         }
 
         private void button7_MouseLeave(object sender, EventArgs e)
@@ -136,33 +107,107 @@ namespace OCMS_v2._0
 
         private void metroTile2_MouseLeave(object sender, EventArgs e)
         {
-            metroTile2.Style = MetroFramework.MetroColorStyle.Purple;
+            metroTile2.Style = MetroFramework.MetroColorStyle.Green;
         }
 
-        private void metroButton1_MouseEnter(object sender, EventArgs e)
+        private void metroTile3_MouseEnter(object sender, EventArgs e)
         {
-            metroButton1.BackColor = System.Drawing.Color.Gray;
+            metroTile3.Style = MetroFramework.MetroColorStyle.Red;
         }
 
-        private void metroButton1_MouseLeave(object sender, EventArgs e)
+        private void metroTile3_MouseLeave(object sender, EventArgs e)
         {
-            metroButton1.BackColor = System.Drawing.Color.MediumSeaGreen;
+            metroTile3.Style = MetroFramework.MetroColorStyle.Orange;
         }
 
-        private void metroButton1_MouseClick(object sender, MouseEventArgs e)
+        private void metroTile4_MouseEnter(object sender, EventArgs e)
         {
-            
+            metroTile4.Style = MetroFramework.MetroColorStyle.Red;
         }
 
-        private void metroButton1_MouseUp(object sender, MouseEventArgs e)
+        private void metroTile4_MouseLeave(object sender, EventArgs e)
         {
-            metroButton1.BackColor = System.Drawing.Color.Gray;
+            metroTile4.Style = MetroFramework.MetroColorStyle.Silver;
         }
 
-        private void textBox1_MouseClick(object sender, MouseEventArgs e)
+        private void metroTile5_MouseEnter(object sender, EventArgs e)
         {
-            textBox1.Text = "";
+            metroTile5.Style = MetroFramework.MetroColorStyle.Red;
         }
 
+        private void metroTile5_MouseLeave(object sender, EventArgs e)
+        {
+            metroTile5.Style = MetroFramework.MetroColorStyle.Lime;
+        }
+
+        private void metroTile7_MouseEnter(object sender, EventArgs e)
+        {
+            metroTile7.Style = MetroFramework.MetroColorStyle.Red;
+        }
+
+        private void metroTile7_MouseLeave(object sender, EventArgs e)
+        {
+            metroTile7.Style = MetroFramework.MetroColorStyle.Brown;
+        }
+
+        private void metroTile8_MouseEnter(object sender, EventArgs e)
+        {
+            metroTile8.Style = MetroFramework.MetroColorStyle.Red;
+        }
+
+        private void metroTile8_MouseLeave(object sender, EventArgs e)
+        {
+            metroTile8.Style = MetroFramework.MetroColorStyle.Purple;
+        }
+
+        private void metroTile10_MouseEnter(object sender, EventArgs e)
+        {
+            metroTile10.Style = MetroFramework.MetroColorStyle.Red;
+        }
+
+        private void metroTile10_MouseLeave(object sender, EventArgs e)
+        {
+            metroTile10.Style = MetroFramework.MetroColorStyle.Red;
+        }
+
+        private void metroTile11_MouseEnter(object sender, EventArgs e)
+        {
+            metroTile11.Style = MetroFramework.MetroColorStyle.Red;
+        }
+
+        private void metroTile11_MouseLeave(object sender, EventArgs e)
+        {
+            metroTile11.Style = MetroFramework.MetroColorStyle.Yellow;
+        }
+
+        private void metroTile13_MouseEnter(object sender, EventArgs e)
+        {
+            metroTile13.Style = MetroFramework.MetroColorStyle.Red;
+        }
+
+        private void metroTile13_MouseLeave(object sender, EventArgs e)
+        {
+            metroTile13.Style = MetroFramework.MetroColorStyle.Pink;
+        }
+
+        private void metroTile14_MouseEnter(object sender, EventArgs e)
+        {
+            metroTile14.Style = MetroFramework.MetroColorStyle.Red;
+        }
+
+        private void metroTile14_MouseLeave(object sender, EventArgs e)
+        {
+            metroTile14.Style = MetroFramework.MetroColorStyle.Blue;
+        }
+
+        private void timer3_Tick(object sender, EventArgs e)
+        {
+            timeLabel.Text = DateTime.Now.ToString("hh:mm:ss tt");
+            menuProgressBar.Value = menuProgressBar.Value + 5;
+            if (menuProgressBar.Value == 100)
+            {
+                menuProgressBar.Visible = false;
+            }
+        }
     }
 }

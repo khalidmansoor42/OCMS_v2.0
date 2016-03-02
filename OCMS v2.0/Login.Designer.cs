@@ -74,7 +74,7 @@
             this.metroPanel1.Location = new System.Drawing.Point(1, 3);
             this.metroPanel1.Name = "metroPanel1";
             this.metroPanel1.Size = new System.Drawing.Size(1006, 555);
-            this.metroPanel1.TabIndex = 1;
+            this.metroPanel1.TabIndex = 0;
             this.metroPanel1.VerticalScrollbarBarColor = true;
             this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel1.VerticalScrollbarSize = 10;
@@ -90,7 +90,9 @@
             this.exitBtn.Name = "exitBtn";
             this.exitBtn.Size = new System.Drawing.Size(33, 35);
             this.exitBtn.TabIndex = 4;
+            this.exitBtn.TabStop = false;
             this.exitBtn.UseVisualStyleBackColor = false;
+            this.exitBtn.Click += new System.EventHandler(this.exitBtn_Click);
             // 
             // panel1
             // 
@@ -108,7 +110,8 @@
             this.panel1.Location = new System.Drawing.Point(334, 107);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(338, 342);
-            this.panel1.TabIndex = 3;
+            this.panel1.TabIndex = 1;
+            this.panel1.TabStop = true;
             // 
             // pictureBox4
             // 
@@ -136,7 +139,7 @@
             this.loginBtn.Location = new System.Drawing.Point(224, 186);
             this.loginBtn.Name = "loginBtn";
             this.loginBtn.Size = new System.Drawing.Size(68, 41);
-            this.loginBtn.TabIndex = 2;
+            this.loginBtn.TabIndex = 3;
             this.loginBtn.Text = "Login";
             this.loginBtn.UseSelectable = true;
             this.loginBtn.Click += new System.EventHandler(this.loginBtn_Click);
@@ -216,7 +219,7 @@
             this.usernameTxt.SelectionStart = 0;
             this.usernameTxt.Size = new System.Drawing.Size(177, 23);
             this.usernameTxt.Style = MetroFramework.MetroColorStyle.Blue;
-            this.usernameTxt.TabIndex = 0;
+            this.usernameTxt.TabIndex = 2;
             this.usernameTxt.UseSelectable = true;
             this.usernameTxt.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.usernameTxt.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
@@ -246,7 +249,7 @@
             this.passwordTxt.SelectionLength = 0;
             this.passwordTxt.SelectionStart = 0;
             this.passwordTxt.Size = new System.Drawing.Size(177, 23);
-            this.passwordTxt.TabIndex = 1;
+            this.passwordTxt.TabIndex = 3;
             this.passwordTxt.UseSelectable = true;
             this.passwordTxt.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.passwordTxt.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
@@ -302,7 +305,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private MetroFramework.Controls.MetroPanel metroPanel1;
         private System.Windows.Forms.Button exitBtn;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
         private MetroFramework.Controls.MetroButton loginBtn;
@@ -314,8 +316,7 @@
         private MetroFramework.Controls.MetroTextBox passwordTxt;
         private System.Windows.Forms.PictureBox pictureBox2;
         private MetroFramework.Components.MetroToolTip metroToolTip1;
-
-
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

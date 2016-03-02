@@ -1,4 +1,5 @@
-﻿using MySql.Data.MySqlClient;
+﻿using MetroFramework;
+using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,102 +12,79 @@ namespace OCMS_v2._0.Class
 {
     class LoginDetail
     {
+        MySqlDataReader reader = null;
         connectionDb cons = new connectionDb();
         password pass = new Class.password();
         Class.ModalClass modal = new Class.ModalClass();
         //Login log = new Login();
 
-        public void loginsdetail(string userName,string password)
+         public string[] loginsdetail(string userName,string password)
         {
+            string[] userInfo = new string[3];
             string userType = "";
             string Name = "";
-            try
+            String query = "SELECT user_type,full_name,user_name,activeinactive FROM mydb.user_registration where user_name=@userName And password =@password;";
+            MySqlCommand cmdEmpInfo = new MySqlCommand(query, cons.openConnection());
+            cmdEmpInfo.Parameters.Add(new MySqlParameter("@userName", userName));
+            cmdEmpInfo.Parameters.Add(new MySqlParameter("@password", pass.MD5Hash(password)));            
+            reader = cmdEmpInfo.ExecuteReader(); //execute the reader
+            if (reader.Read())
             {
-                //cons.connectionOpen();
-                //String query = "SELECT user_type,full_name,user_name,activeinactive FROM mydb.user_registration where user_name=@userName And password =@password;";
-                //MySqlCommand SelectCommand = new MySqlCommand(query, cons.myConn);
-                //SelectCommand.Parameters.Add(new MySqlParameter("@userName", userName));
-                //SelectCommand.Parameters.Add(new MySqlParameter("@password", pass.MD5Hash(password)));
-                //MySqlDataReader myReader;
-                //myReader = SelectCommand.ExecuteReader();
-                 MySqlConnection myConn = new MySqlConnection("datasource=127.0.0.1;port=3306;username=root;password=''");                
-                String query = "SELECT * FROM mydb.user_registration where user_name=@1 And password =@2;";
-                MySqlCommand SelectCommand = new MySqlCommand(query, myConn);
-                SelectCommand.Parameters.Add(new MySqlParameter("@1", userName));
-                SelectCommand.Parameters.Add(new MySqlParameter("@2", pass.MD5Hash(password)));
-                MySqlDataReader myReader;
-                myConn.Open();
-                myReader = SelectCommand.ExecuteReader();  
-                int count = 0;
-                if (myReader.Read())
+                userType = reader.GetString("user_type");
+                Name = reader.GetString("full_name");
+
+                string username = reader.GetString("user_name");
+                if (reader.GetBoolean("activeinactive"))
                 {
-                    userType = myReader.GetString("user_type");
-                    Name = myReader.GetString("full_name");
-
-                    string username = myReader.GetString("user_name");
-                    if (myReader.GetBoolean("activeinactive"))
-                    {
-                        //LoginHistory(username);
-                        if (userType == "Doctor")
-                        {
-                            //this.Hide();
-                            //Doctor obj = new Doctor(name, userstype, username);
-                            //obj.ShowDialog();
-                            //this.Close();
-                            MessageBox.Show("Doctor");
-
-                        }
-                        else if (userType == "Administrator")
-                        {
-                            //this.Hide();
-                            //Administration obj = new Administration(name, userstype, username);
-                            //obj.ShowDialog();
-                            //this.Close();
-                            MessageBox.Show("Admin");
-
-                        }
-                        else if (userType == "Staff")
-                        {
-                            //this.Hide();
-                            //Receptionist obj = new Receptionist(name, userstype, username);
-                            //obj.ShowDialog();
-                            //this.Close();
-                            MessageBox.Show("Staff");
-
-                        }
-                    }
-                    else
-                    {
-                        MessageBox.Show("your account is inactive please contact administrator");
-                    }
-
+                    LoginHistory(username);
+                    userInfo[0] = Name;
+                    userInfo[1] = userType;
+                    userInfo[2] = username;
+                    
                 }
-                else if (count == 0)
+                else
                 {
-                    MessageBox.Show("your username and password is incorrect");
+                    MessageBox.Show("your account is inactive please contact administrator");
                 }
-
-                cons.connectionClose();
-
+                cons.closeConnection();
             }
-            catch (Exception ex)
+            else
             {
-                MessageBox.Show(ex.Message);
             }
+            return userInfo;
+           
         }
         public void LoginHistory(string username)
         {
             string hostName = Dns.GetHostName(); // Retrive the Name of HOST
-
             string myIP = Dns.GetHostByName(hostName).AddressList[0].ToString();
-
             String query = "insert into mydb.login_history (user_name,login,ip_address,hostName)VALUES(@userName,@dateTime,@Ip,@hostName) ;";
-            modal.insertData(query);
-            modal.SelectCommand.Parameters.Add(new MySqlParameter("@userName", username));
-            modal.SelectCommand.Parameters.Add(new MySqlParameter("@dateTime", DateTime.Now.ToString("yyyy-mm-dd hh:mm:ss tt")));
-            modal.SelectCommand.Parameters.Add(new MySqlParameter("@Ip", myIP));
-            modal.SelectCommand.Parameters.Add(new MySqlParameter("@hostName", hostName));
+            MySqlCommand SelectCommand = new MySqlCommand(query, cons.openConnection());
+            SelectCommand.Parameters.Add(new MySqlParameter("@userName", username));
+            SelectCommand.Parameters.Add(new MySqlParameter("@dateTime", "2016-05-02 01:05:31" ));
+            SelectCommand.Parameters.Add(new MySqlParameter("@Ip", myIP));
+            SelectCommand.Parameters.Add(new MySqlParameter("@hostName", hostName));
+            MySqlDataReader myReader;
+            myReader = SelectCommand.ExecuteReader();
+            cons.closeConnection();            
 
         }
+        public void logout(string query)
+        {
+            try
+            {
+                MySqlCommand SelectCommand = new MySqlCommand(query, cons.openConnection());
+                MySqlDataReader myReader;
+                myReader = SelectCommand.ExecuteReader();
+                cons.closeConnection();
+
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("not insert login history");
+            }
+
+        }
+
     }
 }

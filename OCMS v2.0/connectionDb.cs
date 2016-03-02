@@ -10,24 +10,32 @@ namespace OCMS_v2._0
 {
     class connectionDb
     {
-        public MySqlConnection myConn;
-        public MySqlCommand SelectCommand;
-        public void connectionOpen()
+        MySqlConnection con = null;
+        //public string myConnection = "datasource=127.0.0.1;port=3306;username=root;password=admin;database=mydb";
+        public string myConnection = "datasource=127.0.0.1;port=3306;username=root;password=''";
+        MySqlCommand cmd;
+        MySqlTransaction trans;
+        MySqlDataAdapter Adapt;
+       
+        public MySqlConnection openConnection()
         {
-            try {
-                MySqlConnection myConn = new MySqlConnection("datasource=127.0.0.1;port=3306;username=root;password=''");
-                myConn.Open();
-
-            }
-            catch (Exception e)
+            try
             {
-                MessageBox.Show(e.Message);
+                con = new MySqlConnection(myConnection);
+                con.Open();
+                return con;
             }
-            
+            catch (MySqlException err)
+            {
+                MessageBox.Show("Error: " + err.ToString());
+                return con = null;
+            }
         }
-        public void connectionClose()
+       
+        public Boolean closeConnection()
         {
-            myConn.Close();
+            con.Close();
+            return true;
         }
     }
 }

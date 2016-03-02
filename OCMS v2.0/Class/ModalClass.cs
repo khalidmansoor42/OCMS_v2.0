@@ -8,19 +8,16 @@ using System.Windows.Forms;
 
 namespace OCMS_v2._0.Class
 {
-    class ModalClass:connectionDb
+    class ModalClass
     {
+        connectionDb con = new connectionDb();
+        public MySqlCommand SelectCommand;
+
         public void insertData(string query)
         {
             try
             {
-                connectionOpen();
 
-                SelectCommand = new MySqlCommand(query, myConn);
-                MySqlDataReader myReader;                
-                myReader = SelectCommand.ExecuteReader();
-
-                connectionClose();
             }
             catch (Exception ex)
             {

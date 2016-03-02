@@ -20,6 +20,8 @@ namespace OCMS_v2._0
             metroToolTip1.SetToolTip(metroButton4, "Save");
             metroToolTip1.SetToolTip(metroButton7, "Delete");
             metroToolTip1.SetToolTip(metroButton5, "Add Disease");
+            metroToolTip1.SetToolTip(metroButton1, "Previous Form");
+            metroToolTip1.SetToolTip(metroButton6, "Next Form");
         }
     }
 }

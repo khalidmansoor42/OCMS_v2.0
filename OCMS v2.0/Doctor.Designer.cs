@@ -41,14 +41,14 @@
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.SearchPatient = new System.Windows.Forms.TextBox();
-            this.loginTime = new MetroFramework.Controls.MetroLabel();
-            this.type = new MetroFramework.Controls.MetroLabel();
-            this.name = new MetroFramework.Controls.MetroLabel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.metroLabel10 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
-            this.profilePic = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
             this.userName = new System.Windows.Forms.ComboBox();
             this.button3 = new System.Windows.Forms.Button();
@@ -80,11 +80,8 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.timer3 = new System.Windows.Forms.Timer(this.components);
-            this.timer4 = new System.Windows.Forms.Timer(this.components);
-            this.tokenNoti = new System.Windows.Forms.NotifyIcon(this.components);
-            this.tokenNoLeb = new System.Windows.Forms.Label();
-            this.patientID = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.profilePic)).BeginInit();
+            this.metroButton2 = new MetroFramework.Controls.MetroButton();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.metroTile6.SuspendLayout();
             this.metroTile9.SuspendLayout();
@@ -259,44 +256,43 @@
             // 
             this.timer1.Enabled = true;
             // 
-            // SearchPatient
+            // textBox1
             // 
-            this.SearchPatient.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SearchPatient.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.SearchPatient.Location = new System.Drawing.Point(906, 135);
-            this.SearchPatient.Multiline = true;
-            this.SearchPatient.Name = "SearchPatient";
-            this.SearchPatient.Size = new System.Drawing.Size(222, 30);
-            this.SearchPatient.TabIndex = 112;
-            this.SearchPatient.Text = "Search Here...";
-            this.SearchPatient.TextChanged += new System.EventHandler(this.SearchPatient_TextChanged);
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.textBox1.Location = new System.Drawing.Point(906, 135);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(222, 30);
+            this.textBox1.TabIndex = 112;
+            this.textBox1.Text = "Search Here...";
             // 
-            // loginTime
+            // metroLabel10
             // 
-            this.loginTime.AutoSize = true;
-            this.loginTime.Location = new System.Drawing.Point(1086, 277);
-            this.loginTime.Name = "loginTime";
-            this.loginTime.Size = new System.Drawing.Size(65, 19);
-            this.loginTime.TabIndex = 111;
-            this.loginTime.Text = "time here";
+            this.metroLabel10.AutoSize = true;
+            this.metroLabel10.Location = new System.Drawing.Point(1086, 277);
+            this.metroLabel10.Name = "metroLabel10";
+            this.metroLabel10.Size = new System.Drawing.Size(65, 19);
+            this.metroLabel10.TabIndex = 111;
+            this.metroLabel10.Text = "time here";
             // 
-            // type
+            // metroLabel9
             // 
-            this.type.AutoSize = true;
-            this.type.Location = new System.Drawing.Point(1086, 241);
-            this.type.Name = "type";
-            this.type.Size = new System.Drawing.Size(34, 19);
-            this.type.TabIndex = 110;
-            this.type.Text = "type";
+            this.metroLabel9.AutoSize = true;
+            this.metroLabel9.Location = new System.Drawing.Point(1086, 241);
+            this.metroLabel9.Name = "metroLabel9";
+            this.metroLabel9.Size = new System.Drawing.Size(34, 19);
+            this.metroLabel9.TabIndex = 110;
+            this.metroLabel9.Text = "type";
             // 
-            // name
+            // metroLabel7
             // 
-            this.name.AutoSize = true;
-            this.name.Location = new System.Drawing.Point(1086, 205);
-            this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(72, 19);
-            this.name.TabIndex = 109;
-            this.name.Text = "name here";
+            this.metroLabel7.AutoSize = true;
+            this.metroLabel7.Location = new System.Drawing.Point(1086, 205);
+            this.metroLabel7.Name = "metroLabel7";
+            this.metroLabel7.Size = new System.Drawing.Size(72, 19);
+            this.metroLabel7.TabIndex = 109;
+            this.metroLabel7.Text = "name here";
             // 
             // metroLabel6
             // 
@@ -325,17 +321,17 @@
             this.metroLabel4.TabIndex = 106;
             this.metroLabel4.Text = "User Name:";
             // 
-            // profilePic
+            // pictureBox2
             // 
-            this.profilePic.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.profilePic.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("profilePic.BackgroundImage")));
-            this.profilePic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.profilePic.Location = new System.Drawing.Point(906, 205);
-            this.profilePic.Name = "profilePic";
-            this.profilePic.Size = new System.Drawing.Size(90, 89);
-            this.profilePic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.profilePic.TabIndex = 105;
-            this.profilePic.TabStop = false;
+            this.pictureBox2.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(906, 205);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(90, 89);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 105;
+            this.pictureBox2.TabStop = false;
             // 
             // metroLabel3
             // 
@@ -751,60 +747,39 @@
             // 
             // listBox1
             // 
-            this.listBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.listBox1.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.listBox1.ForeColor = System.Drawing.SystemColors.Window;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 17;
-            this.listBox1.Location = new System.Drawing.Point(625, 142);
+            this.listBox1.Location = new System.Drawing.Point(639, 135);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(261, 425);
+            this.listBox1.Size = new System.Drawing.Size(242, 425);
             this.listBox1.TabIndex = 125;
-            this.listBox1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.listBox1_MouseClick);
-            this.listBox1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listBox1_MouseDoubleClick);
             // 
             // timer3
             // 
             this.timer3.Enabled = true;
             this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
             // 
-            // timer4
+            // metroButton2
             // 
-            this.timer4.Enabled = true;
-            this.timer4.Interval = 20000;
-            this.timer4.Tick += new System.EventHandler(this.timer4_Tick);
-            // 
-            // tokenNoti
-            // 
-            this.tokenNoti.Text = "tokenNoti";
-            this.tokenNoti.Visible = true;
-            // 
-            // tokenNoLeb
-            // 
-            this.tokenNoLeb.AutoSize = true;
-            this.tokenNoLeb.Location = new System.Drawing.Point(377, 16);
-            this.tokenNoLeb.Name = "tokenNoLeb";
-            this.tokenNoLeb.Size = new System.Drawing.Size(0, 13);
-            this.tokenNoLeb.TabIndex = 126;
-            this.tokenNoLeb.Visible = false;
-            // 
-            // patientID
-            // 
-            this.patientID.AutoSize = true;
-            this.patientID.Location = new System.Drawing.Point(250, 16);
-            this.patientID.Name = "patientID";
-            this.patientID.Size = new System.Drawing.Size(0, 13);
-            this.patientID.TabIndex = 127;
-            this.patientID.Visible = false;
+            this.metroButton2.BackColor = System.Drawing.Color.Teal;
+            this.metroButton2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("metroButton2.BackgroundImage")));
+            this.metroButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.metroButton2.Location = new System.Drawing.Point(1127, 330);
+            this.metroButton2.Name = "metroButton2";
+            this.metroButton2.Size = new System.Drawing.Size(50, 42);
+            this.metroButton2.TabIndex = 127;
+            this.metroButton2.UseSelectable = true;
             // 
             // Doctor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 600);
-            this.Controls.Add(this.patientID);
-            this.Controls.Add(this.tokenNoLeb);
+            this.Controls.Add(this.metroButton2);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.metroTile13);
             this.Controls.Add(this.metroTile14);
@@ -820,14 +795,14 @@
             this.Controls.Add(this.metroTile1);
             this.Controls.Add(this.metroLabel2);
             this.Controls.Add(this.metroLabel1);
-            this.Controls.Add(this.SearchPatient);
-            this.Controls.Add(this.loginTime);
-            this.Controls.Add(this.type);
-            this.Controls.Add(this.name);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.metroLabel10);
+            this.Controls.Add(this.metroLabel9);
+            this.Controls.Add(this.metroLabel7);
             this.Controls.Add(this.metroLabel6);
             this.Controls.Add(this.metroLabel5);
             this.Controls.Add(this.metroLabel4);
-            this.Controls.Add(this.profilePic);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.metroLabel3);
             this.Controls.Add(this.userName);
             this.Controls.Add(this.metroButton1);
@@ -842,7 +817,7 @@
             this.Name = "Doctor";
             this.Resizable = false;
             this.ShadowType = MetroFramework.Forms.MetroFormShadowType.DropShadow;
-            ((System.ComponentModel.ISupportInitialize)(this.profilePic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.metroTile6.ResumeLayout(false);
             this.metroTile6.PerformLayout();
@@ -867,14 +842,14 @@
         private MetroFramework.Controls.MetroLabel metroLabel2;
         private MetroFramework.Controls.MetroLabel metroLabel1;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.TextBox SearchPatient;
-        private MetroFramework.Controls.MetroLabel loginTime;
-        private MetroFramework.Controls.MetroLabel type;
-        private MetroFramework.Controls.MetroLabel name;
+        private System.Windows.Forms.TextBox textBox1;
+        private MetroFramework.Controls.MetroLabel metroLabel10;
+        private MetroFramework.Controls.MetroLabel metroLabel9;
+        private MetroFramework.Controls.MetroLabel metroLabel7;
         private MetroFramework.Controls.MetroLabel metroLabel6;
         private MetroFramework.Controls.MetroLabel metroLabel5;
         private MetroFramework.Controls.MetroLabel metroLabel4;
-        private System.Windows.Forms.PictureBox profilePic;
+        private System.Windows.Forms.PictureBox pictureBox2;
         private MetroFramework.Controls.MetroLabel metroLabel3;
         private System.Windows.Forms.ComboBox userName;
         private System.Windows.Forms.Button button3;
@@ -906,9 +881,6 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Timer timer3;
-        private System.Windows.Forms.Timer timer4;
-        private System.Windows.Forms.NotifyIcon tokenNoti;
-        private System.Windows.Forms.Label tokenNoLeb;
-        private System.Windows.Forms.Label patientID;
+        private MetroFramework.Controls.MetroButton metroButton2;
     }
 }

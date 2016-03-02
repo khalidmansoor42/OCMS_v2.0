@@ -38,3 +38,17 @@ C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.Login.reso
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.Properties.Resources.resources
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.csproj.GenerateResource.Cache
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.Menu.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.Problem_List_And_Diagnoses.resources
+C:\Users\MuazAhmad\Source\Repos\OCMS_v2.0\OCMS v2.0\bin\Debug\OCMS v2.0.exe.config
+C:\Users\MuazAhmad\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.exe
+C:\Users\MuazAhmad\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.pdb
+C:\Users\MuazAhmad\Source\Repos\OCMS_v2.0\OCMS v2.0\bin\Debug\OCMS v2.0.exe
+C:\Users\MuazAhmad\Source\Repos\OCMS_v2.0\OCMS v2.0\bin\Debug\OCMS v2.0.pdb
+C:\Users\MuazAhmad\Source\Repos\OCMS_v2.0\OCMS v2.0\bin\Debug\MySql.Data.dll
+C:\Users\MuazAhmad\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.csprojResolveAssemblyReference.cache
+C:\Users\MuazAhmad\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.Doctor.resources
+C:\Users\MuazAhmad\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.Menu.resources
+C:\Users\MuazAhmad\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.Login.resources
+C:\Users\MuazAhmad\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.Problem_List_And_Diagnoses.resources
+C:\Users\MuazAhmad\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.Properties.Resources.resources
+C:\Users\MuazAhmad\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.csproj.GenerateResource.Cache

@@ -200,7 +200,7 @@
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>186, -39</value>
   </metadata>
-  <data name="profilePic.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pictureBox2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABGdBTUEAALGPC/xhBQAAB1dJREFUeF7t
         nY2t7jQMhu8IjMAIbAAbwAawAWwAG8AGsAFsABvABrABbAB5JCJVlZM4P23s1q/06EpX53yndRzHcdx+
@@ -812,12 +812,16 @@
   <metadata name="timer3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>160, 3</value>
   </metadata>
-  <metadata name="timer4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>247, 3</value>
-  </metadata>
-  <metadata name="tokenNoti.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>334, 3</value>
-  </metadata>
+  <data name="metroButton2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAB3RJTUUH4AMCDQ4sk7rRRwAAANZJREFU
+        WEftl2EOwiAMRrmH8z7O+07vM70HtvDiDxmEoQG2+ZImlNGPL7A1mYlhrb1KPCS+RTVGZPOh8FfMyOZD
+        oSUtBpn1OtT9DbQzcBzkdPR7f7pzqovvDwxaMb9fkgpMEieJQeKmE0pNAwO3rnue/dTBDOix6/Hr5ned
+        UGoaWKR/A1xbMchE2Y4B0igsC+BxlC4MJFsxOsUgE8O14lEHLl0AnWKQWUL3vLAsxK/Jv4JPKAt0sqGu
+        HwOlILMDA6TZULYjA6Ugs00DzX9Okx1yBYmOZ8wLt5BYWMoO+qsAAAAASUVORK5CYII=
+</value>
+  </data>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>45</value>
   </metadata>

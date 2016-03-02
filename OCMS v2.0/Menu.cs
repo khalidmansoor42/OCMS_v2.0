@@ -192,7 +192,10 @@ namespace OCMS_v2._0
         private void inventoryTile_Click(object sender, EventArgs e)
         {
             Doctor doc = new Doctor(name.Text,type.Text,userNames,loginTime.Text);
-            doc.ShowDialog();
+            this.Hide();//Hide cirrent form.
+            doc.Show();
+            this.Close();//While closing the NextForm, control will come again and will close this form as well
+
         }
     }
 }

@@ -79,6 +79,12 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Problem_List_And_Diagnoses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Problem_List_And_Diagnoses.Designer.cs">
+      <DependentUpon>Problem_List_And_Diagnoses.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Doctor.resx">
@@ -89,6 +95,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Problem_List_And_Diagnoses.resx">
+      <DependentUpon>Problem_List_And_Diagnoses.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

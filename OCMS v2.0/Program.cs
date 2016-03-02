@@ -16,7 +16,7 @@ namespace OCMS_v2._0
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Doctor());
+            Application.Run(new Problem_List_And_Diagnoses());
         }
     }
 }

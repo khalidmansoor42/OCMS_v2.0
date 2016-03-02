@@ -16,6 +16,10 @@ namespace OCMS_v2._0
         public Problem_List_And_Diagnoses()
         {
             InitializeComponent();
+            metroToolTip1.SetToolTip(metroButton2, "Add");
+            metroToolTip1.SetToolTip(metroButton4, "Save");
+            metroToolTip1.SetToolTip(metroButton7, "Delete");
+            metroToolTip1.SetToolTip(metroButton5, "Add Disease");
         }
     }
 }

@@ -80,6 +80,7 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.timer3 = new System.Windows.Forms.Timer(this.components);
+            this.metroButton2 = new MetroFramework.Controls.MetroButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.metroTile6.SuspendLayout();
@@ -762,11 +763,23 @@
             this.timer3.Enabled = true;
             this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
             // 
+            // metroButton2
+            // 
+            this.metroButton2.BackColor = System.Drawing.Color.Teal;
+            this.metroButton2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("metroButton2.BackgroundImage")));
+            this.metroButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.metroButton2.Location = new System.Drawing.Point(1127, 330);
+            this.metroButton2.Name = "metroButton2";
+            this.metroButton2.Size = new System.Drawing.Size(50, 42);
+            this.metroButton2.TabIndex = 127;
+            this.metroButton2.UseSelectable = true;
+            // 
             // Doctor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 600);
+            this.Controls.Add(this.metroButton2);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.metroTile13);
             this.Controls.Add(this.metroTile14);
@@ -868,5 +881,6 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Timer timer3;
+        private MetroFramework.Controls.MetroButton metroButton2;
     }
 }

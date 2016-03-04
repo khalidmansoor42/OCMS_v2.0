@@ -53,108 +53,174 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="add_pic.cs">
+    <Compile Include="DoctorFolder\add_pic.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="add_pic.Designer.cs">
+    <Compile Include="DoctorFolder\add_pic.Designer.cs">
       <DependentUpon>add_pic.cs</DependentUpon>
     </Compile>
-    <Compile Include="BiometryAndTreatment.cs">
+    <Compile Include="DoctorFolder\BiometryAndTreatment.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BiometryAndTreatment.Designer.cs">
+    <Compile Include="DoctorFolder\BiometryAndTreatment.Designer.cs">
       <DependentUpon>BiometryAndTreatment.cs</DependentUpon>
     </Compile>
-    <Compile Include="Complaints.cs">
+    <Compile Include="General\changePassword.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Complaints.Designer.cs">
+    <Compile Include="General\changePassword.Designer.cs">
+      <DependentUpon>changePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorFolder\Complaints.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorFolder\Complaints.Designer.cs">
       <DependentUpon>Complaints.cs</DependentUpon>
     </Compile>
-    <Compile Include="Diagnostics.cs">
+    <Compile Include="DoctorFolder\Diagnostics.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Diagnostics.Designer.cs">
+    <Compile Include="DoctorFolder\Diagnostics.Designer.cs">
       <DependentUpon>Diagnostics.cs</DependentUpon>
     </Compile>
-    <Compile Include="Doctor.cs">
+    <Compile Include="DoctorFolder\doctorMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Doctor.Designer.cs">
-      <DependentUpon>Doctor.cs</DependentUpon>
+    <Compile Include="DoctorFolder\doctorMenu.Designer.cs">
+      <DependentUpon>doctorMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="History.cs">
+    <Compile Include="DoctorFolder\Examination.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="History.Designer.cs">
+    <Compile Include="DoctorFolder\Examination.Designer.cs">
+      <DependentUpon>Examination.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorFolder\History.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorFolder\History.Designer.cs">
       <DependentUpon>History.cs</DependentUpon>
     </Compile>
-    <Compile Include="Medication_And_Dosages.cs">
+    <Compile Include="General\loginHistory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Medication_And_Dosages.Designer.cs">
+    <Compile Include="General\loginHistory.Designer.cs">
+      <DependentUpon>loginHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorFolder\Medication_And_Dosages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorFolder\Medication_And_Dosages.Designer.cs">
       <DependentUpon>Medication_And_Dosages.cs</DependentUpon>
     </Compile>
-    <Compile Include="Menu.cs">
+    <Compile Include="DoctorFolder\settingsDoctor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menu.Designer.cs">
-      <DependentUpon>Menu.cs</DependentUpon>
+    <Compile Include="DoctorFolder\settingsDoctor.Designer.cs">
+      <DependentUpon>settingsDoctor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="Receptionist\receptionMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
+    <Compile Include="Receptionist\receptionMenu.Designer.cs">
+      <DependentUpon>receptionMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Problem_List_And_Diagnoses.cs">
+    <Compile Include="General\MyProfile.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Problem_List_And_Diagnoses.Designer.cs">
+    <Compile Include="General\MyProfile.Designer.cs">
+      <DependentUpon>MyProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorFolder\ophthalmolical_analysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorFolder\ophthalmolical_analysis.Designer.cs">
+      <DependentUpon>ophthalmolical_analysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorFolder\Problem_List_And_Diagnoses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorFolder\Problem_List_And_Diagnoses.Designer.cs">
       <DependentUpon>Problem_List_And_Diagnoses.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReviewOfSystems.cs">
+    <Compile Include="DoctorFolder\ReviewOfSystems.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ReviewOfSystems.Designer.cs">
+    <Compile Include="DoctorFolder\ReviewOfSystems.Designer.cs">
       <DependentUpon>ReviewOfSystems.cs</DependentUpon>
     </Compile>
-    <Compile Include="vision.cs">
+    <Compile Include="DoctorFolder\undopatient.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="vision.Designer.cs">
+    <Compile Include="DoctorFolder\undopatient.Designer.cs">
+      <DependentUpon>undopatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorFolder\vision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorFolder\vision.Designer.cs">
       <DependentUpon>vision.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="add_pic.resx">
+    <Compile Include="Receptionist\receptionSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Receptionist\receptionSettings.Designer.cs">
+      <DependentUpon>receptionSettings.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DoctorFolder\add_pic.resx">
       <DependentUpon>add_pic.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BiometryAndTreatment.resx">
+    <EmbeddedResource Include="DoctorFolder\BiometryAndTreatment.resx">
       <DependentUpon>BiometryAndTreatment.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Complaints.resx">
+    <EmbeddedResource Include="General\changePassword.resx">
+      <DependentUpon>changePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorFolder\Complaints.resx">
       <DependentUpon>Complaints.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Diagnostics.resx">
+    <EmbeddedResource Include="DoctorFolder\Diagnostics.resx">
       <DependentUpon>Diagnostics.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Doctor.resx">
-      <DependentUpon>Doctor.cs</DependentUpon>
+    <EmbeddedResource Include="DoctorFolder\doctorMenu.resx">
+      <DependentUpon>doctorMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="History.resx">
+    <EmbeddedResource Include="DoctorFolder\Examination.resx">
+      <DependentUpon>Examination.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorFolder\History.resx">
       <DependentUpon>History.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Medication_And_Dosages.resx">
+    <EmbeddedResource Include="General\loginHistory.resx">
+      <DependentUpon>loginHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorFolder\Medication_And_Dosages.resx">
       <DependentUpon>Medication_And_Dosages.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Menu.resx">
-      <DependentUpon>Menu.cs</DependentUpon>
+    <EmbeddedResource Include="DoctorFolder\settingsDoctor.resx">
+      <DependentUpon>settingsDoctor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
+    <EmbeddedResource Include="Receptionist\receptionMenu.resx">
+      <DependentUpon>receptionMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Problem_List_And_Diagnoses.resx">
+    <EmbeddedResource Include="General\MyProfile.resx">
+      <DependentUpon>MyProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorFolder\ophthalmolical_analysis.resx">
+      <DependentUpon>ophthalmolical_analysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorFolder\Problem_List_And_Diagnoses.resx">
       <DependentUpon>Problem_List_And_Diagnoses.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -166,11 +232,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ReviewOfSystems.resx">
+    <EmbeddedResource Include="DoctorFolder\ReviewOfSystems.resx">
       <DependentUpon>ReviewOfSystems.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="vision.resx">
+    <EmbeddedResource Include="DoctorFolder\undopatient.resx">
+      <DependentUpon>undopatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorFolder\vision.resx">
       <DependentUpon>vision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receptionist\receptionSettings.resx">
+      <DependentUpon>receptionSettings.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -186,6 +258,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Admin\" />
     <Folder Include="images\back ground\" />
     <Folder Include="images\icons\" />
   </ItemGroup>

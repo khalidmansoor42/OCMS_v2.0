@@ -47,3 +47,11 @@ C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.ReviewOfSy
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.Diagnostics.resources
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.add_pic.resources
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.BiometryAndTreatment.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.ophthalmolical_analysis.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.Examination.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.undopatient.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.MyProfile.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.changePassword.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.loginHistory.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.General.settingsDoctor.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.Receptionist.receptionSettings.resources

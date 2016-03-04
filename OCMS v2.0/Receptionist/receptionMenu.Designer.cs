@@ -69,13 +69,12 @@
             this.metroLabel10 = new MetroFramework.Controls.MetroLabel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.metroTile3 = new MetroFramework.Controls.MetroTile();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.metroTile6.SuspendLayout();
             this.metroTile9.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // metroPanel1
@@ -130,9 +129,9 @@
             this.metroTile6.ActiveControl = null;
             this.metroTile6.Controls.Add(this.dateLabel);
             this.metroTile6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.metroTile6.Location = new System.Drawing.Point(605, 387);
+            this.metroTile6.Location = new System.Drawing.Point(900, 383);
             this.metroTile6.Name = "metroTile6";
-            this.metroTile6.Size = new System.Drawing.Size(271, 80);
+            this.metroTile6.Size = new System.Drawing.Size(267, 80);
             this.metroTile6.Style = MetroFramework.MetroColorStyle.Red;
             this.metroTile6.TabIndex = 66;
             this.metroTile6.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile6.TileImage")));
@@ -145,7 +144,7 @@
             // 
             this.menuProgressBar.Location = new System.Drawing.Point(111, 572);
             this.menuProgressBar.Name = "menuProgressBar";
-            this.menuProgressBar.Size = new System.Drawing.Size(1066, 20);
+            this.menuProgressBar.Size = new System.Drawing.Size(1056, 20);
             this.menuProgressBar.TabIndex = 65;
             // 
             // notifyIcon1
@@ -173,9 +172,9 @@
             this.metroTile9.ActiveControl = null;
             this.metroTile9.Controls.Add(this.timeLabel);
             this.metroTile9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.metroTile9.Location = new System.Drawing.Point(605, 482);
+            this.metroTile9.Location = new System.Drawing.Point(900, 478);
             this.metroTile9.Name = "metroTile9";
-            this.metroTile9.Size = new System.Drawing.Size(271, 80);
+            this.metroTile9.Size = new System.Drawing.Size(267, 80);
             this.metroTile9.Style = MetroFramework.MetroColorStyle.Black;
             this.metroTile9.TabIndex = 67;
             this.metroTile9.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile9.TileImage")));
@@ -380,7 +379,7 @@
             // 
             this.metroTile2.ActiveControl = null;
             this.metroTile2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.metroTile2.Location = new System.Drawing.Point(111, 363);
+            this.metroTile2.Location = new System.Drawing.Point(317, 152);
             this.metroTile2.Name = "metroTile2";
             this.metroTile2.Size = new System.Drawing.Size(200, 200);
             this.metroTile2.Style = MetroFramework.MetroColorStyle.Purple;
@@ -405,7 +404,7 @@
             this.inventoryTile.Size = new System.Drawing.Size(200, 200);
             this.inventoryTile.Style = MetroFramework.MetroColorStyle.Teal;
             this.inventoryTile.TabIndex = 51;
-            this.inventoryTile.Text = "Start Treatment";
+            this.inventoryTile.Text = "New Patient";
             this.inventoryTile.TileCount = 1;
             this.inventoryTile.TileImage = ((System.Drawing.Image)(resources.GetObject("inventoryTile.TileImage")));
             this.inventoryTile.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -430,7 +429,7 @@
             "Logout",
             "Change Password",
             "Exit"});
-            this.userName.Location = new System.Drawing.Point(978, 43);
+            this.userName.Location = new System.Drawing.Point(982, 34);
             this.userName.Name = "userName";
             this.userName.Size = new System.Drawing.Size(185, 25);
             this.userName.TabIndex = 61;
@@ -586,14 +585,23 @@
             this.metroButton1.MouseLeave += new System.EventHandler(this.metroButton1_MouseLeave);
             this.metroButton1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.metroButton1_MouseUp);
             // 
-            // pictureBox3
+            // metroTile3
             // 
-            this.pictureBox3.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.pictureBox3.Location = new System.Drawing.Point(329, 152);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(259, 410);
-            this.pictureBox3.TabIndex = 89;
-            this.pictureBox3.TabStop = false;
+            this.metroTile3.ActiveControl = null;
+            this.metroTile3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.metroTile3.Location = new System.Drawing.Point(111, 358);
+            this.metroTile3.Name = "metroTile3";
+            this.metroTile3.Size = new System.Drawing.Size(406, 200);
+            this.metroTile3.Style = MetroFramework.MetroColorStyle.Green;
+            this.metroTile3.TabIndex = 89;
+            this.metroTile3.Text = "Old Patient";
+            this.metroTile3.TileCount = 3;
+            this.metroTile3.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile3.TileImage")));
+            this.metroTile3.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.metroTile3.TileTextFontSize = MetroFramework.MetroTileTextSize.Tall;
+            this.metroTile3.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
+            this.metroTile3.UseSelectable = true;
+            this.metroTile3.UseTileImage = true;
             // 
             // Menu
             // 
@@ -602,7 +610,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BorderStyle = MetroFramework.Forms.MetroFormBorderStyle.FixedSingle;
             this.ClientSize = new System.Drawing.Size(1200, 600);
-            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.metroTile3);
             this.Controls.Add(this.metroButton1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.metroLabel10);
@@ -640,7 +648,6 @@
             this.metroTile9.PerformLayout();
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -687,7 +694,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private MetroFramework.Controls.MetroButton metroButton1;
         private System.Windows.Forms.Button company;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private MetroFramework.Controls.MetroTile metroTile3;
 
     }
 }

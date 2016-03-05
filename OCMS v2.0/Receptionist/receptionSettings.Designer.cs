@@ -1,4 +1,4 @@
-﻿namespace OCMS_v2._0.Receptionist
+﻿namespace OCMS_v2_0.Receptionist
 {
     partial class receptionSettings
     {

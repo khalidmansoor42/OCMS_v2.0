@@ -9,11 +9,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace OCMS_v2._0
+namespace OCMS_v2_0.Receptionist
 {
-    public partial class Menu : MetroForm
+    public partial class receptionMenu : MetroForm
     {
-        public Menu()
+        public receptionMenu()
         {
             InitializeComponent();
             notifyIcon1.BalloonTipText = "Application Minimized";
@@ -21,7 +21,6 @@ namespace OCMS_v2._0
             dateLabel.Text = DateTime.Now.ToString("dddd  dd, MMM yyyy");
             company.Text = "© Techagentx";
         }
-
         private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             ShowInTaskbar = true;
@@ -151,7 +150,7 @@ namespace OCMS_v2._0
 
         private void metroButton1_MouseClick(object sender, MouseEventArgs e)
         {
-            
+
         }
 
         private void metroButton1_MouseUp(object sender, MouseEventArgs e)
@@ -164,5 +163,14 @@ namespace OCMS_v2._0
             textBox1.Text = "";
         }
 
+        private void metroTile3_MouseEnter(object sender, EventArgs e)
+        {
+            metroTile3.Style = MetroFramework.MetroColorStyle.Red;
+        }
+
+        private void metroTile3_MouseLeave(object sender, EventArgs e)
+        {
+            metroTile3.Style = MetroFramework.MetroColorStyle.Green;
+        }
     }
 }

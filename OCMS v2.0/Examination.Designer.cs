@@ -1,4 +1,4 @@
-﻿namespace OCMS_v2_0.DoctorFolder
+﻿namespace OCMS_v2_0
 {
     partial class Examination
     {

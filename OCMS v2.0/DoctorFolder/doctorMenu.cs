@@ -9,17 +9,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace OCMS_v2._0
+namespace OCMS_v2_0.DoctorFolder
 {
-    public partial class Doctor : MetroForm
+    public partial class doctorMenu : MetroForm
     {
-        public Doctor()
+        public doctorMenu()
         {
             InitializeComponent();
             company.Text = "© Techagentx";
             dateLabel.Text = DateTime.Now.ToString("dddd  dd, MMM yyyy");
         }
-
         private void button2_MouseEnter(object sender, EventArgs e)
         {
             button2.BackColor = System.Drawing.Color.SlateGray;

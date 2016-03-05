@@ -1,4 +1,4 @@
-﻿namespace OCMS_v2._0
+﻿namespace OCMS_v2_0.DoctorFolder
 {
     partial class Medication_And_Dosages
     {

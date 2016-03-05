@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace OCMS_v2._0.Receptionist
+namespace OCMS_v2_0.Receptionist
 {
     public partial class receptionSettings : MetroForm
     {

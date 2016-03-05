@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace OCMS_v2._0
+namespace OCMS_v2_0.DoctorFolder
 {
     public partial class Complaints : MetroForm
     {

@@ -7,7 +7,7 @@
     <ProjectGuid>{4373A7C1-9328-4FEA-879D-777587393F8E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OCMS_v2._0</RootNamespace>
+    <RootNamespace>OCMS_v2_0</RootNamespace>
     <AssemblyName>OCMS v2.0</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -65,10 +65,10 @@
     <Compile Include="DoctorFolder\BiometryAndTreatment.Designer.cs">
       <DependentUpon>BiometryAndTreatment.cs</DependentUpon>
     </Compile>
-    <Compile Include="General\changePassword.cs">
+    <Compile Include="changePassword.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="General\changePassword.Designer.cs">
+    <Compile Include="changePassword.Designer.cs">
       <DependentUpon>changePassword.cs</DependentUpon>
     </Compile>
     <Compile Include="DoctorFolder\Complaints.cs">
@@ -89,6 +89,18 @@
     <Compile Include="DoctorFolder\doctorMenu.Designer.cs">
       <DependentUpon>doctorMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="doctorMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doctorMenu.Designer.cs">
+      <DependentUpon>doctorMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorFolder\vision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorFolder\vision.Designer.cs">
+      <DependentUpon>vision.cs</DependentUpon>
+    </Compile>
     <Compile Include="DoctorFolder\Examination.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,13 +110,13 @@
     <Compile Include="DoctorFolder\History.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DoctorFolder\History.Designer.cs">
+    <Compile Include="DoctorFolder\History.designer.cs">
       <DependentUpon>History.cs</DependentUpon>
     </Compile>
-    <Compile Include="General\loginHistory.cs">
+    <Compile Include="loginHistory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="General\loginHistory.Designer.cs">
+    <Compile Include="loginHistory.Designer.cs">
       <DependentUpon>loginHistory.cs</DependentUpon>
     </Compile>
     <Compile Include="DoctorFolder\Medication_And_Dosages.cs">
@@ -113,28 +125,28 @@
     <Compile Include="DoctorFolder\Medication_And_Dosages.Designer.cs">
       <DependentUpon>Medication_And_Dosages.cs</DependentUpon>
     </Compile>
-    <Compile Include="DoctorFolder\settingsDoctor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DoctorFolder\settingsDoctor.Designer.cs">
-      <DependentUpon>settingsDoctor.cs</DependentUpon>
-    </Compile>
     <Compile Include="Receptionist\receptionMenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Receptionist\receptionMenu.Designer.cs">
       <DependentUpon>receptionMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="General\Login.cs">
+    <Compile Include="DoctorFolder\settingsDoctor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="General\Login.Designer.cs">
+    <Compile Include="DoctorFolder\settingsDoctor.Designer.cs">
+      <DependentUpon>settingsDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="General\MyProfile.cs">
+    <Compile Include="MyProfile.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="General\MyProfile.Designer.cs">
+    <Compile Include="MyProfile.Designer.cs">
       <DependentUpon>MyProfile.cs</DependentUpon>
     </Compile>
     <Compile Include="DoctorFolder\ophthalmolical_analysis.cs">
@@ -163,12 +175,6 @@
     <Compile Include="DoctorFolder\undopatient.Designer.cs">
       <DependentUpon>undopatient.cs</DependentUpon>
     </Compile>
-    <Compile Include="DoctorFolder\vision.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DoctorFolder\vision.Designer.cs">
-      <DependentUpon>vision.cs</DependentUpon>
-    </Compile>
     <Compile Include="Receptionist\receptionSettings.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -181,7 +187,7 @@
     <EmbeddedResource Include="DoctorFolder\BiometryAndTreatment.resx">
       <DependentUpon>BiometryAndTreatment.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="General\changePassword.resx">
+    <EmbeddedResource Include="changePassword.resx">
       <DependentUpon>changePassword.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DoctorFolder\Complaints.resx">
@@ -193,28 +199,34 @@
     <EmbeddedResource Include="DoctorFolder\doctorMenu.resx">
       <DependentUpon>doctorMenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="doctorMenu.resx">
+      <DependentUpon>doctorMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorFolder\vision.resx">
+      <DependentUpon>vision.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DoctorFolder\Examination.resx">
       <DependentUpon>Examination.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DoctorFolder\History.resx">
       <DependentUpon>History.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="General\loginHistory.resx">
+    <EmbeddedResource Include="loginHistory.resx">
       <DependentUpon>loginHistory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DoctorFolder\Medication_And_Dosages.resx">
       <DependentUpon>Medication_And_Dosages.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DoctorFolder\settingsDoctor.resx">
-      <DependentUpon>settingsDoctor.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Receptionist\receptionMenu.resx">
       <DependentUpon>receptionMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="General\Login.resx">
+    <EmbeddedResource Include="DoctorFolder\settingsDoctor.resx">
+      <DependentUpon>settingsDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="General\MyProfile.resx">
+    <EmbeddedResource Include="MyProfile.resx">
       <DependentUpon>MyProfile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DoctorFolder\ophthalmolical_analysis.resx">
@@ -231,15 +243,13 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="DoctorFolder\ReviewOfSystems.resx">
       <DependentUpon>ReviewOfSystems.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DoctorFolder\undopatient.resx">
       <DependentUpon>undopatient.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DoctorFolder\vision.resx">
-      <DependentUpon>vision.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Receptionist\receptionSettings.resx">
       <DependentUpon>receptionSettings.cs</DependentUpon>

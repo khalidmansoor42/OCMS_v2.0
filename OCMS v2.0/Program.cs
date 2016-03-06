@@ -16,7 +16,7 @@ namespace OCMS_v2_0
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DoctorFolder.doctorMenu());
+            Application.Run(new General.Login());
         }
     }
 }

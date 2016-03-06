@@ -65,10 +65,10 @@
     <Compile Include="DoctorFolder\BiometryAndTreatment.Designer.cs">
       <DependentUpon>BiometryAndTreatment.cs</DependentUpon>
     </Compile>
-    <Compile Include="changePassword.cs">
+    <Compile Include="General\changePassword.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="changePassword.Designer.cs">
+    <Compile Include="General\changePassword.Designer.cs">
       <DependentUpon>changePassword.cs</DependentUpon>
     </Compile>
     <Compile Include="DoctorFolder\Complaints.cs">
@@ -89,12 +89,6 @@
     <Compile Include="DoctorFolder\doctorMenu.Designer.cs">
       <DependentUpon>doctorMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="doctorMenu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="doctorMenu.Designer.cs">
-      <DependentUpon>doctorMenu.cs</DependentUpon>
-    </Compile>
     <Compile Include="DoctorFolder\vision.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,10 +107,10 @@
     <Compile Include="DoctorFolder\History.designer.cs">
       <DependentUpon>History.cs</DependentUpon>
     </Compile>
-    <Compile Include="loginHistory.cs">
+    <Compile Include="General\loginHistory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="loginHistory.Designer.cs">
+    <Compile Include="General\loginHistory.Designer.cs">
       <DependentUpon>loginHistory.cs</DependentUpon>
     </Compile>
     <Compile Include="DoctorFolder\Medication_And_Dosages.cs">
@@ -137,16 +131,16 @@
     <Compile Include="DoctorFolder\settingsDoctor.Designer.cs">
       <DependentUpon>settingsDoctor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="General\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
+    <Compile Include="General\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="MyProfile.cs">
+    <Compile Include="General\MyProfile.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MyProfile.Designer.cs">
+    <Compile Include="General\MyProfile.Designer.cs">
       <DependentUpon>MyProfile.cs</DependentUpon>
     </Compile>
     <Compile Include="DoctorFolder\ophthalmolical_analysis.cs">
@@ -187,7 +181,7 @@
     <EmbeddedResource Include="DoctorFolder\BiometryAndTreatment.resx">
       <DependentUpon>BiometryAndTreatment.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="changePassword.resx">
+    <EmbeddedResource Include="General\changePassword.resx">
       <DependentUpon>changePassword.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DoctorFolder\Complaints.resx">
@@ -199,9 +193,6 @@
     <EmbeddedResource Include="DoctorFolder\doctorMenu.resx">
       <DependentUpon>doctorMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="doctorMenu.resx">
-      <DependentUpon>doctorMenu.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="DoctorFolder\vision.resx">
       <DependentUpon>vision.cs</DependentUpon>
     </EmbeddedResource>
@@ -211,7 +202,7 @@
     <EmbeddedResource Include="DoctorFolder\History.resx">
       <DependentUpon>History.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="loginHistory.resx">
+    <EmbeddedResource Include="General\loginHistory.resx">
       <DependentUpon>loginHistory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DoctorFolder\Medication_And_Dosages.resx">
@@ -223,10 +214,10 @@
     <EmbeddedResource Include="DoctorFolder\settingsDoctor.resx">
       <DependentUpon>settingsDoctor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
+    <EmbeddedResource Include="General\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MyProfile.resx">
+    <EmbeddedResource Include="General\MyProfile.resx">
       <DependentUpon>MyProfile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DoctorFolder\ophthalmolical_analysis.resx">

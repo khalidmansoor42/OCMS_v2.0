@@ -34,11 +34,7 @@ C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\bin\Debug\MetroFramework.dll
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.csprojResolveAssemblyReference.cache
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.csproj.GenerateResource.Cache
-C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.changePassword.resources
-C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.loginHistory.resources
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.Receptionist.receptionMenu.resources
-C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.Login.resources
-C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.MyProfile.resources
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.Receptionist.receptionSettings.resources
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.Properties.Resources.resources
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.vision.resources
@@ -46,7 +42,6 @@ C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolde
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.BiometryAndTreatment.resources
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.Complaints.resources
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.Diagnostics.resources
-C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.Doctor.resources
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.Examination.resources
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.History.resources
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.Medication_And_Dosages.resources
@@ -56,3 +51,7 @@ C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolde
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.ReviewOfSystems.resources
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.undopatient.resources
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.doctorMenu.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.General.changePassword.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.General.loginHistory.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.General.Login.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.General.MyProfile.resources

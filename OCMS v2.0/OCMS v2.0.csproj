@@ -173,6 +173,12 @@
     <Compile Include="General\Medicine.Designer.cs">
       <DependentUpon>Medicine.cs</DependentUpon>
     </Compile>
+    <Compile Include="General\Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\Reports.Designer.cs">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </Compile>
     <Compile Include="General\Search_Patients.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -312,6 +318,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="General\Medicine.resx">
       <DependentUpon>Medicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\Reports.resx">
+      <DependentUpon>Reports.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="General\Search_Patients.resx">
       <DependentUpon>Search_Patients.cs</DependentUpon>

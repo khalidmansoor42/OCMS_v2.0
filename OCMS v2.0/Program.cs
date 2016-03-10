@@ -16,7 +16,7 @@ namespace OCMS_v2_0
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new General.Login());
+            Application.Run(new General.Reports());
         }
     }
 }

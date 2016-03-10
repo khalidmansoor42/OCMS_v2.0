@@ -42,3 +42,4 @@ C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.csprojResol
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.Admin.Clinic_Name.resources
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.Admin.adminSettings.resources
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.Admin.AdminMenu.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.General.Reports.resources

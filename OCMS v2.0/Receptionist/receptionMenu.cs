@@ -172,5 +172,22 @@ namespace OCMS_v2_0.Receptionist
         {
             metroTile3.Style = MetroFramework.MetroColorStyle.Green;
         }
+
+        private void receptionMenu_Resize(object sender, EventArgs e)
+        {
+            if (WindowState == FormWindowState.Minimized)
+            {
+                ShowInTaskbar = false;
+                notifyIcon1.Visible = true;
+                notifyIcon1.ShowBalloonTip(1000);
+            }
+        }
+
+        private void notifyIcon1_MouseDoubleClick_1(object sender, MouseEventArgs e)
+        {
+            ShowInTaskbar = true;
+            notifyIcon1.Visible = false;
+            WindowState = FormWindowState.Normal;
+        }
     }
 }

@@ -1,57 +1,44 @@
-C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\bin\Debug\OCMS v2.0.exe.config
-C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\bin\Debug\OCMS v2.0.exe
-C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\bin\Debug\OCMS v2.0.pdb
-C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\bin\Debug\MetroFramework.Design.dll
-C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\bin\Debug\MetroFramework.dll
-C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\bin\Debug\MetroFramework.Fonts.dll
-C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.csprojResolveAssemblyReference.cache
-C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.Properties.Resources.resources
-C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.csproj.GenerateResource.Cache
-C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.exe
-C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.pdb
-C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.Login.resources
-C:\Users\Khalid\Documents\Visual Studio 2013\Projects\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.Doctor.resources
-C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\bin\Debug\OCMS v2.0.exe.config
-C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.exe
-C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.pdb
-C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\bin\Debug\OCMS v2.0.exe
-C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\bin\Debug\OCMS v2.0.pdb
-C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\bin\Debug\MetroFramework.Design.dll
-C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\bin\Debug\MetroFramework.dll
-C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\bin\Debug\MetroFramework.Fonts.dll
-C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.csprojResolveAssemblyReference.cache
-C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.Doctor.resources
-C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.Login.resources
-C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS_v2._0.Properties.Resources.resources
-C:\Users\Khalid\Documents\Visual Studio 2013\OCMS v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.csproj.GenerateResource.Cache
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\bin\Debug\OCMS v2.0.exe.config
-C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.exe
-C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.pdb
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\bin\Debug\OCMS v2.0.exe
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\bin\Debug\OCMS v2.0.pdb
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\bin\Debug\MetroFramework.Design.dll
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\bin\Debug\MetroFramework.dll
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\bin\Debug\MetroFramework.Fonts.dll
-C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.csprojResolveAssemblyReference.cache
-C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.csproj.GenerateResource.Cache
-C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.Receptionist.receptionMenu.resources
-C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.Receptionist.receptionSettings.resources
-C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.Properties.Resources.resources
-C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.vision.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.Admin.Search_Users.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.Admin.User_Registration.resources
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.add_pic.resources
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.BiometryAndTreatment.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.General.Add_City.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.General.Add_Medicine.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.General.changePassword.resources
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.Complaints.resources
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.Diagnostics.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.doctorMenu.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.vision.resources
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.Examination.resources
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.History.resources
-C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.Medication_And_Dosages.resources
-C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.settingsDoctor.resources
-C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.ophthalmolical_analysis.resources
-C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.Problem_List_And_Diagnoses.resources
-C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.ReviewOfSystems.resources
-C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.undopatient.resources
-C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.doctorMenu.resources
-C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.General.changePassword.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.General.Doctor_Registration.resources
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.General.loginHistory.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.Medication_And_Dosages.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.General.Search_Patients.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.Receptionist.Assign_Doctor.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.Receptionist.Old_Patient.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.Receptionist.PatientRegistration.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.Receptionist.receptionMenu.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.settingsDoctor.resources
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.General.Login.resources
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.General.MyProfile.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.ophthalmolical_analysis.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.Problem_List_And_Diagnoses.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.Properties.Resources.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.ReviewOfSystems.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.DoctorFolder.undopatient.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.Receptionist.receptionSettings.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.csproj.GenerateResource.Cache
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.exe
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.pdb
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.General.Medicine.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.csprojResolveAssemblyReference.cache
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.Admin.Clinic_Name.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.Admin.adminSettings.resources
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.Admin.AdminMenu.resources

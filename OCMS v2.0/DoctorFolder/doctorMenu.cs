@@ -18,6 +18,8 @@ namespace OCMS_v2_0.DoctorFolder
             InitializeComponent();
             company.Text = "© Techagentx";
             dateLabel.Text = DateTime.Now.ToString("dddd  dd, MMM yyyy");
+            notifyIcon1.BalloonTipText = "Application Minimized";
+            notifyIcon1.BalloonTipTitle = "Eminence";
         }
         private void button2_MouseEnter(object sender, EventArgs e)
         {
@@ -206,6 +208,23 @@ namespace OCMS_v2_0.DoctorFolder
             if (menuProgressBar.Value == 100)
             {
                 menuProgressBar.Visible = false;
+            }
+        }
+
+        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            ShowInTaskbar = true;
+            notifyIcon1.Visible = false;
+            WindowState = FormWindowState.Normal;
+        }
+
+        private void doctorMenu_Resize(object sender, EventArgs e)
+        {
+            if (WindowState == FormWindowState.Minimized)
+            {
+                ShowInTaskbar = false;
+                notifyIcon1.Visible = true;
+                notifyIcon1.ShowBalloonTip(1000);
             }
         }
     }

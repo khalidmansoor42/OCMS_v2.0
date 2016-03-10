@@ -54,9 +54,7 @@
             this.userName = new System.Windows.Forms.ComboBox();
             this.button3 = new System.Windows.Forms.Button();
             this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
-            this.forMail = new System.Windows.Forms.Timer(this.components);
             this.dateLabel = new System.Windows.Forms.Label();
             this.timeLabel = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -367,8 +365,6 @@
             this.userName.ForeColor = System.Drawing.SystemColors.Window;
             this.userName.FormattingEnabled = true;
             this.userName.Items.AddRange(new object[] {
-            "Undo Patient",
-            "Login History",
             "Logout",
             "Change Password",
             "Exit"});
@@ -430,11 +426,11 @@
             // 
             this.dateLabel.AutoSize = true;
             this.dateLabel.BackColor = System.Drawing.Color.Transparent;
-            this.dateLabel.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateLabel.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateLabel.ForeColor = System.Drawing.Color.White;
-            this.dateLabel.Location = new System.Drawing.Point(17, 16);
+            this.dateLabel.Location = new System.Drawing.Point(17, 25);
             this.dateLabel.Name = "dateLabel";
-            this.dateLabel.Size = new System.Drawing.Size(58, 30);
+            this.dateLabel.Size = new System.Drawing.Size(51, 25);
             this.dateLabel.TabIndex = 0;
             this.dateLabel.Text = "Date";
             // 
@@ -442,11 +438,11 @@
             // 
             this.timeLabel.AutoSize = true;
             this.timeLabel.BackColor = System.Drawing.Color.Transparent;
-            this.timeLabel.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.timeLabel.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.timeLabel.ForeColor = System.Drawing.Color.White;
-            this.timeLabel.Location = new System.Drawing.Point(75, 16);
+            this.timeLabel.Location = new System.Drawing.Point(75, 25);
             this.timeLabel.Name = "timeLabel";
-            this.timeLabel.Size = new System.Drawing.Size(61, 30);
+            this.timeLabel.Size = new System.Drawing.Size(53, 25);
             this.timeLabel.TabIndex = 0;
             this.timeLabel.Text = "Time";
             // 
@@ -488,6 +484,7 @@
             this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
             this.notifyIcon1.Text = "Bing";
             this.notifyIcon1.Visible = true;
+            this.notifyIcon1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDoubleClick_1);
             // 
             // metroLabel8
             // 
@@ -632,11 +629,13 @@
             this.Controls.Add(this.userLabel);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.metroTile2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "receptionMenu";
             this.Resizable = false;
             this.ShadowType = MetroFramework.Forms.MetroFormShadowType.DropShadow;
             this.Style = MetroFramework.MetroColorStyle.Default;
+            this.Resize += new System.EventHandler(this.receptionMenu_Resize);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.metroTile6.ResumeLayout(false);
@@ -675,9 +674,7 @@
         private System.Windows.Forms.ComboBox userName;
         private System.Windows.Forms.Button button3;
         private MetroFramework.Controls.MetroPanel metroPanel1;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private MetroFramework.Controls.MetroButton metroButton1;
-        private System.Windows.Forms.Timer forMail;
         private System.Windows.Forms.Label dateLabel;
         private System.Windows.Forms.Label timeLabel;
         private System.Windows.Forms.PictureBox pictureBox1;

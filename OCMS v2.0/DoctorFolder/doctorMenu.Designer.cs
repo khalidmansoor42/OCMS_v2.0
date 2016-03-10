@@ -95,6 +95,7 @@
             this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
             this.notifyIcon1.Text = "Bing";
             this.notifyIcon1.Visible = true;
+            this.notifyIcon1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDoubleClick);
             // 
             // button1
             // 
@@ -150,6 +151,7 @@
             this.metroButton2.BackColor = System.Drawing.Color.Teal;
             this.metroButton2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("metroButton2.BackgroundImage")));
             this.metroButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.metroButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.metroButton2.Location = new System.Drawing.Point(1127, 330);
             this.metroButton2.Name = "metroButton2";
             this.metroButton2.Size = new System.Drawing.Size(50, 42);
@@ -821,10 +823,12 @@
             this.Controls.Add(this.userName);
             this.Controls.Add(this.metroLabel10);
             this.Controls.Add(this.metroButton1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "doctorMenu";
             this.Resizable = false;
             this.ShadowType = MetroFramework.Forms.MetroFormShadowType.DropShadow;
+            this.Resize += new System.EventHandler(this.doctorMenu_Resize);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.metroTile6.ResumeLayout(false);
             this.metroTile6.PerformLayout();

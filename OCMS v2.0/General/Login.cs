@@ -24,5 +24,12 @@ namespace OCMS_v2_0.General
         {
 
         }
+
+        private void loginBtn_Click(object sender, EventArgs e)
+        {
+            Receptionist.receptionMenu obj = new Receptionist.receptionMenu();
+            this.Hide();
+            obj.Show();
+        }
     }
 }

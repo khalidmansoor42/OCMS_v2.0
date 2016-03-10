@@ -53,6 +53,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\AdminMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminMenu.Designer.cs">
+      <DependentUpon>AdminMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\adminSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\adminSettings.Designer.cs">
+      <DependentUpon>adminSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Clinic_Name.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Clinic_Name.Designer.cs">
+      <DependentUpon>Clinic_Name.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Search_Users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Search_Users.Designer.cs">
+      <DependentUpon>Search_Users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\User_Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\User_Registration.Designer.cs">
+      <DependentUpon>User_Registration.cs</DependentUpon>
+    </Compile>
     <Compile Include="DoctorFolder\add_pic.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +94,18 @@
     </Compile>
     <Compile Include="DoctorFolder\BiometryAndTreatment.Designer.cs">
       <DependentUpon>BiometryAndTreatment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General\Add_City.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\Add_City.Designer.cs">
+      <DependentUpon>Add_City.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General\Add_Disease.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\Add_Disease.Designer.cs">
+      <DependentUpon>Add_Disease.cs</DependentUpon>
     </Compile>
     <Compile Include="General\changePassword.cs">
       <SubType>Form</SubType>
@@ -107,6 +149,12 @@
     <Compile Include="DoctorFolder\History.designer.cs">
       <DependentUpon>History.cs</DependentUpon>
     </Compile>
+    <Compile Include="General\Doctor_Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\Doctor_Registration.Designer.cs">
+      <DependentUpon>Doctor_Registration.cs</DependentUpon>
+    </Compile>
     <Compile Include="General\loginHistory.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +166,36 @@
     </Compile>
     <Compile Include="DoctorFolder\Medication_And_Dosages.Designer.cs">
       <DependentUpon>Medication_And_Dosages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General\Medicine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\Medicine.Designer.cs">
+      <DependentUpon>Medicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General\Search_Patients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\Search_Patients.Designer.cs">
+      <DependentUpon>Search_Patients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Receptionist\Assign_Doctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Receptionist\Assign_Doctor.Designer.cs">
+      <DependentUpon>Assign_Doctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Receptionist\Old_Patient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Receptionist\Old_Patient.Designer.cs">
+      <DependentUpon>Old_Patient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Receptionist\PatientRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Receptionist\PatientRegistration.Designer.cs">
+      <DependentUpon>PatientRegistration.cs</DependentUpon>
     </Compile>
     <Compile Include="Receptionist\receptionMenu.cs">
       <SubType>Form</SubType>
@@ -175,11 +253,32 @@
     <Compile Include="Receptionist\receptionSettings.Designer.cs">
       <DependentUpon>receptionSettings.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Admin\AdminMenu.resx">
+      <DependentUpon>AdminMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\adminSettings.resx">
+      <DependentUpon>adminSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Clinic_Name.resx">
+      <DependentUpon>Clinic_Name.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Search_Users.resx">
+      <DependentUpon>Search_Users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\User_Registration.resx">
+      <DependentUpon>User_Registration.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DoctorFolder\add_pic.resx">
       <DependentUpon>add_pic.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DoctorFolder\BiometryAndTreatment.resx">
       <DependentUpon>BiometryAndTreatment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\Add_City.resx">
+      <DependentUpon>Add_City.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\Add_Disease.resx">
+      <DependentUpon>Add_Disease.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="General\changePassword.resx">
       <DependentUpon>changePassword.cs</DependentUpon>
@@ -202,11 +301,29 @@
     <EmbeddedResource Include="DoctorFolder\History.resx">
       <DependentUpon>History.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="General\Doctor_Registration.resx">
+      <DependentUpon>Doctor_Registration.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="General\loginHistory.resx">
       <DependentUpon>loginHistory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DoctorFolder\Medication_And_Dosages.resx">
       <DependentUpon>Medication_And_Dosages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\Medicine.resx">
+      <DependentUpon>Medicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\Search_Patients.resx">
+      <DependentUpon>Search_Patients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receptionist\Assign_Doctor.resx">
+      <DependentUpon>Assign_Doctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receptionist\Old_Patient.resx">
+      <DependentUpon>Old_Patient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receptionist\PatientRegistration.resx">
+      <DependentUpon>PatientRegistration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Receptionist\receptionMenu.resx">
       <DependentUpon>receptionMenu.cs</DependentUpon>
@@ -259,7 +376,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Admin\" />
     <Folder Include="images\back ground\" />
     <Folder Include="images\icons\" />
   </ItemGroup>

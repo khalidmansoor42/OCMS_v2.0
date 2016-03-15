@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace OCMS_v2._0
+namespace OCMS_v2_0
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace OCMS_v2._0
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new History("mauz_2","Doctor","1"));
+            Application.Run(new Admin.AdminMenu("Khalid_1","Admin"));
         }
     }
 }

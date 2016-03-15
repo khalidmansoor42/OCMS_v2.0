@@ -54,18 +54,56 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="add_pic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_pic.Designer.cs">
+      <DependentUpon>add_pic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BiometryAndTreatment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BiometryAndTreatment.Designer.cs">
+      <DependentUpon>BiometryAndTreatment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\Findage.cs" />
     <Compile Include="Class\getId.cs" />
     <Compile Include="Class\getImage.cs" />
     <Compile Include="Class\getInformation.cs" />
     <Compile Include="Class\LoginDetail.cs" />
+    <Compile Include="Class\maxValue.cs" />
     <Compile Include="Class\ModalClass.cs" />
     <Compile Include="Class\password.cs" />
+    <Compile Include="Complaints.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Complaints.Designer.cs">
+      <DependentUpon>Complaints.cs</DependentUpon>
+    </Compile>
     <Compile Include="connectionDb.cs" />
+    <Compile Include="Diagnostics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Diagnostics.Designer.cs">
+      <DependentUpon>Diagnostics.cs</DependentUpon>
+    </Compile>
     <Compile Include="Doctor.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Doctor.Designer.cs">
       <DependentUpon>Doctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="History.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="History.Designer.cs">
+      <DependentUpon>History.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Medication_And_Dosages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Medication_And_Dosages.Designer.cs">
+      <DependentUpon>Medication_And_Dosages.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
@@ -87,8 +125,38 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReviewOfSystems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReviewOfSystems.Designer.cs">
+      <DependentUpon>ReviewOfSystems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vision.Designer.cs">
+      <DependentUpon>vision.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="add_pic.resx">
+      <DependentUpon>add_pic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BiometryAndTreatment.resx">
+      <DependentUpon>BiometryAndTreatment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Complaints.resx">
+      <DependentUpon>Complaints.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diagnostics.resx">
+      <DependentUpon>Diagnostics.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Doctor.resx">
       <DependentUpon>Doctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="History.resx">
+      <DependentUpon>History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Medication_And_Dosages.resx">
+      <DependentUpon>Medication_And_Dosages.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
@@ -108,6 +176,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ReviewOfSystems.resx">
+      <DependentUpon>ReviewOfSystems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vision.resx">
+      <DependentUpon>vision.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

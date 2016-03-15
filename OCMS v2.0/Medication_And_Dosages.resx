@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="metroToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="recents.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -146,27 +149,7 @@
         tg98uCSMAyKYgQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="metroButton1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAB3RJTUUH4AMCEyEVyBvvWAAAAL5JREFU
-        SEvtljEOgkAQRddoY7T1CF5CjkloPIYtlaex1gssb5KZZpXsLMta8ZLfwL4/yZAAYSkxxo68yIMc9fI6
-        UHgjH2I8yVlv10FRWm7UD6FA1vKr3BjJQY+XgZgrN66q+EHylveq+EGa23nKnexU84GwlX+D0LT8Qt5i
-        ZxhIWbmA1HaAgCgr8gwpX5GBuA3xg/iXIe1edgZyu9e1gez54Oz1+DIomHsm8sk86bE6KEqHrFduUCjr
-        yvy2hDABkz2bSHMFcoQAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="rightButtton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAB3RJTUUH4AMCEyAR1m0aAAAAANJJREFU
-        SEvtljsKwkAUANP4KbTwg6Xi8axtPYyeQUHwDKKeQMQreIB1XnhCINms++syMFXezivUjUUTxpgB7vGD
-        R5zoo3iI9fCMVa6YZgmhTZmsk2YJkV2ZayZ+CYEFvqVmIcmSFT6lZuGOMx0Pg0C35H8ILDH7kjW+pGbh
-        hiMdD4OAa8lWR8MgkG8Bh13xB4513A8Ouj5kic913A8OdvE6HMwal+u67dsS96vlcNsLJ8mVYHtlylUQ
-        FxeI9PEixQpp4j+IDfGA8rflhFN95ElRfAFz6StzzWQ92wAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="metroButton5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="metroButton3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
         JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAB3RJTUUH4AMCEwwAhexRXAAAAntJREFU
@@ -183,7 +166,55 @@
         8mnqofH/PfT/hYPya4ueVK8xv7boFUY3Q4fXlkbjL+jkDk28qmwLAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="saveButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="metroButton5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAB3RJTUUH4AMBDQ4zDAdzXAAAAqBJREFU
+        WEftlkuIjWEYxw/NGAuXYoaZZoySKCsil8klCRuL2SgsyGIsWEgpzU4WLGzMQpRbyUKErC1GUkhKyaUo
+        C5cijPudz+//nv9bpzmX+c45n5rF/OrX6Xve53ne813e9/tyIww7kiRpwPnYjWtwuof+L564F1/gYPpx
+        rVOzh+bj8ZpmMq9Rx3fwuwLmAk5zWTbQcBReVHd4h5uwwcMan4oH8SeKT7gbG51SHzRap67wDRc4XARj
+        s/CKEs0jXOXh2qHJ5dAuSfY7VBZydLW24CsVwF88ic1OqR6KY7N5Dg0JuZPwKP5RIbzFHhztlPRQFO9t
+        m0OpIH8KPg6V+StxHCd6OD0UPVMHWOTQkJDbhvdDVZI8x/As8DsWd+CykJgGks+i6HOoIuQ14u1QkSQP
+        sN3xpfhUQdAVOYUtoagSJK1UBfzA5Q6XhZx9ITtJXmKHYzNQy/U0avKIno1tWPnZIEGF4itux5IFxGfi
+        LxSrHduAehjVowVXYLw9kRs4NzQpBYNNeEmZ5iYWrQpiJ8IoG5eP9Ye0MUXe4FYcg3vwM0Z+4yGcEJoN
+        hgGtcZ39AAoV9GF4svltxrhiuhw7lz8s4irOxk4sPDGhd035DYzBVjyjTKN7vRG1zsUt583BuA+UQu+Q
+        vairq932PUZ0ct1hwnKQoIfzobKNng/R6/HD+cMh0ZatE4grJPIBW8Nk5SBBS24nFt7nhajbFfePejjg
+        qSpDYgeeR10FfTfo8mfBPU+RDgoW+1dLLwu+hMbVQqFezddDi/oYcMvqoVjPwWbU11Ot9Ltd7dBkMh7D
+        wi04LT1uUz80W4J3Q9t06HuzyeXZQEOtkF34ESvxBDtdlj00b8cjWPguENpPtIGVfh9kjSbCLlyP+l4Y
+        56ERhgu53D/HGtRFW5DPkAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="metroButton8.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAB3RJTUUH4AMCDQ4sk7rRRwAAANZJREFU
+        WEftl2EOwiAMRrmH8z7O+07vM70HtvDiDxmEoQG2+ZImlNGPL7A1mYlhrb1KPCS+RTVGZPOh8FfMyOZD
+        oSUtBpn1OtT9DbQzcBzkdPR7f7pzqovvDwxaMb9fkgpMEieJQeKmE0pNAwO3rnue/dTBDOix6/Hr5ned
+        UGoaWKR/A1xbMchE2Y4B0igsC+BxlC4MJFsxOsUgE8O14lEHLl0AnWKQWUL3vLAsxK/Jv4JPKAt0sqGu
+        HwOlILMDA6TZULYjA6Ugs00DzX9Okx1yBYmOZ8wLt5BYWMoO+qsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="metroButton1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAB3RJTUUH4AMCEyEVyBvvWAAAAL5JREFU
+        SEvtljEOgkAQRddoY7T1CF5CjkloPIYtlaex1gssb5KZZpXsLMta8ZLfwL4/yZAAYSkxxo68yIMc9fI6
+        UHgjH2I8yVlv10FRWm7UD6FA1vKr3BjJQY+XgZgrN66q+EHylveq+EGa23nKnexU84GwlX+D0LT8Qt5i
+        ZxhIWbmA1HaAgCgr8gwpX5GBuA3xg/iXIe1edgZyu9e1gez54Oz1+DIomHsm8sk86bE6KEqHrFduUCjr
+        yvy2hDABkz2bSHMFcoQAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="metroButton6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAB3RJTUUH4AMCEyAR1m0aAAAAANJJREFU
+        SEvtljsKwkAUANP4KbTwg6Xi8axtPYyeQUHwDKKeQMQreIB1XnhCINms++syMFXezivUjUUTxpgB7vGD
+        R5zoo3iI9fCMVa6YZgmhTZmsk2YJkV2ZayZ+CYEFvqVmIcmSFT6lZuGOMx0Pg0C35H8ILDH7kjW+pGbh
+        hiMdD4OAa8lWR8MgkG8Bh13xB4513A8Ouj5kic913A8OdvE6HMwal+u67dsS96vlcNsLJ8mVYHtlylUQ
+        FxeI9PEixQpp4j+IDfGA8rflhFN95ElRfAFz6StzzWQ92wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="metroButton4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
         JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAB3RJTUUH4AMCEwoA07b22gAAAM5JREFU
@@ -219,7 +250,4 @@
         gg==
 </value>
   </data>
-  <metadata name="metroToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
 </root>

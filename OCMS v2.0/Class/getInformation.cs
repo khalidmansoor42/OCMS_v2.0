@@ -1,4 +1,5 @@
-﻿using MySql.Data.MySqlClient;
+﻿using COS_ECMS;
+using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -97,6 +98,26 @@ namespace OCMS_v2._0.Class
             {
             }
             return listInfo;
+
+        }
+
+        public string [] information(string query)
+        {
+                Findage obj = new Findage();
+                string[] patientInfo = new string[4];
+
+                MySqlCommand SelectCommand = new MySqlCommand(query, cons.openConnection());
+                MySqlDataReader myReader;
+                myReader = SelectCommand.ExecuteReader();
+                while (myReader.Read())
+                {
+                patientInfo[0] = myReader.GetString("full_name");
+                patientInfo[1] = myReader.GetString("father_name");
+                patientInfo[2] = myReader.GetString("visit_no");
+                patientInfo[3] = obj.calculateAge(myReader.GetDateTime("DOB"));
+                }
+                cons.closeConnection();
+            return patientInfo;
 
         }
     }

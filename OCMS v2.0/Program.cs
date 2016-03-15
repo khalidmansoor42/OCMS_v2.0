@@ -16,7 +16,7 @@ namespace OCMS_v2._0
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Menu("muaz","Doctor","muaz_2"));
+            Application.Run(new History("mauz_2","Doctor","1"));
         }
     }
 }

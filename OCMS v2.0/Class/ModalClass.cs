@@ -17,7 +17,10 @@ namespace OCMS_v2._0.Class
         {
             try
             {
-
+                SelectCommand = new MySqlCommand(query, con.openConnection());
+                MySqlDataReader myReader;
+                myReader = SelectCommand.ExecuteReader();
+                con.closeConnection();
             }
             catch (Exception ex)
             {

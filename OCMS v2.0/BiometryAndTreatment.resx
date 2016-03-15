@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="metroToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="recents.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -146,6 +149,16 @@
         tg98uCSMAyKYgQAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="metroButton8.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAB3RJTUUH4AMCDQ4sk7rRRwAAANZJREFU
+        WEftl2EOwiAMRrmH8z7O+07vM70HtvDiDxmEoQG2+ZImlNGPL7A1mYlhrb1KPCS+RTVGZPOh8FfMyOZD
+        oSUtBpn1OtT9DbQzcBzkdPR7f7pzqovvDwxaMb9fkgpMEieJQeKmE0pNAwO3rnue/dTBDOix6/Hr5ned
+        UGoaWKR/A1xbMchE2Y4B0igsC+BxlC4MJFsxOsUgE8O14lEHLl0AnWKQWUL3vLAsxK/Jv4JPKAt0sqGu
+        HwOlILMDA6TZULYjA6Ugs00DzX9Okx1yBYmOZ8wLt5BYWMoO+qsAAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="metroButton1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
@@ -156,7 +169,7 @@
         yvy2hDABkz2bSHMFcoQAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="rightButtton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="metroButton6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
         JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAB3RJTUUH4AMCEyAR1m0aAAAAANJJREFU
@@ -166,24 +179,7 @@
         FxeI9PEixQpp4j+IDfGA8rflhFN95ElRfAFz6StzzWQ92wAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="metroButton5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAB3RJTUUH4AMCEwwAhexRXAAAAntJREFU
-        SEu1lr1rFEEchi9GK79QI2hiECws7bWxih8QMagBUUkEGwNX2Al2YqFgGZMU+g8osRBiksLKVmwsTCSC
-        IlZWJgoqfozPO/POxc3u7aXxgQdufu9v9+5md2a3UUcIoRfH8Cku4Bf8ios4h03sd/v64aAevIM/sBO/
-        8RHu9+H10HgSP2PmI07iKB7HARzBcfyAmRU85dNUQ8NV/KVu0MGXcYPjEsrwAr5DoX/TdFyEQL8un/w5
-        7nbUgloXXsLzLkUYb8UnKPQlxX9CYQ/maXmGmxwVoH4idiSOuhxh3I0zMUnn2usohlOxnKZlp8slyA7h
-        d/yGB11uQW0bvkUxlYu6FX/GEnMeizXQ04erv24NZMM6EeicvSroPhe6W7rd1xZ6dGE3eliCTNdpCcWY
-        ClpEYtI9lZBrjq+gfsgLlyshv4tiRgOtSjHqvATZAXwVuxJLjiohP5fawoIGWv5iwHkJssHU0up96KgS
-        8iOpLSyv6wsE+T68HTtDuO5yJeSHU1tY0eBN+hxGnLeFnvnU2vHHFKZIu6IYd94Wej6l1tDjUiXk2ijF
-        rAbacoUWWd2+0x+7QnjvUlvoyTdOMx+Y96CL7ilBdjq1hJd4D285KkB9SE2gc6ZnBR/ux1LaFbfH4hqo
-        34wdqyw6akFtC+Zr+sDlGGi70H4uZrG0oqlNxDQttBu4y1GEsVbwYxQ6V5+jBAU9aPJU6cIX/gnjHXgM
-        Szsttc04jeIPDjsqQqALrv1caFfUxtXluBJyzXmeFh17zVE1NGjVLqvbaOPS3nIWtULlGdStmO8WoWkZ
-        8mnqofH/PfT/hYPya4ueVK8xv7boFUY3Q4fXlkbjL+jkDk28qmwLAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="saveButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="metroButton4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
         JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAB3RJTUUH4AMCEwoA07b22gAAAM5JREFU
@@ -219,7 +215,4 @@
         gg==
 </value>
   </data>
-  <metadata name="metroToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
 </root>

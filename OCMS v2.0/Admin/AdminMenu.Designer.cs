@@ -39,9 +39,9 @@
             this.button2 = new System.Windows.Forms.Button();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.metroLabel10 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
+            this.loggedInTimeLabel = new MetroFramework.Controls.MetroLabel();
+            this.userTypeLabel = new MetroFramework.Controls.MetroLabel();
+            this.userNameLabel = new MetroFramework.Controls.MetroLabel();
             this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
             this.timeLabel = new System.Windows.Forms.Label();
             this.metroLabel6 = new MetroFramework.Controls.MetroLabel();
@@ -105,6 +105,7 @@
             this.button3.Text = "Restricted Values";
             this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button1
             // 
@@ -173,6 +174,7 @@
             this.button2.Text = "Profile";
             this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // metroLabel1
             // 
@@ -197,39 +199,40 @@
             this.textBox1.TabIndex = 137;
             this.textBox1.Text = "Search Here...";
             // 
-            // metroLabel10
+            // loggedInTimeLabel
             // 
-            this.metroLabel10.AutoSize = true;
-            this.metroLabel10.Location = new System.Drawing.Point(1081, 293);
-            this.metroLabel10.Name = "metroLabel10";
-            this.metroLabel10.Size = new System.Drawing.Size(65, 19);
-            this.metroLabel10.TabIndex = 136;
-            this.metroLabel10.Text = "time here";
+            this.loggedInTimeLabel.AutoSize = true;
+            this.loggedInTimeLabel.Location = new System.Drawing.Point(1081, 293);
+            this.loggedInTimeLabel.Name = "loggedInTimeLabel";
+            this.loggedInTimeLabel.Size = new System.Drawing.Size(65, 19);
+            this.loggedInTimeLabel.TabIndex = 136;
+            this.loggedInTimeLabel.Text = "time here";
             // 
-            // metroLabel9
+            // userTypeLabel
             // 
-            this.metroLabel9.AutoSize = true;
-            this.metroLabel9.Location = new System.Drawing.Point(1081, 257);
-            this.metroLabel9.Name = "metroLabel9";
-            this.metroLabel9.Size = new System.Drawing.Size(34, 19);
-            this.metroLabel9.TabIndex = 135;
-            this.metroLabel9.Text = "type";
+            this.userTypeLabel.AutoSize = true;
+            this.userTypeLabel.Location = new System.Drawing.Point(1081, 257);
+            this.userTypeLabel.Name = "userTypeLabel";
+            this.userTypeLabel.Size = new System.Drawing.Size(34, 19);
+            this.userTypeLabel.TabIndex = 135;
+            this.userTypeLabel.Text = "type";
             // 
-            // metroLabel7
+            // userNameLabel
             // 
-            this.metroLabel7.AutoSize = true;
-            this.metroLabel7.Location = new System.Drawing.Point(1081, 221);
-            this.metroLabel7.Name = "metroLabel7";
-            this.metroLabel7.Size = new System.Drawing.Size(72, 19);
-            this.metroLabel7.TabIndex = 134;
-            this.metroLabel7.Text = "name here";
+            this.userNameLabel.AutoSize = true;
+            this.userNameLabel.Location = new System.Drawing.Point(1081, 221);
+            this.userNameLabel.Name = "userNameLabel";
+            this.userNameLabel.Size = new System.Drawing.Size(72, 19);
+            this.userNameLabel.TabIndex = 134;
+            this.userNameLabel.Text = "name here";
             // 
             // metroLabel5
             // 
             this.metroLabel5.AutoSize = true;
+            this.metroLabel5.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.metroLabel5.Location = new System.Drawing.Point(997, 257);
             this.metroLabel5.Name = "metroLabel5";
-            this.metroLabel5.Size = new System.Drawing.Size(69, 19);
+            this.metroLabel5.Size = new System.Drawing.Size(72, 19);
             this.metroLabel5.TabIndex = 132;
             this.metroLabel5.Text = "User Type:";
             // 
@@ -248,18 +251,20 @@
             // metroLabel6
             // 
             this.metroLabel6.AutoSize = true;
+            this.metroLabel6.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.metroLabel6.Location = new System.Drawing.Point(997, 293);
             this.metroLabel6.Name = "metroLabel6";
-            this.metroLabel6.Size = new System.Drawing.Size(86, 19);
+            this.metroLabel6.Size = new System.Drawing.Size(89, 19);
             this.metroLabel6.TabIndex = 133;
             this.metroLabel6.Text = "Logged in at:";
             // 
             // metroLabel4
             // 
             this.metroLabel4.AutoSize = true;
+            this.metroLabel4.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.metroLabel4.Location = new System.Drawing.Point(997, 221);
             this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(78, 19);
+            this.metroLabel4.Size = new System.Drawing.Size(80, 19);
             this.metroLabel4.TabIndex = 131;
             this.metroLabel4.Text = "User Name:";
             // 
@@ -305,6 +310,7 @@
             this.userName.Name = "userName";
             this.userName.Size = new System.Drawing.Size(185, 25);
             this.userName.TabIndex = 121;
+            this.userName.SelectedIndexChanged += new System.EventHandler(this.userName_SelectedIndexChanged);
             // 
             // pictureBox1
             // 
@@ -453,6 +459,7 @@
             this.button10.Text = "Calender";
             this.button10.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button8
             // 
@@ -470,6 +477,7 @@
             this.button8.Text = "Tasks";
             this.button8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
@@ -487,6 +495,7 @@
             this.button9.Text = "Settings";
             this.button9.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button7
             // 
@@ -501,9 +510,10 @@
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(70, 70);
             this.button7.TabIndex = 19;
-            this.button7.Text = "Search";
+            this.button7.Text = "Patients";
             this.button7.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button4
             // 
@@ -521,6 +531,7 @@
             this.button4.Text = "Manage User";
             this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // timer1
             // 
@@ -544,6 +555,7 @@
             this.metroTile3.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
             this.metroTile3.UseSelectable = true;
             this.metroTile3.UseTileImage = true;
+            this.metroTile3.Click += new System.EventHandler(this.metroTile3_Click);
             this.metroTile3.MouseEnter += new System.EventHandler(this.metroTile3_MouseEnter);
             this.metroTile3.MouseLeave += new System.EventHandler(this.metroTile3_MouseLeave);
             // 
@@ -564,6 +576,7 @@
             this.inventoryTile.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
             this.inventoryTile.UseSelectable = true;
             this.inventoryTile.UseTileImage = true;
+            this.inventoryTile.Click += new System.EventHandler(this.inventoryTile_Click);
             this.inventoryTile.MouseEnter += new System.EventHandler(this.inventoryTile_MouseEnter);
             this.inventoryTile.MouseLeave += new System.EventHandler(this.inventoryTile_MouseLeave);
             // 
@@ -584,6 +597,7 @@
             this.metroTile2.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
             this.metroTile2.UseSelectable = true;
             this.metroTile2.UseTileImage = true;
+            this.metroTile2.Click += new System.EventHandler(this.metroTile2_Click);
             this.metroTile2.MouseEnter += new System.EventHandler(this.metroTile2_MouseEnter);
             this.metroTile2.MouseLeave += new System.EventHandler(this.metroTile2_MouseLeave);
             // 
@@ -604,6 +618,7 @@
             this.metroTile4.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
             this.metroTile4.UseSelectable = true;
             this.metroTile4.UseTileImage = true;
+            this.metroTile4.Click += new System.EventHandler(this.metroTile4_Click);
             this.metroTile4.MouseEnter += new System.EventHandler(this.metroTile4_MouseEnter);
             this.metroTile4.MouseLeave += new System.EventHandler(this.metroTile4_MouseLeave);
             // 
@@ -624,6 +639,7 @@
             this.metroTile5.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
             this.metroTile5.UseSelectable = true;
             this.metroTile5.UseTileImage = true;
+            this.metroTile5.Click += new System.EventHandler(this.metroTile5_Click);
             this.metroTile5.MouseEnter += new System.EventHandler(this.metroTile5_MouseEnter);
             this.metroTile5.MouseLeave += new System.EventHandler(this.metroTile5_MouseLeave);
             // 
@@ -644,6 +660,7 @@
             this.metroTile7.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
             this.metroTile7.UseSelectable = true;
             this.metroTile7.UseTileImage = true;
+            this.metroTile7.Click += new System.EventHandler(this.metroTile7_Click);
             this.metroTile7.MouseEnter += new System.EventHandler(this.metroTile7_MouseEnter);
             this.metroTile7.MouseLeave += new System.EventHandler(this.metroTile7_MouseLeave);
             // 
@@ -664,6 +681,7 @@
             this.metroTile8.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
             this.metroTile8.UseSelectable = true;
             this.metroTile8.UseTileImage = true;
+            this.metroTile8.Click += new System.EventHandler(this.metroTile8_Click);
             this.metroTile8.MouseEnter += new System.EventHandler(this.metroTile8_MouseEnter);
             this.metroTile8.MouseLeave += new System.EventHandler(this.metroTile8_MouseLeave);
             // 
@@ -684,6 +702,7 @@
             this.metroTile10.TileTextFontWeight = MetroFramework.MetroTileTextWeight.Regular;
             this.metroTile10.UseSelectable = true;
             this.metroTile10.UseTileImage = true;
+            this.metroTile10.Click += new System.EventHandler(this.metroTile10_Click);
             this.metroTile10.MouseEnter += new System.EventHandler(this.metroTile10_MouseEnter);
             this.metroTile10.MouseLeave += new System.EventHandler(this.metroTile10_MouseLeave);
             // 
@@ -705,9 +724,9 @@
             this.Controls.Add(this.metroLabel2);
             this.Controls.Add(this.metroLabel1);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.metroLabel10);
-            this.Controls.Add(this.metroLabel9);
-            this.Controls.Add(this.metroLabel7);
+            this.Controls.Add(this.loggedInTimeLabel);
+            this.Controls.Add(this.userTypeLabel);
+            this.Controls.Add(this.userNameLabel);
             this.Controls.Add(this.metroLabel5);
             this.Controls.Add(this.metroLabel6);
             this.Controls.Add(this.metroLabel4);
@@ -752,9 +771,9 @@
         private System.Windows.Forms.Button button2;
         private MetroFramework.Controls.MetroLabel metroLabel1;
         private System.Windows.Forms.TextBox textBox1;
-        private MetroFramework.Controls.MetroLabel metroLabel10;
-        private MetroFramework.Controls.MetroLabel metroLabel9;
-        private MetroFramework.Controls.MetroLabel metroLabel7;
+        private MetroFramework.Controls.MetroLabel loggedInTimeLabel;
+        private MetroFramework.Controls.MetroLabel userTypeLabel;
+        private MetroFramework.Controls.MetroLabel userNameLabel;
         private MetroFramework.Controls.MetroLabel metroLabel5;
         private System.Windows.Forms.Label timeLabel;
         private MetroFramework.Controls.MetroLabel metroLabel6;

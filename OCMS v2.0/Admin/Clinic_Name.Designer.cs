@@ -35,25 +35,25 @@
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txt_address = new System.Windows.Forms.RichTextBox();
+            this.summary = new System.Windows.Forms.TextBox();
+            this.drname = new System.Windows.Forms.TextBox();
+            this.specialization = new System.Windows.Forms.TextBox();
+            this.txt_Companyname = new System.Windows.Forms.TextBox();
             this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
-            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.metroButton8 = new MetroFramework.Controls.MetroButton();
-            this.metroButton4 = new MetroFramework.Controls.MetroButton();
+            this.text_Pic_location = new System.Windows.Forms.TextBox();
+            this.browseBtn = new MetroFramework.Controls.MetroButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.metroButton2 = new MetroFramework.Controls.MetroButton();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
+            this.txt_email = new System.Windows.Forms.TextBox();
+            this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
+            this.ph = new System.Windows.Forms.TextBox();
+            this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
+            this.txt_mobile = new System.Windows.Forms.TextBox();
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.txt_phone = new System.Windows.Forms.TextBox();
+            this.updateBtn = new MetroFramework.Controls.MetroButton();
+            this.saveBtn = new MetroFramework.Controls.MetroButton();
             this.metroPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -119,75 +119,76 @@
             this.metroLabel2.Text = "Clinic Name";
             this.metroLabel2.UseCustomBackColor = true;
             // 
-            // richTextBox1
+            // txt_address
             // 
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.richTextBox1.Location = new System.Drawing.Point(313, 61);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(421, 59);
-            this.richTextBox1.TabIndex = 13;
-            this.richTextBox1.Text = "";
+            this.txt_address.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_address.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.txt_address.Location = new System.Drawing.Point(313, 61);
+            this.txt_address.Name = "txt_address";
+            this.txt_address.Size = new System.Drawing.Size(421, 59);
+            this.txt_address.TabIndex = 13;
+            this.txt_address.Text = "";
             // 
-            // textBox5
+            // summary
             // 
-            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBox5.Location = new System.Drawing.Point(313, 312);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(421, 29);
-            this.textBox5.TabIndex = 12;
+            this.summary.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.summary.Location = new System.Drawing.Point(313, 312);
+            this.summary.Multiline = true;
+            this.summary.Name = "summary";
+            this.summary.Size = new System.Drawing.Size(421, 29);
+            this.summary.TabIndex = 12;
             // 
-            // textBox4
+            // drname
             // 
-            this.textBox4.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBox4.Location = new System.Drawing.Point(313, 268);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(421, 29);
-            this.textBox4.TabIndex = 11;
+            this.drname.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.drname.Location = new System.Drawing.Point(313, 268);
+            this.drname.Multiline = true;
+            this.drname.Name = "drname";
+            this.drname.Size = new System.Drawing.Size(421, 29);
+            this.drname.TabIndex = 11;
             // 
-            // textBox3
+            // specialization
             // 
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBox3.Location = new System.Drawing.Point(313, 224);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(421, 29);
-            this.textBox3.TabIndex = 10;
+            this.specialization.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.specialization.Location = new System.Drawing.Point(313, 224);
+            this.specialization.Multiline = true;
+            this.specialization.Name = "specialization";
+            this.specialization.Size = new System.Drawing.Size(421, 29);
+            this.specialization.TabIndex = 10;
             // 
-            // textBox2
+            // txt_Companyname
             // 
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBox2.Location = new System.Drawing.Point(313, 17);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(421, 29);
-            this.textBox2.TabIndex = 9;
+            this.txt_Companyname.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.txt_Companyname.Location = new System.Drawing.Point(313, 17);
+            this.txt_Companyname.Multiline = true;
+            this.txt_Companyname.Name = "txt_Companyname";
+            this.txt_Companyname.Size = new System.Drawing.Size(421, 29);
+            this.txt_Companyname.TabIndex = 9;
             // 
             // metroPanel1
             // 
             this.metroPanel1.BackColor = System.Drawing.SystemColors.Menu;
-            this.metroPanel1.Controls.Add(this.textBox9);
-            this.metroPanel1.Controls.Add(this.metroButton2);
+            this.metroPanel1.Controls.Add(this.text_Pic_location);
+            this.metroPanel1.Controls.Add(this.browseBtn);
             this.metroPanel1.Controls.Add(this.pictureBox1);
             this.metroPanel1.Controls.Add(this.metroLabel8);
-            this.metroPanel1.Controls.Add(this.textBox7);
+            this.metroPanel1.Controls.Add(this.txt_email);
             this.metroPanel1.Controls.Add(this.metroLabel9);
-            this.metroPanel1.Controls.Add(this.textBox8);
+            this.metroPanel1.Controls.Add(this.ph);
             this.metroPanel1.Controls.Add(this.metroLabel7);
-            this.metroPanel1.Controls.Add(this.textBox6);
+            this.metroPanel1.Controls.Add(this.txt_mobile);
             this.metroPanel1.Controls.Add(this.metroLabel1);
-            this.metroPanel1.Controls.Add(this.textBox1);
+            this.metroPanel1.Controls.Add(this.txt_phone);
             this.metroPanel1.Controls.Add(this.metroLabel6);
             this.metroPanel1.Controls.Add(this.metroLabel5);
             this.metroPanel1.Controls.Add(this.metroLabel4);
             this.metroPanel1.Controls.Add(this.metroLabel3);
             this.metroPanel1.Controls.Add(this.metroLabel2);
-            this.metroPanel1.Controls.Add(this.richTextBox1);
-            this.metroPanel1.Controls.Add(this.textBox5);
-            this.metroPanel1.Controls.Add(this.textBox4);
-            this.metroPanel1.Controls.Add(this.textBox3);
-            this.metroPanel1.Controls.Add(this.textBox2);
+            this.metroPanel1.Controls.Add(this.txt_address);
+            this.metroPanel1.Controls.Add(this.summary);
+            this.metroPanel1.Controls.Add(this.drname);
+            this.metroPanel1.Controls.Add(this.specialization);
+            this.metroPanel1.Controls.Add(this.txt_Companyname);
             this.metroPanel1.HorizontalScrollbarBarColor = true;
             this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
             this.metroPanel1.HorizontalScrollbarSize = 10;
@@ -200,45 +201,36 @@
             this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel1.VerticalScrollbarSize = 10;
             // 
-            // metroLabel1
+            // text_Pic_location
             // 
-            this.metroLabel1.AutoSize = true;
-            this.metroLabel1.BackColor = System.Drawing.SystemColors.Menu;
-            this.metroLabel1.Location = new System.Drawing.Point(248, 136);
-            this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(59, 19);
-            this.metroLabel1.TabIndex = 21;
-            this.metroLabel1.Text = "Mobile 1";
-            this.metroLabel1.UseCustomBackColor = true;
+            this.text_Pic_location.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.text_Pic_location.Location = new System.Drawing.Point(19, 238);
+            this.text_Pic_location.Multiline = true;
+            this.text_Pic_location.Name = "text_Pic_location";
+            this.text_Pic_location.Size = new System.Drawing.Size(176, 29);
+            this.text_Pic_location.TabIndex = 177;
             // 
-            // textBox1
+            // browseBtn
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBox1.Location = new System.Drawing.Point(313, 136);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(167, 29);
-            this.textBox1.TabIndex = 20;
+            this.browseBtn.BackColor = System.Drawing.Color.Teal;
+            this.browseBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("browseBtn.BackgroundImage")));
+            this.browseBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.browseBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.browseBtn.Location = new System.Drawing.Point(19, 190);
+            this.browseBtn.Name = "browseBtn";
+            this.browseBtn.Size = new System.Drawing.Size(176, 42);
+            this.browseBtn.TabIndex = 176;
+            this.browseBtn.UseSelectable = true;
+            this.browseBtn.Click += new System.EventHandler(this.browseBtn_Click);
             // 
-            // metroLabel7
+            // pictureBox1
             // 
-            this.metroLabel7.AutoSize = true;
-            this.metroLabel7.BackColor = System.Drawing.SystemColors.Menu;
-            this.metroLabel7.Location = new System.Drawing.Point(500, 136);
-            this.metroLabel7.Name = "metroLabel7";
-            this.metroLabel7.Size = new System.Drawing.Size(61, 19);
-            this.metroLabel7.TabIndex = 23;
-            this.metroLabel7.Text = "Mobile 2";
-            this.metroLabel7.UseCustomBackColor = true;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBox6.Location = new System.Drawing.Point(567, 136);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(167, 29);
-            this.textBox6.TabIndex = 22;
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.GrayText;
+            this.pictureBox1.Location = new System.Drawing.Point(19, 17);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(176, 167);
+            this.pictureBox1.TabIndex = 28;
+            this.pictureBox1.TabStop = false;
             // 
             // metroLabel8
             // 
@@ -251,14 +243,14 @@
             this.metroLabel8.Text = "Email";
             this.metroLabel8.UseCustomBackColor = true;
             // 
-            // textBox7
+            // txt_email
             // 
-            this.textBox7.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBox7.Location = new System.Drawing.Point(567, 180);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(167, 29);
-            this.textBox7.TabIndex = 26;
+            this.txt_email.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.txt_email.Location = new System.Drawing.Point(567, 180);
+            this.txt_email.Multiline = true;
+            this.txt_email.Name = "txt_email";
+            this.txt_email.Size = new System.Drawing.Size(167, 29);
+            this.txt_email.TabIndex = 26;
             // 
             // metroLabel9
             // 
@@ -271,68 +263,83 @@
             this.metroLabel9.Text = "Phone";
             this.metroLabel9.UseCustomBackColor = true;
             // 
-            // textBox8
+            // ph
             // 
-            this.textBox8.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBox8.Location = new System.Drawing.Point(313, 180);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(167, 29);
-            this.textBox8.TabIndex = 24;
+            this.ph.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.ph.Location = new System.Drawing.Point(313, 180);
+            this.ph.MaxLength = 12;
+            this.ph.Multiline = true;
+            this.ph.Name = "ph";
+            this.ph.Size = new System.Drawing.Size(167, 29);
+            this.ph.TabIndex = 24;
             // 
-            // metroButton8
+            // metroLabel7
             // 
-            this.metroButton8.BackColor = System.Drawing.Color.Purple;
-            this.metroButton8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("metroButton8.BackgroundImage")));
-            this.metroButton8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.metroButton8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.metroButton8.Location = new System.Drawing.Point(403, 427);
-            this.metroButton8.Name = "metroButton8";
-            this.metroButton8.Size = new System.Drawing.Size(86, 42);
-            this.metroButton8.TabIndex = 194;
-            this.metroButton8.UseSelectable = true;
+            this.metroLabel7.AutoSize = true;
+            this.metroLabel7.BackColor = System.Drawing.SystemColors.Menu;
+            this.metroLabel7.Location = new System.Drawing.Point(500, 136);
+            this.metroLabel7.Name = "metroLabel7";
+            this.metroLabel7.Size = new System.Drawing.Size(61, 19);
+            this.metroLabel7.TabIndex = 23;
+            this.metroLabel7.Text = "Mobile 2";
+            this.metroLabel7.UseCustomBackColor = true;
             // 
-            // metroButton4
+            // txt_mobile
             // 
-            this.metroButton4.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.metroButton4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("metroButton4.BackgroundImage")));
-            this.metroButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.metroButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.metroButton4.Location = new System.Drawing.Point(303, 427);
-            this.metroButton4.Name = "metroButton4";
-            this.metroButton4.Size = new System.Drawing.Size(85, 42);
-            this.metroButton4.TabIndex = 193;
-            this.metroButton4.UseSelectable = true;
+            this.txt_mobile.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.txt_mobile.Location = new System.Drawing.Point(567, 136);
+            this.txt_mobile.MaxLength = 12;
+            this.txt_mobile.Multiline = true;
+            this.txt_mobile.Name = "txt_mobile";
+            this.txt_mobile.Size = new System.Drawing.Size(167, 29);
+            this.txt_mobile.TabIndex = 22;
             // 
-            // pictureBox1
+            // metroLabel1
             // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.GrayText;
-            this.pictureBox1.Location = new System.Drawing.Point(19, 17);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(176, 167);
-            this.pictureBox1.TabIndex = 28;
-            this.pictureBox1.TabStop = false;
+            this.metroLabel1.AutoSize = true;
+            this.metroLabel1.BackColor = System.Drawing.SystemColors.Menu;
+            this.metroLabel1.Location = new System.Drawing.Point(248, 136);
+            this.metroLabel1.Name = "metroLabel1";
+            this.metroLabel1.Size = new System.Drawing.Size(59, 19);
+            this.metroLabel1.TabIndex = 21;
+            this.metroLabel1.Text = "Mobile 1";
+            this.metroLabel1.UseCustomBackColor = true;
             // 
-            // metroButton2
+            // txt_phone
             // 
-            this.metroButton2.BackColor = System.Drawing.Color.Teal;
-            this.metroButton2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("metroButton2.BackgroundImage")));
-            this.metroButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.metroButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.metroButton2.Location = new System.Drawing.Point(19, 190);
-            this.metroButton2.Name = "metroButton2";
-            this.metroButton2.Size = new System.Drawing.Size(176, 42);
-            this.metroButton2.TabIndex = 176;
-            this.metroButton2.UseSelectable = true;
+            this.txt_phone.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.txt_phone.Location = new System.Drawing.Point(313, 136);
+            this.txt_phone.MaxLength = 12;
+            this.txt_phone.Multiline = true;
+            this.txt_phone.Name = "txt_phone";
+            this.txt_phone.Size = new System.Drawing.Size(167, 29);
+            this.txt_phone.TabIndex = 20;
             // 
-            // textBox9
+            // updateBtn
             // 
-            this.textBox9.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBox9.Location = new System.Drawing.Point(19, 238);
-            this.textBox9.Multiline = true;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(176, 29);
-            this.textBox9.TabIndex = 177;
+            this.updateBtn.BackColor = System.Drawing.Color.Purple;
+            this.updateBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("updateBtn.BackgroundImage")));
+            this.updateBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.updateBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.updateBtn.Location = new System.Drawing.Point(403, 427);
+            this.updateBtn.Name = "updateBtn";
+            this.updateBtn.Size = new System.Drawing.Size(86, 42);
+            this.updateBtn.TabIndex = 194;
+            this.updateBtn.UseSelectable = true;
+            this.updateBtn.Click += new System.EventHandler(this.updateBtn_Click);
+            // 
+            // saveBtn
+            // 
+            this.saveBtn.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.saveBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("saveBtn.BackgroundImage")));
+            this.saveBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.saveBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.saveBtn.Location = new System.Drawing.Point(303, 427);
+            this.saveBtn.Name = "saveBtn";
+            this.saveBtn.Size = new System.Drawing.Size(85, 42);
+            this.saveBtn.TabIndex = 193;
+            this.saveBtn.UseSelectable = true;
+            this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
             // 
             // Clinic_Name
             // 
@@ -340,8 +347,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BorderStyle = MetroFramework.Forms.MetroFormBorderStyle.FixedSingle;
             this.ClientSize = new System.Drawing.Size(800, 480);
-            this.Controls.Add(this.metroButton8);
-            this.Controls.Add(this.metroButton4);
+            this.Controls.Add(this.updateBtn);
+            this.Controls.Add(this.saveBtn);
             this.Controls.Add(this.metroPanel1);
             this.MaximizeBox = false;
             this.Name = "Clinic_Name";
@@ -363,24 +370,24 @@
         private MetroFramework.Controls.MetroLabel metroLabel4;
         private MetroFramework.Controls.MetroLabel metroLabel3;
         private MetroFramework.Controls.MetroLabel metroLabel2;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.RichTextBox txt_address;
+        private System.Windows.Forms.TextBox summary;
+        private System.Windows.Forms.TextBox drname;
+        private System.Windows.Forms.TextBox specialization;
+        private System.Windows.Forms.TextBox txt_Companyname;
         private MetroFramework.Controls.MetroPanel metroPanel1;
         private MetroFramework.Controls.MetroLabel metroLabel8;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txt_email;
         private MetroFramework.Controls.MetroLabel metroLabel9;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox ph;
         private MetroFramework.Controls.MetroLabel metroLabel7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txt_mobile;
         private MetroFramework.Controls.MetroLabel metroLabel1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_phone;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private MetroFramework.Controls.MetroButton metroButton8;
-        private MetroFramework.Controls.MetroButton metroButton4;
-        private MetroFramework.Controls.MetroButton metroButton2;
-        private System.Windows.Forms.TextBox textBox9;
+        private MetroFramework.Controls.MetroButton updateBtn;
+        private MetroFramework.Controls.MetroButton saveBtn;
+        private MetroFramework.Controls.MetroButton browseBtn;
+        private System.Windows.Forms.TextBox text_Pic_location;
     }
 }

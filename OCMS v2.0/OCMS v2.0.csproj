@@ -41,8 +41,12 @@
     <Reference Include="MetroFramework.Fonts">
       <HintPath>D:\Documents\Projects\Tech Agentx\Metro Modern UI DLLs\MetroFramework.Fonts.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -53,6 +57,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\Add_Enum_And_Set_Value.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Add_Enum_And_Set_Value.Designer.cs">
+      <DependentUpon>Add_Enum_And_Set_Value.cs</DependentUpon>
+    </Compile>
     <Compile Include="Admin\AdminMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +81,12 @@
     <Compile Include="Admin\Clinic_Name.Designer.cs">
       <DependentUpon>Clinic_Name.cs</DependentUpon>
     </Compile>
+    <Compile Include="Admin\Inactive_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Inactive_User.Designer.cs">
+      <DependentUpon>Inactive_User.cs</DependentUpon>
+    </Compile>
     <Compile Include="Admin\Search_Users.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +99,7 @@
     <Compile Include="Admin\User_Registration.Designer.cs">
       <DependentUpon>User_Registration.cs</DependentUpon>
     </Compile>
+    <Compile Include="connection.cs" />
     <Compile Include="DoctorFolder\add_pic.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,17 +112,19 @@
     <Compile Include="DoctorFolder\BiometryAndTreatment.Designer.cs">
       <DependentUpon>BiometryAndTreatment.cs</DependentUpon>
     </Compile>
+    <Compile Include="Findage.cs" />
+    <Compile Include="findvisitnumber.cs" />
     <Compile Include="General\Add_City.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="General\Add_City.Designer.cs">
       <DependentUpon>Add_City.cs</DependentUpon>
     </Compile>
-    <Compile Include="General\Add_Disease.cs">
+    <Compile Include="General\Add_Diseases.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="General\Add_Disease.Designer.cs">
-      <DependentUpon>Add_Disease.cs</DependentUpon>
+    <Compile Include="General\Add_Diseases.Designer.cs">
+      <DependentUpon>Add_Diseases.cs</DependentUpon>
     </Compile>
     <Compile Include="General\changePassword.cs">
       <SubType>Form</SubType>
@@ -185,6 +204,17 @@
     <Compile Include="General\Search_Patients.Designer.cs">
       <DependentUpon>Search_Patients.cs</DependentUpon>
     </Compile>
+    <Compile Include="imageclass.cs" />
+    <Compile Include="maxvalue.cs" />
+    <Compile Include="MessageBox\MetroMessageBox.cs" />
+    <Compile Include="MessageBox\MetroMessageBoxControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageBox\MetroMessageBoxControl.Designer.cs">
+      <DependentUpon>MetroMessageBoxControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageBox\MetroMessageBoxProperties.cs" />
+    <Compile Include="password.cs" />
     <Compile Include="Receptionist\Assign_Doctor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -259,6 +289,63 @@
     <Compile Include="Receptionist\receptionSettings.Designer.cs">
       <DependentUpon>receptionSettings.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReportViewers\Daily_Income.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportViewers\Daily_Income.Designer.cs">
+      <DependentUpon>Daily_Income.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViewers\Login_History.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportViewers\Login_History.Designer.cs">
+      <DependentUpon>Login_History.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViewers\Patient_Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportViewers\Patient_Info.Designer.cs">
+      <DependentUpon>Patient_Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViewers\Patient_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportViewers\Patient_Report.Designer.cs">
+      <DependentUpon>Patient_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViewers\Prescription_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportViewers\Prescription_Report.Designer.cs">
+      <DependentUpon>Prescription_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViewers\Print_EyeCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportViewers\Print_EyeCard.Designer.cs">
+      <DependentUpon>Print_EyeCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViewers\Total_Visit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportViewers\Total_Visit.Designer.cs">
+      <DependentUpon>Total_Visit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViewers\User_Detail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportViewers\User_Detail.Designer.cs">
+      <DependentUpon>User_Detail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViewers\User_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportViewers\User_Form.Designer.cs">
+      <DependentUpon>User_Form.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admin\Add_Enum_And_Set_Value.resx">
+      <DependentUpon>Add_Enum_And_Set_Value.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Admin\AdminMenu.resx">
       <DependentUpon>AdminMenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -267,6 +354,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\Clinic_Name.resx">
       <DependentUpon>Clinic_Name.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Inactive_User.resx">
+      <DependentUpon>Inactive_User.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\Search_Users.resx">
       <DependentUpon>Search_Users.cs</DependentUpon>
@@ -283,8 +373,8 @@
     <EmbeddedResource Include="General\Add_City.resx">
       <DependentUpon>Add_City.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="General\Add_Disease.resx">
-      <DependentUpon>Add_Disease.cs</DependentUpon>
+    <EmbeddedResource Include="General\Add_Diseases.resx">
+      <DependentUpon>Add_Diseases.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="General\changePassword.resx">
       <DependentUpon>changePassword.cs</DependentUpon>
@@ -324,6 +414,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="General\Search_Patients.resx">
       <DependentUpon>Search_Patients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageBox\MetroMessageBoxControl.resx">
+      <DependentUpon>MetroMessageBoxControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Receptionist\Assign_Doctor.resx">
       <DependentUpon>Assign_Doctor.cs</DependentUpon>
@@ -371,6 +464,33 @@
     <EmbeddedResource Include="Receptionist\receptionSettings.resx">
       <DependentUpon>receptionSettings.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ReportViewers\Daily_Income.resx">
+      <DependentUpon>Daily_Income.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViewers\Login_History.resx">
+      <DependentUpon>Login_History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViewers\Patient_Info.resx">
+      <DependentUpon>Patient_Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViewers\Patient_Report.resx">
+      <DependentUpon>Patient_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViewers\Prescription_Report.resx">
+      <DependentUpon>Prescription_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViewers\Print_EyeCard.resx">
+      <DependentUpon>Print_EyeCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViewers\Total_Visit.resx">
+      <DependentUpon>Total_Visit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViewers\User_Detail.resx">
+      <DependentUpon>User_Detail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViewers\User_Form.resx">
+      <DependentUpon>User_Form.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -385,8 +505,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Datasets\" />
     <Folder Include="images\back ground\" />
     <Folder Include="images\icons\" />
+    <Folder Include="Reports\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

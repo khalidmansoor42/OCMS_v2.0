@@ -13,13 +13,16 @@ namespace OCMS_v2_0.Admin
 {
     public partial class AdminMenu : MetroForm
     {
-        public AdminMenu()
+        public AdminMenu(string username, string usertype)
         {
             InitializeComponent();
             notifyIcon1.BalloonTipText = "Application Minimized";
             notifyIcon1.BalloonTipTitle = "Eminence";
             dateLabel.Text = DateTime.Now.ToString("dddd  dd, MMM yyyy");
             company.Text = "© Techagentx";
+            userNameLabel.Text = username;
+            userTypeLabel.Text = usertype;
+            loggedInTimeLabel.Text = DateTime.Now.ToShortTimeString();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -127,6 +130,113 @@ namespace OCMS_v2_0.Admin
         private void metroTile8_MouseLeave(object sender, EventArgs e)
         {
             metroTile8.Style = MetroFramework.MetroColorStyle.Orange;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            General.MyProfile myProfile = new General.MyProfile(userNameLabel.Text, userTypeLabel.Text);
+            myProfile.Show();
+        }
+
+        private void inventoryTile_Click(object sender, EventArgs e)
+        {
+            Admin.User_Registration regUser = new Admin.User_Registration(userNameLabel.Text, userTypeLabel.Text);
+            regUser.ShowDialog();
+        }
+
+        private void metroTile5_Click(object sender, EventArgs e)
+        {
+            General.Add_City addCity = new General.Add_City();
+            addCity.ShowDialog();
+        }
+
+        private void metroTile8_Click(object sender, EventArgs e)
+        {
+            General.Add_Diseases addDisease = new General.Add_Diseases();
+            addDisease.ShowDialog();
+        }
+
+        private void metroTile7_Click(object sender, EventArgs e)
+        {
+            General.Medicine addMedicine = new General.Medicine();
+            addMedicine.ShowDialog();
+        }
+
+        private void metroTile3_Click(object sender, EventArgs e)
+        {
+            Admin.Search_Users searchUser = new Admin.Search_Users("chpass");
+            searchUser.ShowDialog();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            General.Search_Patients searchPatients = new General.Search_Patients("");
+            searchPatients.ShowDialog();
+        }
+
+        private void metroTile2_Click(object sender, EventArgs e)
+        {
+            General.Doctor_Registration addDoctor = new General.Doctor_Registration(userNameLabel.Text, userTypeLabel.Text);
+            addDoctor.ShowDialog();
+        }
+
+        private void metroTile4_Click(object sender, EventArgs e)
+        {
+            Admin.Clinic_Name clinicName = new Admin.Clinic_Name();
+            clinicName.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Admin.Add_Enum_And_Set_Value restrictedText = new Admin.Add_Enum_And_Set_Value();
+            restrictedText.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Admin.Inactive_User userManage = new Admin.Inactive_User();
+            userManage.ShowDialog();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Admin.adminSettings settings = new adminSettings();
+            settings.ShowDialog();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroTile10_Click(object sender, EventArgs e)
+        {
+            General.Reports reports = new General.Reports();
+            reports.Show();
+        }
+
+        private void userName_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (userName.SelectedIndex == 0)
+            {
+                General.Login login = new General.Login();
+                this.Hide();
+                login.Show();
+            }
+            else if (userName.SelectedIndex == 1)
+            {
+                General.changePassword changePassword = new General.changePassword();
+                changePassword.Show();
+            }
+            else if (userName.SelectedIndex == 2)
+            {
+                Environment.Exit(1);
+            }
         }
 
     }

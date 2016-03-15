@@ -9,15 +9,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace OCMS_v2_0.General
+namespace OCMS_v2_0.ReportViewers
 {
-    public partial class Add_Medicine : MetroForm
+    public partial class Print_EyeCard : MetroForm
     {
-        public Add_Medicine()
+        public Print_EyeCard()
         {
             InitializeComponent();
-            metroToolTip1.SetToolTip(metroButton4, "Save");
-            metroToolTip1.SetToolTip(metroButton8, "Clear");
+            metroToolTip1.SetToolTip(metroButton1, "View Report");
+            metroToolTip1.SetToolTip(metroButton2, "Print Report");
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace OCMS_v2_0.General
 {
-    partial class Add_Medicine
+    partial class Add_Diseases
     {
         /// <summary>
         /// Required designer variable.
@@ -31,21 +31,26 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Add_Medicine));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Add_Diseases));
             this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
             this.metroGrid1 = new MetroFramework.Controls.MetroGrid();
-            this.metroButton8 = new MetroFramework.Controls.MetroButton();
-            this.metroButton4 = new MetroFramework.Controls.MetroButton();
+            this.clearBtn = new MetroFramework.Controls.MetroButton();
+            this.saveBtn = new MetroFramework.Controls.MetroButton();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.metroToolTip1 = new MetroFramework.Components.MetroToolTip();
-            this.metroComboBox1 = new MetroFramework.Controls.MetroComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.Diseases_name = new System.Windows.Forms.TextBox();
+            this.Diseases_code = new System.Windows.Forms.TextBox();
+            this.updateBtn = new MetroFramework.Controls.MetroButton();
+            this.metroPanel2 = new MetroFramework.Controls.MetroPanel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt_searchby = new System.Windows.Forms.TextBox();
+            this.searchCriteriaCombo = new MetroFramework.Controls.MetroComboBox();
+            this.radio_Diseases_Code = new MetroFramework.Controls.MetroRadioButton();
+            this.radio_Diseases_name = new MetroFramework.Controls.MetroRadioButton();
             this.metroPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.metroGrid1)).BeginInit();
+            this.metroPanel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,7 +65,7 @@
             this.metroPanel1.Location = new System.Drawing.Point(20, 246);
             this.metroPanel1.Name = "metroPanel1";
             this.metroPanel1.Size = new System.Drawing.Size(760, 214);
-            this.metroPanel1.TabIndex = 188;
+            this.metroPanel1.TabIndex = 199;
             this.metroPanel1.UseCustomBackColor = true;
             this.metroPanel1.VerticalScrollbarBarColor = true;
             this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
@@ -115,47 +120,50 @@
             this.metroGrid1.Style = MetroFramework.MetroColorStyle.Blue;
             this.metroGrid1.TabIndex = 2;
             this.metroGrid1.UseStyleColors = true;
+            this.metroGrid1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.metroGrid1_CellClick);
             // 
-            // metroButton8
+            // clearBtn
             // 
-            this.metroButton8.BackColor = System.Drawing.Color.Purple;
-            this.metroButton8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("metroButton8.BackgroundImage")));
-            this.metroButton8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.metroButton8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.metroButton8.Location = new System.Drawing.Point(691, 105);
-            this.metroButton8.Name = "metroButton8";
-            this.metroButton8.Size = new System.Drawing.Size(86, 42);
-            this.metroButton8.TabIndex = 194;
-            this.metroButton8.UseSelectable = true;
+            this.clearBtn.BackColor = System.Drawing.Color.Firebrick;
+            this.clearBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("clearBtn.BackgroundImage")));
+            this.clearBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.clearBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clearBtn.Location = new System.Drawing.Point(662, 96);
+            this.clearBtn.Name = "clearBtn";
+            this.clearBtn.Size = new System.Drawing.Size(56, 37);
+            this.clearBtn.TabIndex = 203;
+            this.clearBtn.UseSelectable = true;
+            this.clearBtn.Click += new System.EventHandler(this.clearBtn_Click);
             // 
-            // metroButton4
+            // saveBtn
             // 
-            this.metroButton4.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.metroButton4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("metroButton4.BackgroundImage")));
-            this.metroButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.metroButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.metroButton4.Location = new System.Drawing.Point(591, 105);
-            this.metroButton4.Name = "metroButton4";
-            this.metroButton4.Size = new System.Drawing.Size(85, 42);
-            this.metroButton4.TabIndex = 193;
-            this.metroButton4.UseSelectable = true;
+            this.saveBtn.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.saveBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("saveBtn.BackgroundImage")));
+            this.saveBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.saveBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.saveBtn.Location = new System.Drawing.Point(600, 96);
+            this.saveBtn.Name = "saveBtn";
+            this.saveBtn.Size = new System.Drawing.Size(56, 37);
+            this.saveBtn.TabIndex = 202;
+            this.saveBtn.UseSelectable = true;
+            this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
             // 
             // metroLabel2
             // 
             this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(43, 118);
+            this.metroLabel2.Location = new System.Drawing.Point(30, 104);
             this.metroLabel2.Name = "metroLabel2";
             this.metroLabel2.Size = new System.Drawing.Size(92, 19);
-            this.metroLabel2.TabIndex = 190;
+            this.metroLabel2.TabIndex = 201;
             this.metroLabel2.Text = "Disease Name";
             // 
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(47, 74);
+            this.metroLabel1.Location = new System.Drawing.Point(34, 60);
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(88, 19);
-            this.metroLabel1.TabIndex = 189;
+            this.metroLabel1.TabIndex = 200;
             this.metroLabel1.Text = "Disease Code";
             // 
             // metroToolTip1
@@ -164,79 +172,138 @@
             this.metroToolTip1.StyleManager = null;
             this.metroToolTip1.Theme = MetroFramework.MetroThemeStyle.Light;
             // 
-            // metroComboBox1
+            // Diseases_name
             // 
-            this.metroComboBox1.FormattingEnabled = true;
-            this.metroComboBox1.ItemHeight = 23;
-            this.metroComboBox1.Items.AddRange(new object[] {
-            "Disease Code",
-            "Disease Name"});
-            this.metroComboBox1.Location = new System.Drawing.Point(38, 24);
-            this.metroComboBox1.Name = "metroComboBox1";
-            this.metroComboBox1.Size = new System.Drawing.Size(196, 29);
-            this.metroComboBox1.TabIndex = 195;
-            this.metroComboBox1.UseSelectable = true;
+            this.Diseases_name.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.Diseases_name.Location = new System.Drawing.Point(128, 104);
+            this.Diseases_name.Multiline = true;
+            this.Diseases_name.Name = "Diseases_name";
+            this.Diseases_name.Size = new System.Drawing.Size(234, 29);
+            this.Diseases_name.TabIndex = 205;
+            this.Diseases_name.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Diseases_name_KeyPress);
             // 
-            // textBox1
+            // Diseases_code
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBox1.Location = new System.Drawing.Point(141, 74);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(234, 29);
-            this.textBox1.TabIndex = 196;
+            this.Diseases_code.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.Diseases_code.Location = new System.Drawing.Point(128, 60);
+            this.Diseases_code.Multiline = true;
+            this.Diseases_code.Name = "Diseases_code";
+            this.Diseases_code.Size = new System.Drawing.Size(234, 29);
+            this.Diseases_code.TabIndex = 204;
             // 
-            // textBox2
+            // updateBtn
             // 
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBox2.Location = new System.Drawing.Point(141, 118);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(234, 29);
-            this.textBox2.TabIndex = 197;
+            this.updateBtn.BackColor = System.Drawing.Color.Purple;
+            this.updateBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("updateBtn.BackgroundImage")));
+            this.updateBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.updateBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.updateBtn.Location = new System.Drawing.Point(724, 96);
+            this.updateBtn.Name = "updateBtn";
+            this.updateBtn.Size = new System.Drawing.Size(56, 37);
+            this.updateBtn.TabIndex = 207;
+            this.updateBtn.UseSelectable = true;
+            this.updateBtn.Click += new System.EventHandler(this.updateBtn_Click);
+            // 
+            // metroPanel2
+            // 
+            this.metroPanel2.BackColor = System.Drawing.SystemColors.Menu;
+            this.metroPanel2.Controls.Add(this.groupBox1);
+            this.metroPanel2.HorizontalScrollbarBarColor = true;
+            this.metroPanel2.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroPanel2.HorizontalScrollbarSize = 10;
+            this.metroPanel2.Location = new System.Drawing.Point(86, 150);
+            this.metroPanel2.Name = "metroPanel2";
+            this.metroPanel2.Size = new System.Drawing.Size(623, 81);
+            this.metroPanel2.TabIndex = 208;
+            this.metroPanel2.UseCustomBackColor = true;
+            this.metroPanel2.VerticalScrollbarBarColor = true;
+            this.metroPanel2.VerticalScrollbarHighlightOnWheel = false;
+            this.metroPanel2.VerticalScrollbarSize = 10;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.metroComboBox1);
+            this.groupBox1.Controls.Add(this.txt_searchby);
+            this.groupBox1.Controls.Add(this.searchCriteriaCombo);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.groupBox1.Location = new System.Drawing.Point(134, 164);
+            this.groupBox1.Location = new System.Drawing.Point(44, 4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(535, 68);
-            this.groupBox1.TabIndex = 198;
+            this.groupBox1.TabIndex = 207;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Search Criteria";
             // 
-            // textBox3
+            // txt_searchby
             // 
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.textBox3.Location = new System.Drawing.Point(249, 24);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(242, 29);
-            this.textBox3.TabIndex = 199;
+            this.txt_searchby.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.txt_searchby.Location = new System.Drawing.Point(252, 24);
+            this.txt_searchby.Multiline = true;
+            this.txt_searchby.Name = "txt_searchby";
+            this.txt_searchby.Size = new System.Drawing.Size(242, 29);
+            this.txt_searchby.TabIndex = 199;
+            this.txt_searchby.TextChanged += new System.EventHandler(this.txt_searchby_TextChanged);
             // 
-            // Add_Medicine
+            // searchCriteriaCombo
+            // 
+            this.searchCriteriaCombo.FormattingEnabled = true;
+            this.searchCriteriaCombo.ItemHeight = 23;
+            this.searchCriteriaCombo.Items.AddRange(new object[] {
+            "Disease Code",
+            "Disease Name"});
+            this.searchCriteriaCombo.Location = new System.Drawing.Point(41, 24);
+            this.searchCriteriaCombo.Name = "searchCriteriaCombo";
+            this.searchCriteriaCombo.Size = new System.Drawing.Size(196, 29);
+            this.searchCriteriaCombo.TabIndex = 195;
+            this.searchCriteriaCombo.UseSelectable = true;
+            // 
+            // radio_Diseases_Code
+            // 
+            this.radio_Diseases_Code.AutoSize = true;
+            this.radio_Diseases_Code.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.radio_Diseases_Code.Location = new System.Drawing.Point(368, 64);
+            this.radio_Diseases_Code.Name = "radio_Diseases_Code";
+            this.radio_Diseases_Code.Size = new System.Drawing.Size(92, 15);
+            this.radio_Diseases_Code.TabIndex = 209;
+            this.radio_Diseases_Code.Text = "Update Code";
+            this.radio_Diseases_Code.UseSelectable = true;
+            this.radio_Diseases_Code.Click += new System.EventHandler(this.radio_Diseases_Code_Click);
+            // 
+            // radio_Diseases_name
+            // 
+            this.radio_Diseases_name.AutoSize = true;
+            this.radio_Diseases_name.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.radio_Diseases_name.Location = new System.Drawing.Point(368, 108);
+            this.radio_Diseases_name.Name = "radio_Diseases_name";
+            this.radio_Diseases_name.Size = new System.Drawing.Size(96, 15);
+            this.radio_Diseases_name.TabIndex = 210;
+            this.radio_Diseases_name.Text = "Update Name";
+            this.radio_Diseases_name.UseSelectable = true;
+            this.radio_Diseases_name.Click += new System.EventHandler(this.radio_Diseases_name_Click);
+            // 
+            // Add_Diseases
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BorderStyle = MetroFramework.Forms.MetroFormBorderStyle.FixedSingle;
             this.ClientSize = new System.Drawing.Size(800, 480);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.radio_Diseases_name);
+            this.Controls.Add(this.radio_Diseases_Code);
+            this.Controls.Add(this.metroPanel2);
+            this.Controls.Add(this.updateBtn);
             this.Controls.Add(this.metroPanel1);
-            this.Controls.Add(this.metroButton8);
-            this.Controls.Add(this.metroButton4);
+            this.Controls.Add(this.clearBtn);
+            this.Controls.Add(this.saveBtn);
             this.Controls.Add(this.metroLabel2);
             this.Controls.Add(this.metroLabel1);
+            this.Controls.Add(this.Diseases_name);
+            this.Controls.Add(this.Diseases_code);
             this.MaximizeBox = false;
-            this.Name = "Add_Medicine";
+            this.Name = "Add_Diseases";
             this.Resizable = false;
             this.ShadowType = MetroFramework.Forms.MetroFormShadowType.DropShadow;
-            this.Text = "Add Disease";
+            this.Text = "Add Diseases";
             this.metroPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.metroGrid1)).EndInit();
+            this.metroPanel2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -247,16 +314,20 @@
         #endregion
 
         private MetroFramework.Controls.MetroPanel metroPanel1;
-        private MetroFramework.Controls.MetroGrid metroGrid1;
-        private MetroFramework.Controls.MetroButton metroButton8;
-        private MetroFramework.Controls.MetroButton metroButton4;
+        private MetroFramework.Controls.MetroButton clearBtn;
+        private MetroFramework.Controls.MetroButton saveBtn;
         private MetroFramework.Controls.MetroLabel metroLabel2;
         private MetroFramework.Controls.MetroLabel metroLabel1;
         private MetroFramework.Components.MetroToolTip metroToolTip1;
-        private MetroFramework.Controls.MetroComboBox metroComboBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox Diseases_name;
+        private System.Windows.Forms.TextBox Diseases_code;
+        private MetroFramework.Controls.MetroButton updateBtn;
+        private MetroFramework.Controls.MetroPanel metroPanel2;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt_searchby;
+        private MetroFramework.Controls.MetroComboBox searchCriteriaCombo;
+        private MetroFramework.Controls.MetroRadioButton radio_Diseases_Code;
+        private MetroFramework.Controls.MetroRadioButton radio_Diseases_name;
+        private MetroFramework.Controls.MetroGrid metroGrid1;
     }
 }

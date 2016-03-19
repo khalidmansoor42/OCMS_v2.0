@@ -21,6 +21,8 @@ namespace OCMS_v2_0.Admin
         public Add_Enum_And_Set_Value()
         {
             InitializeComponent();
+            this.FocusMe();
+            com_name.Select();
             metroToolTip1.SetToolTip(updateBtn, "Update");
             metroToolTip1.SetToolTip(addBtn, "Add");
             metroToolTip1.SetToolTip(retrieveBtn, "Retrieve Data");

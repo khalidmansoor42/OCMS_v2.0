@@ -1,9 +1,11 @@
 ﻿using MetroFramework.Forms;
+using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,9 +15,12 @@ namespace OCMS_v2_0.Admin
 {
     public partial class AdminMenu : MetroForm
     {
+        connection obj = new connection();
         public AdminMenu(string username, string usertype)
         {
             InitializeComponent();
+            this.FocusMe();
+            userName.Select();
             notifyIcon1.BalloonTipText = "Application Minimized";
             notifyIcon1.BalloonTipTitle = "Eminence";
             dateLabel.Text = DateTime.Now.ToString("dddd  dd, MMM yyyy");
@@ -23,12 +28,47 @@ namespace OCMS_v2_0.Admin
             userNameLabel.Text = username;
             userTypeLabel.Text = usertype;
             loggedInTimeLabel.Text = DateTime.Now.ToShortTimeString();
+            userName.Text = username;
+            get_pic();
+        }
+
+        void get_pic()
+        {
+            try
+            {
+                MySqlConnection myConn = new MySqlConnection(obj.myConnection);
+                String query = "SELECT image FROM mydb.user_registration where user_name =@1;";
+                MySqlCommand SelectCommand = new MySqlCommand(query, myConn);
+                SelectCommand.Parameters.Add(new MySqlParameter("@1", this.userNameLabel.Text));
+                MySqlDataReader myReader;
+                myConn.Open();
+                myReader = SelectCommand.ExecuteReader();
+                int count = 0;
+                while (myReader.Read())
+                {
+                    count++;
+                    byte[] imgg = (byte[])(myReader["image"]);
+                    if (imgg != null)
+                    {
+                        MemoryStream mstream = new MemoryStream(imgg);
+                        pictureBox2.Image = System.Drawing.Image.FromStream(mstream);
+                    }
+                }
+                myConn.Close();
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("donot Find Form ic");
+            }
+
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
             timeLabel.Text = DateTime.Now.ToString("hh:mm:ss tt");
-            menuProgressBar.Value = menuProgressBar.Value + 5;
+            menuProgressBar.Value = menuProgressBar.Value + 10;
             if (menuProgressBar.Value == 100)
             {
                 menuProgressBar.Visible = false;
@@ -164,7 +204,7 @@ namespace OCMS_v2_0.Admin
 
         private void metroTile3_Click(object sender, EventArgs e)
         {
-            Admin.Search_Users searchUser = new Admin.Search_Users("chpass");
+            Admin.Search_Users searchUser = new Admin.Search_Users("");
             searchUser.ShowDialog();
         }
 
@@ -200,7 +240,7 @@ namespace OCMS_v2_0.Admin
 
         private void button9_Click(object sender, EventArgs e)
         {
-            Admin.adminSettings settings = new adminSettings();
+            Admin.adminSettings settings = new adminSettings(userNameLabel.Text, userTypeLabel.Text);
             settings.ShowDialog();
         }
 
@@ -230,7 +270,7 @@ namespace OCMS_v2_0.Admin
             }
             else if (userName.SelectedIndex == 1)
             {
-                General.changePassword changePassword = new General.changePassword();
+                General.changePassword changePassword = new General.changePassword(userNameLabel.Text, userTypeLabel.Text);
                 changePassword.Show();
             }
             else if (userName.SelectedIndex == 2)

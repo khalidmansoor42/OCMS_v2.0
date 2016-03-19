@@ -78,7 +78,7 @@
             this.metroButton1.Location = new System.Drawing.Point(853, 63);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(48, 29);
-            this.metroButton1.TabIndex = 205;
+            this.metroButton1.TabIndex = 3;
             this.metroButton1.UseSelectable = true;
             // 
             // metroLabel3
@@ -107,7 +107,7 @@
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(75, 29);
-            this.textBox2.TabIndex = 202;
+            this.textBox2.TabIndex = 0;
             // 
             // metroComboBox1
             // 
@@ -116,7 +116,7 @@
             this.metroComboBox1.Location = new System.Drawing.Point(772, 63);
             this.metroComboBox1.Name = "metroComboBox1";
             this.metroComboBox1.Size = new System.Drawing.Size(75, 29);
-            this.metroComboBox1.TabIndex = 201;
+            this.metroComboBox1.TabIndex = 2;
             this.metroComboBox1.UseSelectable = true;
             // 
             // textBox1
@@ -126,7 +126,7 @@
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(201, 29);
-            this.textBox1.TabIndex = 200;
+            this.textBox1.TabIndex = 1;
             // 
             // metroLabel1
             // 
@@ -152,7 +152,7 @@
             this.metroButton2.Location = new System.Drawing.Point(907, 63);
             this.metroButton2.Name = "metroButton2";
             this.metroButton2.Size = new System.Drawing.Size(48, 29);
-            this.metroButton2.TabIndex = 206;
+            this.metroButton2.TabIndex = 4;
             this.metroButton2.UseSelectable = true;
             // 
             // Print_EyeCard

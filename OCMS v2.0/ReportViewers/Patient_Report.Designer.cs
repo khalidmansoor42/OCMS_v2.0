@@ -85,7 +85,7 @@
             this.metroButton1.Location = new System.Drawing.Point(861, 63);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(48, 29);
-            this.metroButton1.TabIndex = 204;
+            this.metroButton1.TabIndex = 3;
             this.metroButton1.UseSelectable = true;
             // 
             // metroLabel3
@@ -114,7 +114,7 @@
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(75, 29);
-            this.textBox2.TabIndex = 201;
+            this.textBox2.TabIndex = 0;
             // 
             // metroComboBox1
             // 
@@ -123,7 +123,7 @@
             this.metroComboBox1.Location = new System.Drawing.Point(780, 63);
             this.metroComboBox1.Name = "metroComboBox1";
             this.metroComboBox1.Size = new System.Drawing.Size(75, 29);
-            this.metroComboBox1.TabIndex = 200;
+            this.metroComboBox1.TabIndex = 2;
             this.metroComboBox1.UseSelectable = true;
             // 
             // textBox1
@@ -133,7 +133,7 @@
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(201, 29);
-            this.textBox1.TabIndex = 199;
+            this.textBox1.TabIndex = 1;
             // 
             // metroLabel1
             // 
@@ -153,7 +153,7 @@
             this.metroButton2.Location = new System.Drawing.Point(915, 63);
             this.metroButton2.Name = "metroButton2";
             this.metroButton2.Size = new System.Drawing.Size(48, 29);
-            this.metroButton2.TabIndex = 205;
+            this.metroButton2.TabIndex = 4;
             this.metroButton2.UseSelectable = true;
             // 
             // Patient_Report

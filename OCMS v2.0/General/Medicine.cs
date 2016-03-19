@@ -20,6 +20,8 @@ namespace OCMS_v2_0.General
         public Medicine()
         {
             InitializeComponent();
+            this.FocusMe();
+            txt_med_id.Select();
             metroToolTip1.SetToolTip(saveBtn, "Save");
             metroToolTip1.SetToolTip(updateBtn, "Update");
             dgv();

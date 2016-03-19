@@ -9,15 +9,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace OCMS_v2_0.General
+namespace OCMS_v2_0.ReportViewers
 {
-    public partial class Reports : MetroForm
+    public partial class Invoice : MetroForm
     {
-        public Reports()
+        public Invoice()
         {
             InitializeComponent();
-            this.FocusMe();
-            textBox2.Select();
+        }
+
+        private void Invoice_Load(object sender, EventArgs e)
+        {
+
+            this.reportViewer1.RefreshReport();
         }
     }
 }

@@ -76,7 +76,7 @@
             this.metroButton1.Location = new System.Drawing.Point(801, 63);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(48, 29);
-            this.metroButton1.TabIndex = 214;
+            this.metroButton1.TabIndex = 2;
             this.metroButton1.UseSelectable = true;
             // 
             // metroLabel2
@@ -106,7 +106,7 @@
             this.metroButton2.Location = new System.Drawing.Point(855, 63);
             this.metroButton2.Name = "metroButton2";
             this.metroButton2.Size = new System.Drawing.Size(48, 29);
-            this.metroButton2.TabIndex = 215;
+            this.metroButton2.TabIndex = 3;
             this.metroButton2.UseSelectable = true;
             // 
             // metroToolTip1
@@ -121,7 +121,7 @@
             this.metroDateTime1.MinimumSize = new System.Drawing.Size(0, 29);
             this.metroDateTime1.Name = "metroDateTime1";
             this.metroDateTime1.Size = new System.Drawing.Size(200, 29);
-            this.metroDateTime1.TabIndex = 216;
+            this.metroDateTime1.TabIndex = 0;
             // 
             // metroDateTime2
             // 
@@ -129,7 +129,7 @@
             this.metroDateTime2.MinimumSize = new System.Drawing.Size(0, 29);
             this.metroDateTime2.Name = "metroDateTime2";
             this.metroDateTime2.Size = new System.Drawing.Size(200, 29);
-            this.metroDateTime2.TabIndex = 217;
+            this.metroDateTime2.TabIndex = 1;
             // 
             // Daily_Income
             // 

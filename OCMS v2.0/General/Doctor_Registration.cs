@@ -20,6 +20,8 @@ namespace OCMS_v2_0.General
         public Doctor_Registration(string user_name, string user_type)
         {
             InitializeComponent();
+            this.FocusMe();
+            txt_doctorName.Select();
             metroToolTip1.SetToolTip(saveBtn, "Save");
             metroToolTip1.SetToolTip(clearBtn, "Clear");
             qualification();

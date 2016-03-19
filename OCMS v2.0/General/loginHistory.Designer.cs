@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.metroToolTip1 = new MetroFramework.Components.MetroToolTip();
-            this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
+            this.panel1 = new MetroFramework.Controls.MetroPanel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.metroLabel15 = new MetroFramework.Controls.MetroLabel();
@@ -47,20 +47,23 @@
             this.metroToolTip1.StyleManager = null;
             this.metroToolTip1.Theme = MetroFramework.MetroThemeStyle.Light;
             // 
-            // metroPanel1
+            // panel1
             // 
-            this.metroPanel1.BackColor = System.Drawing.SystemColors.Menu;
-            this.metroPanel1.HorizontalScrollbarBarColor = true;
-            this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroPanel1.HorizontalScrollbarSize = 10;
-            this.metroPanel1.Location = new System.Drawing.Point(23, 96);
-            this.metroPanel1.Name = "metroPanel1";
-            this.metroPanel1.Size = new System.Drawing.Size(754, 361);
-            this.metroPanel1.TabIndex = 187;
-            this.metroPanel1.UseCustomBackColor = true;
-            this.metroPanel1.VerticalScrollbarBarColor = true;
-            this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
-            this.metroPanel1.VerticalScrollbarSize = 10;
+            this.panel1.AutoScroll = true;
+            this.panel1.BackColor = System.Drawing.SystemColors.Menu;
+            this.panel1.HorizontalScrollbar = true;
+            this.panel1.HorizontalScrollbarBarColor = true;
+            this.panel1.HorizontalScrollbarHighlightOnWheel = false;
+            this.panel1.HorizontalScrollbarSize = 10;
+            this.panel1.Location = new System.Drawing.Point(23, 96);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(754, 361);
+            this.panel1.TabIndex = 187;
+            this.panel1.UseCustomBackColor = true;
+            this.panel1.VerticalScrollbar = true;
+            this.panel1.VerticalScrollbarBarColor = true;
+            this.panel1.VerticalScrollbarHighlightOnWheel = false;
+            this.panel1.VerticalScrollbarSize = 10;
             // 
             // pictureBox4
             // 
@@ -109,7 +112,7 @@
             this.metroLabel2.AutoSize = true;
             this.metroLabel2.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.metroLabel2.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel2.Location = new System.Drawing.Point(253, 70);
+            this.metroLabel2.Location = new System.Drawing.Point(298, 70);
             this.metroLabel2.Name = "metroLabel2";
             this.metroLabel2.Size = new System.Drawing.Size(53, 19);
             this.metroLabel2.TabIndex = 190;
@@ -121,7 +124,7 @@
             this.metroLabel3.AutoSize = true;
             this.metroLabel3.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.metroLabel3.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel3.Location = new System.Drawing.Point(407, 70);
+            this.metroLabel3.Location = new System.Drawing.Point(474, 70);
             this.metroLabel3.Name = "metroLabel3";
             this.metroLabel3.Size = new System.Drawing.Size(74, 19);
             this.metroLabel3.TabIndex = 191;
@@ -133,7 +136,7 @@
             this.metroLabel4.AutoSize = true;
             this.metroLabel4.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.metroLabel4.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel4.Location = new System.Drawing.Point(603, 70);
+            this.metroLabel4.Location = new System.Drawing.Point(625, 70);
             this.metroLabel4.Name = "metroLabel4";
             this.metroLabel4.Size = new System.Drawing.Size(91, 19);
             this.metroLabel4.TabIndex = 192;
@@ -151,7 +154,7 @@
             this.Controls.Add(this.metroLabel2);
             this.Controls.Add(this.metroLabel1);
             this.Controls.Add(this.metroLabel15);
-            this.Controls.Add(this.metroPanel1);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox5);
             this.MaximizeBox = false;
@@ -169,7 +172,7 @@
         #endregion
 
         private MetroFramework.Components.MetroToolTip metroToolTip1;
-        private MetroFramework.Controls.MetroPanel metroPanel1;
+        private MetroFramework.Controls.MetroPanel panel1;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private MetroFramework.Controls.MetroLabel metroLabel15;

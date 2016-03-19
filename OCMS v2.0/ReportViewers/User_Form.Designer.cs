@@ -90,7 +90,7 @@
             this.metroButton1.Location = new System.Drawing.Point(781, 109);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(48, 29);
-            this.metroButton1.TabIndex = 205;
+            this.metroButton1.TabIndex = 6;
             this.metroButton1.UseSelectable = true;
             // 
             // metroToolTip1
@@ -108,7 +108,7 @@
             this.metroButton2.Location = new System.Drawing.Point(835, 109);
             this.metroButton2.Name = "metroButton2";
             this.metroButton2.Size = new System.Drawing.Size(48, 29);
-            this.metroButton2.TabIndex = 206;
+            this.metroButton2.TabIndex = 7;
             this.metroButton2.UseSelectable = true;
             // 
             // metroCheckBox1
@@ -118,7 +118,7 @@
             this.metroCheckBox1.Location = new System.Drawing.Point(299, 78);
             this.metroCheckBox1.Name = "metroCheckBox1";
             this.metroCheckBox1.Size = new System.Drawing.Size(26, 15);
-            this.metroCheckBox1.TabIndex = 3;
+            this.metroCheckBox1.TabIndex = 0;
             this.metroCheckBox1.Text = " ";
             this.metroCheckBox1.UseSelectable = true;
             // 
@@ -129,7 +129,7 @@
             this.metroRadioButton1.Location = new System.Drawing.Point(20, 15);
             this.metroRadioButton1.Name = "metroRadioButton1";
             this.metroRadioButton1.Size = new System.Drawing.Size(49, 15);
-            this.metroRadioButton1.TabIndex = 4;
+            this.metroRadioButton1.TabIndex = 0;
             this.metroRadioButton1.Text = "Male";
             this.metroRadioButton1.UseSelectable = true;
             // 
@@ -149,7 +149,7 @@
             this.metroComboBox1.Location = new System.Drawing.Point(331, 109);
             this.metroComboBox1.Name = "metroComboBox1";
             this.metroComboBox1.Size = new System.Drawing.Size(155, 29);
-            this.metroComboBox1.TabIndex = 6;
+            this.metroComboBox1.TabIndex = 2;
             this.metroComboBox1.UseSelectable = true;
             // 
             // groupBox1
@@ -169,7 +169,7 @@
             this.metroRadioButton2.Location = new System.Drawing.Point(75, 15);
             this.metroRadioButton2.Name = "metroRadioButton2";
             this.metroRadioButton2.Size = new System.Drawing.Size(61, 15);
-            this.metroRadioButton2.TabIndex = 5;
+            this.metroRadioButton2.TabIndex = 1;
             this.metroRadioButton2.Text = "Female";
             this.metroRadioButton2.UseSelectable = true;
             // 
@@ -180,7 +180,7 @@
             this.metroCheckBox2.Location = new System.Drawing.Point(299, 113);
             this.metroCheckBox2.Name = "metroCheckBox2";
             this.metroCheckBox2.Size = new System.Drawing.Size(26, 15);
-            this.metroCheckBox2.TabIndex = 208;
+            this.metroCheckBox2.TabIndex = 1;
             this.metroCheckBox2.Text = " ";
             this.metroCheckBox2.UseSelectable = true;
             // 
@@ -210,7 +210,7 @@
             this.metroRadioButton3.Location = new System.Drawing.Point(78, 15);
             this.metroRadioButton3.Name = "metroRadioButton3";
             this.metroRadioButton3.Size = new System.Drawing.Size(64, 15);
-            this.metroRadioButton3.TabIndex = 5;
+            this.metroRadioButton3.TabIndex = 1;
             this.metroRadioButton3.Text = "Inactive";
             this.metroRadioButton3.UseSelectable = true;
             // 
@@ -221,7 +221,7 @@
             this.metroRadioButton4.Location = new System.Drawing.Point(16, 15);
             this.metroRadioButton4.Name = "metroRadioButton4";
             this.metroRadioButton4.Size = new System.Drawing.Size(56, 15);
-            this.metroRadioButton4.TabIndex = 4;
+            this.metroRadioButton4.TabIndex = 0;
             this.metroRadioButton4.Text = "Active";
             this.metroRadioButton4.UseSelectable = true;
             // 
@@ -232,7 +232,7 @@
             this.metroCheckBox3.Location = new System.Drawing.Point(588, 78);
             this.metroCheckBox3.Name = "metroCheckBox3";
             this.metroCheckBox3.Size = new System.Drawing.Size(26, 15);
-            this.metroCheckBox3.TabIndex = 210;
+            this.metroCheckBox3.TabIndex = 3;
             this.metroCheckBox3.Text = " ";
             this.metroCheckBox3.UseSelectable = true;
             // 
@@ -252,7 +252,7 @@
             this.metroCheckBox4.Location = new System.Drawing.Point(588, 113);
             this.metroCheckBox4.Name = "metroCheckBox4";
             this.metroCheckBox4.Size = new System.Drawing.Size(26, 15);
-            this.metroCheckBox4.TabIndex = 214;
+            this.metroCheckBox4.TabIndex = 4;
             this.metroCheckBox4.Text = " ";
             this.metroCheckBox4.UseSelectable = true;
             // 
@@ -276,7 +276,7 @@
             this.metroComboBox2.Location = new System.Drawing.Point(620, 109);
             this.metroComboBox2.Name = "metroComboBox2";
             this.metroComboBox2.Size = new System.Drawing.Size(155, 29);
-            this.metroComboBox2.TabIndex = 213;
+            this.metroComboBox2.TabIndex = 5;
             this.metroComboBox2.UseSelectable = true;
             // 
             // User_Form

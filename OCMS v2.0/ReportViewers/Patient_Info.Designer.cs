@@ -77,7 +77,7 @@
             this.metroButton2.Location = new System.Drawing.Point(1129, 63);
             this.metroButton2.Name = "metroButton2";
             this.metroButton2.Size = new System.Drawing.Size(48, 29);
-            this.metroButton2.TabIndex = 206;
+            this.metroButton2.TabIndex = 0;
             this.metroButton2.UseSelectable = true;
             // 
             // Patient_Info

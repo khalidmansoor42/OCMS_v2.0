@@ -45,7 +45,7 @@
             this.metroTile5.Name = "metroTile5";
             this.metroTile5.Size = new System.Drawing.Size(238, 170);
             this.metroTile5.Style = MetroFramework.MetroColorStyle.Purple;
-            this.metroTile5.TabIndex = 126;
+            this.metroTile5.TabIndex = 4;
             this.metroTile5.Text = "Change Theme";
             this.metroTile5.TileCount = 5;
             this.metroTile5.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile5.TileImage")));
@@ -65,7 +65,7 @@
             this.metroTile3.Name = "metroTile3";
             this.metroTile3.Size = new System.Drawing.Size(238, 170);
             this.metroTile3.Style = MetroFramework.MetroColorStyle.Teal;
-            this.metroTile3.TabIndex = 124;
+            this.metroTile3.TabIndex = 2;
             this.metroTile3.Text = "Change Password";
             this.metroTile3.TileCount = 3;
             this.metroTile3.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile3.TileImage")));
@@ -85,7 +85,7 @@
             this.metroTile1.Name = "metroTile1";
             this.metroTile1.Size = new System.Drawing.Size(238, 170);
             this.metroTile1.Style = MetroFramework.MetroColorStyle.Silver;
-            this.metroTile1.TabIndex = 123;
+            this.metroTile1.TabIndex = 1;
             this.metroTile1.Text = "Login History";
             this.metroTile1.TileCount = 2;
             this.metroTile1.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile1.TileImage")));
@@ -105,7 +105,7 @@
             this.metroTile2.Name = "metroTile2";
             this.metroTile2.Size = new System.Drawing.Size(238, 170);
             this.metroTile2.Style = MetroFramework.MetroColorStyle.Green;
-            this.metroTile2.TabIndex = 122;
+            this.metroTile2.TabIndex = 0;
             this.metroTile2.Text = "Update Profile";
             this.metroTile2.TileCount = 1;
             this.metroTile2.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile2.TileImage")));
@@ -125,7 +125,7 @@
             this.metroTile6.Name = "metroTile6";
             this.metroTile6.Size = new System.Drawing.Size(238, 170);
             this.metroTile6.Style = MetroFramework.MetroColorStyle.Yellow;
-            this.metroTile6.TabIndex = 127;
+            this.metroTile6.TabIndex = 5;
             this.metroTile6.Text = "Upgrade Account";
             this.metroTile6.TileCount = 6;
             this.metroTile6.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile6.TileImage")));
@@ -145,7 +145,7 @@
             this.metroTile4.Name = "metroTile4";
             this.metroTile4.Size = new System.Drawing.Size(238, 170);
             this.metroTile4.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile4.TabIndex = 125;
+            this.metroTile4.TabIndex = 3;
             this.metroTile4.Text = "Duplicate Invoice";
             this.metroTile4.TileCount = 4;
             this.metroTile4.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile4.TileImage")));

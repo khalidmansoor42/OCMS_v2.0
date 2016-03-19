@@ -20,6 +20,8 @@ namespace OCMS_v2_0.General
         public Add_Diseases()
         {
             InitializeComponent();
+            this.FocusMe();
+            Diseases_code.Select();
             metroToolTip1.SetToolTip(saveBtn, "Save");
             metroToolTip1.SetToolTip(clearBtn, "Clear");
             metroToolTip1.SetToolTip(updateBtn, "Update");

@@ -25,6 +25,8 @@ namespace OCMS_v2_0.Admin
         public User_Registration(string user_name, string user_type)
         {
             InitializeComponent();
+            this.FocusMe();
+            full_name.Select();
             updateBtn.Visible = false;
             metroToolTip1.SetToolTip(searchBtn, "Search User");
             metroToolTip1.SetToolTip(clearBtn, "Clear");

@@ -151,7 +151,7 @@
             this.password.Multiline = true;
             this.password.Name = "password";
             this.password.Size = new System.Drawing.Size(209, 29);
-            this.password.TabIndex = 80;
+            this.password.TabIndex = 1;
             // 
             // user_type
             // 
@@ -161,7 +161,7 @@
             this.user_type.Name = "user_type";
             this.user_type.Size = new System.Drawing.Size(209, 29);
             this.user_type.Style = MetroFramework.MetroColorStyle.Blue;
-            this.user_type.TabIndex = 84;
+            this.user_type.TabIndex = 0;
             this.user_type.UseSelectable = true;
             this.user_type.UseStyleColors = true;
             this.user_type.TextChanged += new System.EventHandler(this.user_type_TextChanged);
@@ -194,7 +194,7 @@
             this.user_name.Multiline = true;
             this.user_name.Name = "user_name";
             this.user_name.Size = new System.Drawing.Size(209, 29);
-            this.user_name.TabIndex = 82;
+            this.user_name.TabIndex = 2;
             // 
             // groupBox1
             // 
@@ -347,7 +347,7 @@
             this.date_registration.MinimumSize = new System.Drawing.Size(0, 29);
             this.date_registration.Name = "date_registration";
             this.date_registration.Size = new System.Drawing.Size(209, 29);
-            this.date_registration.TabIndex = 79;
+            this.date_registration.TabIndex = 6;
             // 
             // metroLabel7
             // 
@@ -377,7 +377,7 @@
             this.city_id.Name = "city_id";
             this.city_id.Size = new System.Drawing.Size(209, 29);
             this.city_id.Style = MetroFramework.MetroColorStyle.Blue;
-            this.city_id.TabIndex = 76;
+            this.city_id.TabIndex = 10;
             this.city_id.UseSelectable = true;
             this.city_id.UseStyleColors = true;
             this.city_id.TextChanged += new System.EventHandler(this.city_id_TextChanged);
@@ -399,7 +399,7 @@
             this.address.Location = new System.Drawing.Point(545, 165);
             this.address.Name = "address";
             this.address.Size = new System.Drawing.Size(209, 59);
-            this.address.TabIndex = 74;
+            this.address.TabIndex = 9;
             this.address.Text = "";
             this.address.TextChanged += new System.EventHandler(this.address_TextChanged);
             // 
@@ -420,7 +420,7 @@
             this.email.Multiline = true;
             this.email.Name = "email";
             this.email.Size = new System.Drawing.Size(209, 29);
-            this.email.TabIndex = 72;
+            this.email.TabIndex = 8;
             this.email.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.email_KeyPress);
             // 
             // DOB
@@ -429,7 +429,7 @@
             this.DOB.MinimumSize = new System.Drawing.Size(0, 29);
             this.DOB.Name = "DOB";
             this.DOB.Size = new System.Drawing.Size(209, 29);
-            this.DOB.TabIndex = 71;
+            this.DOB.TabIndex = 5;
             this.DOB.ValueChanged += new System.EventHandler(this.DOB_ValueChanged);
             // 
             // femaleRadio
@@ -439,7 +439,7 @@
             this.femaleRadio.Location = new System.Drawing.Point(239, 165);
             this.femaleRadio.Name = "femaleRadio";
             this.femaleRadio.Size = new System.Drawing.Size(61, 15);
-            this.femaleRadio.TabIndex = 70;
+            this.femaleRadio.TabIndex = 3;
             this.femaleRadio.Text = "Female";
             this.femaleRadio.UseCustomBackColor = true;
             this.femaleRadio.UseSelectable = true;
@@ -451,7 +451,7 @@
             this.maleRadio.Location = new System.Drawing.Point(184, 165);
             this.maleRadio.Name = "maleRadio";
             this.maleRadio.Size = new System.Drawing.Size(49, 15);
-            this.maleRadio.TabIndex = 69;
+            this.maleRadio.TabIndex = 2;
             this.maleRadio.Text = "Male";
             this.maleRadio.UseCustomBackColor = true;
             this.maleRadio.UseSelectable = true;
@@ -484,7 +484,7 @@
             this.cnic.Multiline = true;
             this.cnic.Name = "cnic";
             this.cnic.Size = new System.Drawing.Size(209, 29);
-            this.cnic.TabIndex = 66;
+            this.cnic.TabIndex = 4;
             this.cnic.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cnic_KeyPress);
             this.cnic.KeyUp += new System.Windows.Forms.KeyEventHandler(this.cnic_KeyUp);
             // 
@@ -506,7 +506,7 @@
             this.mob.Multiline = true;
             this.mob.Name = "mob";
             this.mob.Size = new System.Drawing.Size(209, 29);
-            this.mob.TabIndex = 64;
+            this.mob.TabIndex = 7;
             this.mob.TextChanged += new System.EventHandler(this.mob_TextChanged);
             this.mob.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.mob_KeyPress);
             // 
@@ -537,7 +537,7 @@
             this.f_name.Multiline = true;
             this.f_name.Name = "f_name";
             this.f_name.Size = new System.Drawing.Size(209, 29);
-            this.f_name.TabIndex = 52;
+            this.f_name.TabIndex = 1;
             this.f_name.TextChanged += new System.EventHandler(this.f_name_TextChanged);
             this.f_name.Leave += new System.EventHandler(this.f_name_Leave);
             // 
@@ -558,7 +558,7 @@
             this.full_name.Multiline = true;
             this.full_name.Name = "full_name";
             this.full_name.Size = new System.Drawing.Size(209, 29);
-            this.full_name.TabIndex = 50;
+            this.full_name.TabIndex = 0;
             this.full_name.TextChanged += new System.EventHandler(this.full_name_TextChanged);
             this.full_name.Leave += new System.EventHandler(this.full_name_Leave);
             // 
@@ -581,6 +581,7 @@
             this.employees_id.Name = "employees_id";
             this.employees_id.Size = new System.Drawing.Size(76, 29);
             this.employees_id.TabIndex = 47;
+            this.employees_id.TabStop = false;
             // 
             // recents
             // 
@@ -610,7 +611,7 @@
             this.updateBtn.Location = new System.Drawing.Point(44, 398);
             this.updateBtn.Name = "updateBtn";
             this.updateBtn.Size = new System.Drawing.Size(177, 42);
-            this.updateBtn.TabIndex = 177;
+            this.updateBtn.TabIndex = 0;
             this.updateBtn.UseSelectable = true;
             this.updateBtn.Click += new System.EventHandler(this.updateBtn_Click);
             // 
@@ -636,7 +637,7 @@
             this.searchBtn.Location = new System.Drawing.Point(44, 446);
             this.searchBtn.Name = "searchBtn";
             this.searchBtn.Size = new System.Drawing.Size(85, 42);
-            this.searchBtn.TabIndex = 175;
+            this.searchBtn.TabIndex = 1;
             this.searchBtn.UseSelectable = true;
             this.searchBtn.Click += new System.EventHandler(this.searchBtn_Click);
             // 
@@ -649,7 +650,7 @@
             this.clearBtn.Location = new System.Drawing.Point(135, 446);
             this.clearBtn.Name = "clearBtn";
             this.clearBtn.Size = new System.Drawing.Size(86, 42);
-            this.clearBtn.TabIndex = 174;
+            this.clearBtn.TabIndex = 2;
             this.clearBtn.UseSelectable = true;
             this.clearBtn.Click += new System.EventHandler(this.clearBtn_Click);
             // 

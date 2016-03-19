@@ -295,6 +295,12 @@
     <Compile Include="ReportViewers\Daily_Income.Designer.cs">
       <DependentUpon>Daily_Income.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReportViewers\Invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportViewers\Invoice.Designer.cs">
+      <DependentUpon>Invoice.cs</DependentUpon>
+    </Compile>
     <Compile Include="ReportViewers\Login_History.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -466,6 +472,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ReportViewers\Daily_Income.resx">
       <DependentUpon>Daily_Income.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViewers\Invoice.resx">
+      <DependentUpon>Invoice.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ReportViewers\Login_History.resx">
       <DependentUpon>Login_History.cs</DependentUpon>

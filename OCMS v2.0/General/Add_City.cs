@@ -19,6 +19,8 @@ namespace OCMS_v2_0.General
         public Add_City()
         {
             InitializeComponent();
+            this.FocusMe();
+            City_id.Select();
             metroToolTip1.SetToolTip(saveBtn, "Save");
             metroToolTip1.SetToolTip(clearBtn, "Clear");
             metroToolTip1.SetToolTip(updateBtn, "Update");

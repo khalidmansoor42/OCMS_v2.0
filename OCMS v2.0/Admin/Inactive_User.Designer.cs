@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inactive_User));
             this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
+            this.text_user_type = new System.Windows.Forms.TextBox();
             this.saveBtn = new MetroFramework.Controls.MetroButton();
             this.searchBtn = new MetroFramework.Controls.MetroButton();
             this.active = new MetroFramework.Controls.MetroRadioButton();
@@ -43,7 +44,6 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.metroToolTip1 = new MetroFramework.Components.MetroToolTip();
-            this.text_user_type = new System.Windows.Forms.TextBox();
             this.metroPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -78,6 +78,15 @@
             this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel1.VerticalScrollbarSize = 10;
             // 
+            // text_user_type
+            // 
+            this.text_user_type.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.text_user_type.Location = new System.Drawing.Point(262, 160);
+            this.text_user_type.Multiline = true;
+            this.text_user_type.Name = "text_user_type";
+            this.text_user_type.Size = new System.Drawing.Size(233, 29);
+            this.text_user_type.TabIndex = 2;
+            // 
             // saveBtn
             // 
             this.saveBtn.BackColor = System.Drawing.SystemColors.MenuHighlight;
@@ -87,7 +96,7 @@
             this.saveBtn.Location = new System.Drawing.Point(342, 310);
             this.saveBtn.Name = "saveBtn";
             this.saveBtn.Size = new System.Drawing.Size(64, 36);
-            this.saveBtn.TabIndex = 185;
+            this.saveBtn.TabIndex = 6;
             this.saveBtn.UseSelectable = true;
             this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
             // 
@@ -101,7 +110,7 @@
             this.searchBtn.Name = "searchBtn";
             this.searchBtn.Size = new System.Drawing.Size(37, 29);
             this.searchBtn.Style = MetroFramework.MetroColorStyle.Blue;
-            this.searchBtn.TabIndex = 184;
+            this.searchBtn.TabIndex = 1;
             this.searchBtn.UseCustomBackColor = true;
             this.searchBtn.UseSelectable = true;
             this.searchBtn.UseStyleColors = true;
@@ -114,7 +123,7 @@
             this.active.Location = new System.Drawing.Point(332, 250);
             this.active.Name = "active";
             this.active.Size = new System.Drawing.Size(56, 15);
-            this.active.TabIndex = 183;
+            this.active.TabIndex = 5;
             this.active.Text = "Active";
             this.active.UseCustomBackColor = true;
             this.active.UseSelectable = true;
@@ -126,7 +135,7 @@
             this.inactive.Location = new System.Drawing.Point(262, 250);
             this.inactive.Name = "inactive";
             this.inactive.Size = new System.Drawing.Size(64, 15);
-            this.inactive.TabIndex = 182;
+            this.inactive.TabIndex = 4;
             this.inactive.Text = "Inactive";
             this.inactive.UseCustomBackColor = true;
             this.inactive.UseSelectable = true;
@@ -158,7 +167,7 @@
             this.text_user_name.Multiline = true;
             this.text_user_name.Name = "text_user_name";
             this.text_user_name.Size = new System.Drawing.Size(233, 29);
-            this.text_user_name.TabIndex = 179;
+            this.text_user_name.TabIndex = 3;
             // 
             // text_Eid
             // 
@@ -167,7 +176,7 @@
             this.text_Eid.Multiline = true;
             this.text_Eid.Name = "text_Eid";
             this.text_Eid.Size = new System.Drawing.Size(200, 29);
-            this.text_Eid.TabIndex = 177;
+            this.text_Eid.TabIndex = 0;
             // 
             // metroLabel2
             // 
@@ -215,15 +224,6 @@
             this.metroToolTip1.Style = MetroFramework.MetroColorStyle.Blue;
             this.metroToolTip1.StyleManager = null;
             this.metroToolTip1.Theme = MetroFramework.MetroThemeStyle.Light;
-            // 
-            // text_user_type
-            // 
-            this.text_user_type.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.text_user_type.Location = new System.Drawing.Point(262, 160);
-            this.text_user_type.Multiline = true;
-            this.text_user_type.Name = "text_user_type";
-            this.text_user_type.Size = new System.Drawing.Size(233, 29);
-            this.text_user_type.TabIndex = 186;
             // 
             // Inactive_User
             // 

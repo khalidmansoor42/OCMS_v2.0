@@ -126,7 +126,7 @@
             this.txt_address.Location = new System.Drawing.Point(313, 61);
             this.txt_address.Name = "txt_address";
             this.txt_address.Size = new System.Drawing.Size(421, 59);
-            this.txt_address.TabIndex = 13;
+            this.txt_address.TabIndex = 1;
             this.txt_address.Text = "";
             // 
             // summary
@@ -136,7 +136,7 @@
             this.summary.Multiline = true;
             this.summary.Name = "summary";
             this.summary.Size = new System.Drawing.Size(421, 29);
-            this.summary.TabIndex = 12;
+            this.summary.TabIndex = 8;
             // 
             // drname
             // 
@@ -145,7 +145,7 @@
             this.drname.Multiline = true;
             this.drname.Name = "drname";
             this.drname.Size = new System.Drawing.Size(421, 29);
-            this.drname.TabIndex = 11;
+            this.drname.TabIndex = 7;
             // 
             // specialization
             // 
@@ -154,7 +154,7 @@
             this.specialization.Multiline = true;
             this.specialization.Name = "specialization";
             this.specialization.Size = new System.Drawing.Size(421, 29);
-            this.specialization.TabIndex = 10;
+            this.specialization.TabIndex = 6;
             // 
             // txt_Companyname
             // 
@@ -163,7 +163,7 @@
             this.txt_Companyname.Multiline = true;
             this.txt_Companyname.Name = "txt_Companyname";
             this.txt_Companyname.Size = new System.Drawing.Size(421, 29);
-            this.txt_Companyname.TabIndex = 9;
+            this.txt_Companyname.TabIndex = 0;
             // 
             // metroPanel1
             // 
@@ -219,7 +219,7 @@
             this.browseBtn.Location = new System.Drawing.Point(19, 190);
             this.browseBtn.Name = "browseBtn";
             this.browseBtn.Size = new System.Drawing.Size(176, 42);
-            this.browseBtn.TabIndex = 176;
+            this.browseBtn.TabIndex = 9;
             this.browseBtn.UseSelectable = true;
             this.browseBtn.Click += new System.EventHandler(this.browseBtn_Click);
             // 
@@ -250,7 +250,7 @@
             this.txt_email.Multiline = true;
             this.txt_email.Name = "txt_email";
             this.txt_email.Size = new System.Drawing.Size(167, 29);
-            this.txt_email.TabIndex = 26;
+            this.txt_email.TabIndex = 5;
             // 
             // metroLabel9
             // 
@@ -271,7 +271,7 @@
             this.ph.Multiline = true;
             this.ph.Name = "ph";
             this.ph.Size = new System.Drawing.Size(167, 29);
-            this.ph.TabIndex = 24;
+            this.ph.TabIndex = 4;
             // 
             // metroLabel7
             // 
@@ -292,7 +292,7 @@
             this.txt_mobile.Multiline = true;
             this.txt_mobile.Name = "txt_mobile";
             this.txt_mobile.Size = new System.Drawing.Size(167, 29);
-            this.txt_mobile.TabIndex = 22;
+            this.txt_mobile.TabIndex = 3;
             // 
             // metroLabel1
             // 
@@ -313,7 +313,7 @@
             this.txt_phone.Multiline = true;
             this.txt_phone.Name = "txt_phone";
             this.txt_phone.Size = new System.Drawing.Size(167, 29);
-            this.txt_phone.TabIndex = 20;
+            this.txt_phone.TabIndex = 2;
             // 
             // updateBtn
             // 
@@ -324,7 +324,7 @@
             this.updateBtn.Location = new System.Drawing.Point(403, 427);
             this.updateBtn.Name = "updateBtn";
             this.updateBtn.Size = new System.Drawing.Size(86, 42);
-            this.updateBtn.TabIndex = 194;
+            this.updateBtn.TabIndex = 1;
             this.updateBtn.UseSelectable = true;
             this.updateBtn.Click += new System.EventHandler(this.updateBtn_Click);
             // 
@@ -337,7 +337,7 @@
             this.saveBtn.Location = new System.Drawing.Point(303, 427);
             this.saveBtn.Name = "saveBtn";
             this.saveBtn.Size = new System.Drawing.Size(85, 42);
-            this.saveBtn.TabIndex = 193;
+            this.saveBtn.TabIndex = 0;
             this.saveBtn.UseSelectable = true;
             this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
             // 

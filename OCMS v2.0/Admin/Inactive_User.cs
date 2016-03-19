@@ -1,4 +1,5 @@
-﻿using MetroFramework.Forms;
+﻿using MetroFramework;
+using MetroFramework.Forms;
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,8 @@ namespace OCMS_v2_0.Admin
         public Inactive_User()
         {
             InitializeComponent();
+            this.FocusMe();
+            text_Eid.Select();
             metroToolTip1.SetToolTip(saveBtn, "Save");
             metroToolTip1.SetToolTip(searchBtn, "Search User");
         }
@@ -32,45 +35,32 @@ namespace OCMS_v2_0.Admin
 
         private void searchBtn_Click(object sender, EventArgs e)
         {
-            if (this.text_Eid.Text != "")
+            Admin.Search_Users obj = new Admin.Search_Users("chpass");
+
+            if (obj.ShowDialog(this) == DialogResult.OK)
             {
-                try
+                string userId = obj.Parameter1;
+                string query = "select user_name, user_type, activeinactive from mydb.user_registration where employee_id = '" + userId + "'";
+                MySqlConnection myConn = new MySqlConnection(cons.myConnection);
+                MySqlCommand SelectCommand = new MySqlCommand(query, myConn);
+                MySqlDataReader myReader;
+                myConn.Open();
+                myReader = SelectCommand.ExecuteReader();
+
+                if (myReader.Read())
                 {
-                    MySqlConnection myConn = new MySqlConnection(cons.myConnection);
-
-
-                    String query = "SELECT user_type,user_name FROM mydb.user_registration where employee_id=@1;";
-                    MySqlCommand SelectCommand = new MySqlCommand(query, myConn);
-                    SelectCommand.Parameters.Add(new MySqlParameter("@1", this.text_Eid.Text));
-
-                    MySqlDataReader myReader;
-                    myConn.Open();
-                    myReader = SelectCommand.ExecuteReader();
-
-
-
-                    while (myReader.Read())
+                    this.text_user_name.Text = myReader.GetString("user_name");
+                    this.text_user_type.Text = myReader.GetString("user_type");
+                    string activeInactive = myReader.GetString("activeinactive");
+                    if (activeInactive == "True")
                     {
-                        this.text_user_type.Text = myReader.GetString("user_type");
-                        this.text_user_name.Text = myReader.GetString("user_name");
-
+                        active.Checked = true;
                     }
-                    myConn.Close();
-                }
-                catch (Exception ex)
-                {
-
-                    MessageBox.Show(ex.Message);
-                }
-            }
-            else
-            {
-                Admin.Search_Users obj = new Admin.Search_Users("chpass");
-
-                if (obj.ShowDialog(this) == DialogResult.OK)
-                {
+                    else 
+                    {
+                        inactive.Checked = true;
+                    }
                     text_Eid.Text = obj.Parameter1;
-
                 }
             }
         }
@@ -111,13 +101,11 @@ namespace OCMS_v2_0.Admin
 
 
                 myConn.Close();
-                MessageBox.Show("Data is save");
-
+                MetroMessageBox.Show(this, "\n" + "Data Saved Successfully!", ":)", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
-
-                MessageBox.Show(ex.Message);
+                MetroMessageBox.Show(this, "\n" + ex.Message, ":(", MessageBoxButtons.AbortRetryIgnore, MessageBoxIcon.Error);
             }
 
             null_field();

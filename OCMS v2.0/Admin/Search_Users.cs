@@ -21,6 +21,8 @@ namespace OCMS_v2_0.Admin
         public Search_Users(string check)
         {
             InitializeComponent();
+            this.FocusMe();
+            searchCriteriaCombo.Select();
             metroToolTip1.SetToolTip(searchCriteriaCombo, "Select Search Criteria From Here");
             checks = check;
             dvg1();
@@ -59,7 +61,7 @@ namespace OCMS_v2_0.Admin
             {
 
                 DataView DV = new DataView(dbdataset);
-                DV.RowFilter = string.Format("Convert([employee_id], System.String) LIKE '%{0}%'", txt_searchby.Text);
+                DV.RowFilter = string.Format("Convert([ID], System.String) LIKE '%{0}%'", txt_searchby.Text);
                 dataGridView1.DataSource = DV;
 
             }

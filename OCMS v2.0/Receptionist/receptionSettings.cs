@@ -16,6 +16,8 @@ namespace OCMS_v2_0.Receptionist
         public receptionSettings()
         {
             InitializeComponent();
+            this.FocusMe();
+            metroTile2.Select();
         }
 
         private void metroTile2_MouseEnter(object sender, EventArgs e)

@@ -20,6 +20,8 @@ namespace OCMS_v2_0.Admin
         public Clinic_Name()
         {
             InitializeComponent();
+            this.FocusMe();
+            txt_Companyname.Select();
             metroToolTip1.SetToolTip(saveBtn, "Save");
             metroToolTip1.SetToolTip(updateBtn, "Update");
             metroToolTip1.SetToolTip(browseBtn, "Upload Picture");

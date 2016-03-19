@@ -13,9 +13,14 @@ namespace OCMS_v2_0.Admin
 {
     public partial class adminSettings : MetroForm
     {
-        public adminSettings()
+        string userName = "", userType = "";
+        public adminSettings(string user_name, string user_type)
         {
             InitializeComponent();
+            this.FocusMe();
+            metroTile2.Select();
+            userName = user_name;
+            userType = user_type;
         }
 
         private void metroTile2_MouseEnter(object sender, EventArgs e)
@@ -76,6 +81,30 @@ namespace OCMS_v2_0.Admin
         private void metroTile6_MouseLeave(object sender, EventArgs e)
         {
             metroTile6.Style = MetroFramework.MetroColorStyle.Yellow;
+        }
+
+        private void metroTile2_Click(object sender, EventArgs e)
+        {
+            General.MyProfile myProf = new General.MyProfile(userName, userType);
+            myProf.Show();
+        }
+
+        private void metroTile1_Click(object sender, EventArgs e)
+        {
+            General.loginHistory loginHistory = new General.loginHistory(userName);
+            loginHistory.Show();
+        }
+
+        private void metroTile3_Click(object sender, EventArgs e)
+        {
+            General.changePassword changePass = new General.changePassword(userName, userType);
+            changePass.Show();
+        }
+
+        private void metroTile4_Click(object sender, EventArgs e)
+        {
+            Admin.Inactive_User userManage = new Admin.Inactive_User();
+            userManage.ShowDialog();
         }
 
     }

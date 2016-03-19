@@ -131,7 +131,7 @@
             this.clearBtn.Location = new System.Drawing.Point(662, 96);
             this.clearBtn.Name = "clearBtn";
             this.clearBtn.Size = new System.Drawing.Size(56, 37);
-            this.clearBtn.TabIndex = 203;
+            this.clearBtn.TabIndex = 5;
             this.clearBtn.UseSelectable = true;
             this.clearBtn.Click += new System.EventHandler(this.clearBtn_Click);
             // 
@@ -144,7 +144,7 @@
             this.saveBtn.Location = new System.Drawing.Point(600, 96);
             this.saveBtn.Name = "saveBtn";
             this.saveBtn.Size = new System.Drawing.Size(56, 37);
-            this.saveBtn.TabIndex = 202;
+            this.saveBtn.TabIndex = 4;
             this.saveBtn.UseSelectable = true;
             this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
             // 
@@ -179,7 +179,7 @@
             this.Diseases_name.Multiline = true;
             this.Diseases_name.Name = "Diseases_name";
             this.Diseases_name.Size = new System.Drawing.Size(234, 29);
-            this.Diseases_name.TabIndex = 205;
+            this.Diseases_name.TabIndex = 2;
             this.Diseases_name.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Diseases_name_KeyPress);
             // 
             // Diseases_code
@@ -189,7 +189,7 @@
             this.Diseases_code.Multiline = true;
             this.Diseases_code.Name = "Diseases_code";
             this.Diseases_code.Size = new System.Drawing.Size(234, 29);
-            this.Diseases_code.TabIndex = 204;
+            this.Diseases_code.TabIndex = 0;
             // 
             // updateBtn
             // 
@@ -200,7 +200,7 @@
             this.updateBtn.Location = new System.Drawing.Point(724, 96);
             this.updateBtn.Name = "updateBtn";
             this.updateBtn.Size = new System.Drawing.Size(56, 37);
-            this.updateBtn.TabIndex = 207;
+            this.updateBtn.TabIndex = 6;
             this.updateBtn.UseSelectable = true;
             this.updateBtn.Click += new System.EventHandler(this.updateBtn_Click);
             // 
@@ -239,7 +239,7 @@
             this.txt_searchby.Multiline = true;
             this.txt_searchby.Name = "txt_searchby";
             this.txt_searchby.Size = new System.Drawing.Size(242, 29);
-            this.txt_searchby.TabIndex = 199;
+            this.txt_searchby.TabIndex = 1;
             this.txt_searchby.TextChanged += new System.EventHandler(this.txt_searchby_TextChanged);
             // 
             // searchCriteriaCombo
@@ -252,7 +252,7 @@
             this.searchCriteriaCombo.Location = new System.Drawing.Point(41, 24);
             this.searchCriteriaCombo.Name = "searchCriteriaCombo";
             this.searchCriteriaCombo.Size = new System.Drawing.Size(196, 29);
-            this.searchCriteriaCombo.TabIndex = 195;
+            this.searchCriteriaCombo.TabIndex = 0;
             this.searchCriteriaCombo.UseSelectable = true;
             // 
             // radio_Diseases_Code
@@ -262,7 +262,7 @@
             this.radio_Diseases_Code.Location = new System.Drawing.Point(368, 64);
             this.radio_Diseases_Code.Name = "radio_Diseases_Code";
             this.radio_Diseases_Code.Size = new System.Drawing.Size(92, 15);
-            this.radio_Diseases_Code.TabIndex = 209;
+            this.radio_Diseases_Code.TabIndex = 1;
             this.radio_Diseases_Code.Text = "Update Code";
             this.radio_Diseases_Code.UseSelectable = true;
             this.radio_Diseases_Code.Click += new System.EventHandler(this.radio_Diseases_Code_Click);
@@ -274,7 +274,7 @@
             this.radio_Diseases_name.Location = new System.Drawing.Point(368, 108);
             this.radio_Diseases_name.Name = "radio_Diseases_name";
             this.radio_Diseases_name.Size = new System.Drawing.Size(96, 15);
-            this.radio_Diseases_name.TabIndex = 210;
+            this.radio_Diseases_name.TabIndex = 3;
             this.radio_Diseases_name.Text = "Update Name";
             this.radio_Diseases_name.UseSelectable = true;
             this.radio_Diseases_name.Click += new System.EventHandler(this.radio_Diseases_name_Click);

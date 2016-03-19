@@ -16,20 +16,19 @@ namespace OCMS_v2_0.General
         public Login()
         {
             InitializeComponent();
+            this.FocusMe(); 
+            usernameTxt.Select();
             metroToolTip1.SetToolTip(usernameTxt, "Enter credentials here");
             metroToolTip1.SetToolTip(passwordTxt, "Enter credentials here");
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void loginBtn_Click(object sender, EventArgs e)
         {
-            Receptionist.receptionMenu obj = new Receptionist.receptionMenu();
-            this.Hide();
-            obj.Show();
         }
     }
 }

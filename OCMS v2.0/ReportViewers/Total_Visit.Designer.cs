@@ -56,7 +56,7 @@
             this.metroCheckBox4.Location = new System.Drawing.Point(679, 113);
             this.metroCheckBox4.Name = "metroCheckBox4";
             this.metroCheckBox4.Size = new System.Drawing.Size(26, 15);
-            this.metroCheckBox4.TabIndex = 229;
+            this.metroCheckBox4.TabIndex = 6;
             this.metroCheckBox4.Text = " ";
             this.metroCheckBox4.UseSelectable = true;
             // 
@@ -71,7 +71,7 @@
             this.metroComboBox2.Location = new System.Drawing.Point(711, 109);
             this.metroComboBox2.Name = "metroComboBox2";
             this.metroComboBox2.Size = new System.Drawing.Size(200, 29);
-            this.metroComboBox2.TabIndex = 228;
+            this.metroComboBox2.TabIndex = 7;
             this.metroComboBox2.UseSelectable = true;
             // 
             // metroCheckBox3
@@ -81,7 +81,7 @@
             this.metroCheckBox3.Location = new System.Drawing.Point(679, 78);
             this.metroCheckBox3.Name = "metroCheckBox3";
             this.metroCheckBox3.Size = new System.Drawing.Size(26, 15);
-            this.metroCheckBox3.TabIndex = 225;
+            this.metroCheckBox3.TabIndex = 4;
             this.metroCheckBox3.Text = " ";
             this.metroCheckBox3.UseSelectable = true;
             // 
@@ -110,7 +110,7 @@
             this.metroCheckBox2.Location = new System.Drawing.Point(296, 113);
             this.metroCheckBox2.Name = "metroCheckBox2";
             this.metroCheckBox2.Size = new System.Drawing.Size(26, 15);
-            this.metroCheckBox2.TabIndex = 223;
+            this.metroCheckBox2.TabIndex = 2;
             this.metroCheckBox2.Text = " ";
             this.metroCheckBox2.UseSelectable = true;
             // 
@@ -139,7 +139,7 @@
             this.metroComboBox1.Location = new System.Drawing.Point(328, 109);
             this.metroComboBox1.Name = "metroComboBox1";
             this.metroComboBox1.Size = new System.Drawing.Size(200, 29);
-            this.metroComboBox1.TabIndex = 218;
+            this.metroComboBox1.TabIndex = 3;
             this.metroComboBox1.UseSelectable = true;
             // 
             // metroCheckBox1
@@ -149,7 +149,7 @@
             this.metroCheckBox1.Location = new System.Drawing.Point(296, 78);
             this.metroCheckBox1.Name = "metroCheckBox1";
             this.metroCheckBox1.Size = new System.Drawing.Size(26, 15);
-            this.metroCheckBox1.TabIndex = 216;
+            this.metroCheckBox1.TabIndex = 0;
             this.metroCheckBox1.Text = " ";
             this.metroCheckBox1.UseSelectable = true;
             // 
@@ -162,7 +162,7 @@
             this.metroButton2.Location = new System.Drawing.Point(971, 109);
             this.metroButton2.Name = "metroButton2";
             this.metroButton2.Size = new System.Drawing.Size(48, 29);
-            this.metroButton2.TabIndex = 221;
+            this.metroButton2.TabIndex = 9;
             this.metroButton2.UseSelectable = true;
             // 
             // metroToolTip1
@@ -180,7 +180,7 @@
             this.metroButton1.Location = new System.Drawing.Point(917, 109);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(48, 29);
-            this.metroButton1.TabIndex = 220;
+            this.metroButton1.TabIndex = 8;
             this.metroButton1.UseSelectable = true;
             // 
             // reportViewer1
@@ -215,7 +215,7 @@
             this.metroDateTime1.MinimumSize = new System.Drawing.Size(0, 29);
             this.metroDateTime1.Name = "metroDateTime1";
             this.metroDateTime1.Size = new System.Drawing.Size(200, 29);
-            this.metroDateTime1.TabIndex = 231;
+            this.metroDateTime1.TabIndex = 1;
             // 
             // metroDateTime2
             // 
@@ -223,7 +223,7 @@
             this.metroDateTime2.MinimumSize = new System.Drawing.Size(0, 29);
             this.metroDateTime2.Name = "metroDateTime2";
             this.metroDateTime2.Size = new System.Drawing.Size(200, 29);
-            this.metroDateTime2.TabIndex = 232;
+            this.metroDateTime2.TabIndex = 5;
             // 
             // Total_Visit
             // 

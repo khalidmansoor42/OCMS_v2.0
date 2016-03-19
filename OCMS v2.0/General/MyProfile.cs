@@ -22,6 +22,8 @@ namespace OCMS_v2_0.General
         public MyProfile(string user_name, string user_type)
         {
             InitializeComponent();
+            this.FocusMe();
+            text_full_Name.Select();
             metroToolTip1.SetToolTip(browseBtn, "Browse Picture");
             metroToolTip1.SetToolTip(saveBtn, "Save");
             userName = user_name;

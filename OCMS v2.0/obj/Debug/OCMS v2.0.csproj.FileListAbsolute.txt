@@ -55,3 +55,4 @@ C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.ReportViewe
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.csproj.GenerateResource.Cache
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.exe
 C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS v2.0.pdb
+C:\Users\Khalid\Source\Repos\OCMS_v2.0\OCMS v2.0\obj\Debug\OCMS_v2_0.ReportViewers.Invoice.resources

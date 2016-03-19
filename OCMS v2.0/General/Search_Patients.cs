@@ -21,6 +21,8 @@ namespace OCMS_v2_0.General
         public Search_Patients(string check)
         {
             InitializeComponent();
+            this.FocusMe();
+            searchCriteriaCombo.Select();
             metroToolTip1.SetToolTip(searchCriteriaCombo, "Select Search Criteria From Here");
             checks = check;
             dvg1();

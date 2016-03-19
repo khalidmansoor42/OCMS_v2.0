@@ -16,7 +16,7 @@ namespace OCMS_v2_0
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Admin.AdminMenu("Khalid_1","Admin"));
+            Application.Run(new Admin.Add_Enum_And_Set_Value());
         }
     }
 }

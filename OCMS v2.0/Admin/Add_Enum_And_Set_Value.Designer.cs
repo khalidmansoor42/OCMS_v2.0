@@ -30,6 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Add_Enum_And_Set_Value));
             this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
+            this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
             this.updateBtn = new MetroFramework.Controls.MetroButton();
             this.retrieveBtn = new MetroFramework.Controls.MetroButton();
             this.addBtn = new MetroFramework.Controls.MetroButton();
@@ -40,32 +43,29 @@
             this.textBox2 = new MetroFramework.Controls.MetroTextBox();
             this.textBox1 = new System.Windows.Forms.RichTextBox();
             this.metroToolTip1 = new MetroFramework.Components.MetroToolTip();
-            this.qualification = new System.Windows.Forms.RadioButton();
-            this.specialization = new System.Windows.Forms.RadioButton();
-            this.att_relation = new System.Windows.Forms.RadioButton();
-            this.com_name = new System.Windows.Forms.RadioButton();
-            this.quality = new System.Windows.Forms.RadioButton();
-            this.Location = new System.Windows.Forms.RadioButton();
-            this.severity = new System.Windows.Forms.RadioButton();
-            this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
+            this.att_relation = new MetroFramework.Controls.MetroRadioButton();
+            this.qualification = new MetroFramework.Controls.MetroRadioButton();
+            this.specialization = new MetroFramework.Controls.MetroRadioButton();
+            this.Location = new MetroFramework.Controls.MetroRadioButton();
+            this.severity = new MetroFramework.Controls.MetroRadioButton();
+            this.com_name = new MetroFramework.Controls.MetroRadioButton();
+            this.quality = new MetroFramework.Controls.MetroRadioButton();
             this.metroPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // metroPanel1
             // 
             this.metroPanel1.BackColor = System.Drawing.SystemColors.Menu;
+            this.metroPanel1.Controls.Add(this.quality);
+            this.metroPanel1.Controls.Add(this.com_name);
+            this.metroPanel1.Controls.Add(this.severity);
+            this.metroPanel1.Controls.Add(this.Location);
+            this.metroPanel1.Controls.Add(this.specialization);
+            this.metroPanel1.Controls.Add(this.qualification);
+            this.metroPanel1.Controls.Add(this.att_relation);
             this.metroPanel1.Controls.Add(this.metroLabel5);
             this.metroPanel1.Controls.Add(this.metroLabel4);
             this.metroPanel1.Controls.Add(this.metroLabel3);
-            this.metroPanel1.Controls.Add(this.com_name);
-            this.metroPanel1.Controls.Add(this.quality);
-            this.metroPanel1.Controls.Add(this.Location);
-            this.metroPanel1.Controls.Add(this.severity);
-            this.metroPanel1.Controls.Add(this.att_relation);
-            this.metroPanel1.Controls.Add(this.qualification);
-            this.metroPanel1.Controls.Add(this.specialization);
             this.metroPanel1.Controls.Add(this.updateBtn);
             this.metroPanel1.Controls.Add(this.retrieveBtn);
             this.metroPanel1.Controls.Add(this.addBtn);
@@ -88,6 +88,39 @@
             this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel1.VerticalScrollbarSize = 10;
             // 
+            // metroLabel5
+            // 
+            this.metroLabel5.AutoSize = true;
+            this.metroLabel5.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.metroLabel5.Location = new System.Drawing.Point(542, 32);
+            this.metroLabel5.Name = "metroLabel5";
+            this.metroLabel5.Size = new System.Drawing.Size(165, 19);
+            this.metroLabel5.TabIndex = 2;
+            this.metroLabel5.Text = "Patient Registration Form";
+            this.metroLabel5.UseCustomBackColor = true;
+            // 
+            // metroLabel4
+            // 
+            this.metroLabel4.AutoSize = true;
+            this.metroLabel4.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.metroLabel4.Location = new System.Drawing.Point(337, 34);
+            this.metroLabel4.Name = "metroLabel4";
+            this.metroLabel4.Size = new System.Drawing.Size(150, 19);
+            this.metroLabel4.TabIndex = 1;
+            this.metroLabel4.Text = "User Registration Form";
+            this.metroLabel4.UseCustomBackColor = true;
+            // 
+            // metroLabel3
+            // 
+            this.metroLabel3.AutoSize = true;
+            this.metroLabel3.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.metroLabel3.Location = new System.Drawing.Point(49, 34);
+            this.metroLabel3.Name = "metroLabel3";
+            this.metroLabel3.Size = new System.Drawing.Size(108, 19);
+            this.metroLabel3.TabIndex = 0;
+            this.metroLabel3.Text = "Complaint Form";
+            this.metroLabel3.UseCustomBackColor = true;
+            // 
             // updateBtn
             // 
             this.updateBtn.BackColor = System.Drawing.SystemColors.GrayText;
@@ -97,7 +130,7 @@
             this.updateBtn.Location = new System.Drawing.Point(326, 342);
             this.updateBtn.Name = "updateBtn";
             this.updateBtn.Size = new System.Drawing.Size(85, 42);
-            this.updateBtn.TabIndex = 179;
+            this.updateBtn.TabIndex = 9;
             this.updateBtn.UseSelectable = true;
             this.updateBtn.Click += new System.EventHandler(this.updateBtn_Click);
             // 
@@ -110,7 +143,7 @@
             this.retrieveBtn.Location = new System.Drawing.Point(505, 121);
             this.retrieveBtn.Name = "retrieveBtn";
             this.retrieveBtn.Size = new System.Drawing.Size(55, 38);
-            this.retrieveBtn.TabIndex = 178;
+            this.retrieveBtn.TabIndex = 4;
             this.retrieveBtn.UseSelectable = true;
             this.retrieveBtn.Click += new System.EventHandler(this.retrieveBtn_Click);
             // 
@@ -123,7 +156,7 @@
             this.addBtn.Location = new System.Drawing.Point(271, 265);
             this.addBtn.Name = "addBtn";
             this.addBtn.Size = new System.Drawing.Size(35, 23);
-            this.addBtn.TabIndex = 177;
+            this.addBtn.TabIndex = 6;
             this.addBtn.UseSelectable = true;
             this.addBtn.Click += new System.EventHandler(this.addBtn_Click);
             // 
@@ -136,7 +169,7 @@
             this.deleteBtn.Location = new System.Drawing.Point(271, 294);
             this.deleteBtn.Name = "deleteBtn";
             this.deleteBtn.Size = new System.Drawing.Size(35, 23);
-            this.deleteBtn.TabIndex = 176;
+            this.deleteBtn.TabIndex = 8;
             this.deleteBtn.UseSelectable = true;
             this.deleteBtn.Click += new System.EventHandler(this.deleteBtn_Click);
             // 
@@ -174,7 +207,7 @@
             this.textBox3.SelectionLength = 0;
             this.textBox3.SelectionStart = 0;
             this.textBox3.Size = new System.Drawing.Size(157, 23);
-            this.textBox3.TabIndex = 18;
+            this.textBox3.TabIndex = 7;
             this.textBox3.UseSelectable = true;
             this.textBox3.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.textBox3.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
@@ -213,7 +246,7 @@
             this.textBox2.SelectionLength = 0;
             this.textBox2.SelectionStart = 0;
             this.textBox2.Size = new System.Drawing.Size(157, 23);
-            this.textBox2.TabIndex = 16;
+            this.textBox2.TabIndex = 5;
             this.textBox2.UseSelectable = true;
             this.textBox2.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.textBox2.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
@@ -224,7 +257,7 @@
             this.textBox1.Location = new System.Drawing.Point(21, 121);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(478, 131);
-            this.textBox1.TabIndex = 15;
+            this.textBox1.TabIndex = 3;
             this.textBox1.Text = "";
             // 
             // metroToolTip1
@@ -233,136 +266,89 @@
             this.metroToolTip1.StyleManager = null;
             this.metroToolTip1.Theme = MetroFramework.MetroThemeStyle.Light;
             // 
+            // att_relation
+            // 
+            this.att_relation.AutoSize = true;
+            this.att_relation.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.att_relation.Location = new System.Drawing.Point(542, 64);
+            this.att_relation.Name = "att_relation";
+            this.att_relation.Size = new System.Drawing.Size(122, 15);
+            this.att_relation.TabIndex = 187;
+            this.att_relation.Text = "Attendant Relation";
+            this.att_relation.UseCustomBackColor = true;
+            this.att_relation.UseSelectable = true;
+            // 
             // qualification
             // 
             this.qualification.AutoSize = true;
             this.qualification.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.qualification.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.qualification.Location = new System.Drawing.Point(337, 56);
+            this.qualification.Location = new System.Drawing.Point(337, 64);
             this.qualification.Name = "qualification";
-            this.qualification.Size = new System.Drawing.Size(103, 23);
-            this.qualification.TabIndex = 180;
-            this.qualification.TabStop = true;
+            this.qualification.Size = new System.Drawing.Size(91, 15);
+            this.qualification.TabIndex = 188;
             this.qualification.Text = "Qualification";
-            this.qualification.UseVisualStyleBackColor = true;
-            this.qualification.Click += new System.EventHandler(this.qualification_Click);
+            this.qualification.UseCustomBackColor = true;
+            this.qualification.UseSelectable = true;
             // 
             // specialization
             // 
             this.specialization.AutoSize = true;
             this.specialization.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.specialization.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.specialization.Location = new System.Drawing.Point(337, 79);
+            this.specialization.Location = new System.Drawing.Point(337, 87);
             this.specialization.Name = "specialization";
-            this.specialization.Size = new System.Drawing.Size(108, 23);
-            this.specialization.TabIndex = 181;
-            this.specialization.TabStop = true;
+            this.specialization.Size = new System.Drawing.Size(95, 15);
+            this.specialization.TabIndex = 189;
             this.specialization.Text = "Specialization";
-            this.specialization.UseVisualStyleBackColor = true;
-            this.specialization.Click += new System.EventHandler(this.specialization_Click);
-            // 
-            // att_relation
-            // 
-            this.att_relation.AutoSize = true;
-            this.att_relation.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.att_relation.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.att_relation.Location = new System.Drawing.Point(542, 56);
-            this.att_relation.Name = "att_relation";
-            this.att_relation.Size = new System.Drawing.Size(142, 23);
-            this.att_relation.TabIndex = 182;
-            this.att_relation.TabStop = true;
-            this.att_relation.Text = "Attendant Relation";
-            this.att_relation.UseVisualStyleBackColor = true;
-            this.att_relation.Click += new System.EventHandler(this.att_relation_Click);
-            // 
-            // com_name
-            // 
-            this.com_name.AutoSize = true;
-            this.com_name.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.com_name.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.com_name.Location = new System.Drawing.Point(49, 56);
-            this.com_name.Name = "com_name";
-            this.com_name.Size = new System.Drawing.Size(130, 23);
-            this.com_name.TabIndex = 183;
-            this.com_name.TabStop = true;
-            this.com_name.Text = "Complaint Name";
-            this.com_name.UseVisualStyleBackColor = true;
-            this.com_name.Click += new System.EventHandler(this.com_name_Click);
-            // 
-            // quality
-            // 
-            this.quality.AutoSize = true;
-            this.quality.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.quality.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.quality.Location = new System.Drawing.Point(49, 79);
-            this.quality.Name = "quality";
-            this.quality.Size = new System.Drawing.Size(71, 23);
-            this.quality.TabIndex = 184;
-            this.quality.TabStop = true;
-            this.quality.Text = "Quality";
-            this.quality.UseVisualStyleBackColor = true;
-            this.quality.Click += new System.EventHandler(this.quality_Click);
+            this.specialization.UseCustomBackColor = true;
+            this.specialization.UseSelectable = true;
             // 
             // Location
             // 
             this.Location.AutoSize = true;
             this.Location.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Location.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.Location.Location = new System.Drawing.Point(185, 56);
+            this.Location.Location = new System.Drawing.Point(185, 64);
             this.Location.Name = "Location";
-            this.Location.Size = new System.Drawing.Size(79, 23);
-            this.Location.TabIndex = 185;
-            this.Location.TabStop = true;
+            this.Location.Size = new System.Drawing.Size(69, 15);
+            this.Location.TabIndex = 190;
             this.Location.Text = "Location";
-            this.Location.UseVisualStyleBackColor = true;
-            this.Location.Click += new System.EventHandler(this.Location_Click);
+            this.Location.UseCustomBackColor = true;
+            this.Location.UseSelectable = true;
             // 
             // severity
             // 
             this.severity.AutoSize = true;
             this.severity.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.severity.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.severity.Location = new System.Drawing.Point(185, 79);
+            this.severity.Location = new System.Drawing.Point(185, 87);
             this.severity.Name = "severity";
-            this.severity.Size = new System.Drawing.Size(75, 23);
-            this.severity.TabIndex = 186;
-            this.severity.TabStop = true;
+            this.severity.Size = new System.Drawing.Size(64, 15);
+            this.severity.TabIndex = 191;
             this.severity.Text = "Severity";
-            this.severity.UseVisualStyleBackColor = true;
-            this.severity.Click += new System.EventHandler(this.severity_Click);
+            this.severity.UseCustomBackColor = true;
+            this.severity.UseSelectable = true;
             // 
-            // metroLabel3
+            // com_name
             // 
-            this.metroLabel3.AutoSize = true;
-            this.metroLabel3.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel3.Location = new System.Drawing.Point(49, 34);
-            this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(108, 19);
-            this.metroLabel3.TabIndex = 187;
-            this.metroLabel3.Text = "Complaint Form";
-            this.metroLabel3.UseCustomBackColor = true;
+            this.com_name.AutoSize = true;
+            this.com_name.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.com_name.Location = new System.Drawing.Point(49, 64);
+            this.com_name.Name = "com_name";
+            this.com_name.Size = new System.Drawing.Size(114, 15);
+            this.com_name.TabIndex = 192;
+            this.com_name.Text = "Complaint Name";
+            this.com_name.UseCustomBackColor = true;
+            this.com_name.UseSelectable = true;
             // 
-            // metroLabel4
+            // quality
             // 
-            this.metroLabel4.AutoSize = true;
-            this.metroLabel4.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel4.Location = new System.Drawing.Point(337, 34);
-            this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(150, 19);
-            this.metroLabel4.TabIndex = 188;
-            this.metroLabel4.Text = "User Registration Form";
-            this.metroLabel4.UseCustomBackColor = true;
-            // 
-            // metroLabel5
-            // 
-            this.metroLabel5.AutoSize = true;
-            this.metroLabel5.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel5.Location = new System.Drawing.Point(542, 32);
-            this.metroLabel5.Name = "metroLabel5";
-            this.metroLabel5.Size = new System.Drawing.Size(165, 19);
-            this.metroLabel5.TabIndex = 189;
-            this.metroLabel5.Text = "Patient Registration Form";
-            this.metroLabel5.UseCustomBackColor = true;
+            this.quality.AutoSize = true;
+            this.quality.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.quality.Location = new System.Drawing.Point(49, 87);
+            this.quality.Name = "quality";
+            this.quality.Size = new System.Drawing.Size(61, 15);
+            this.quality.TabIndex = 193;
+            this.quality.Text = "Quality";
+            this.quality.UseCustomBackColor = true;
+            this.quality.UseSelectable = true;
             // 
             // Add_Enum_And_Set_Value
             // 
@@ -395,15 +381,15 @@
         private MetroFramework.Controls.MetroButton retrieveBtn;
         private MetroFramework.Controls.MetroButton updateBtn;
         private MetroFramework.Components.MetroToolTip metroToolTip1;
-        private System.Windows.Forms.RadioButton com_name;
-        private System.Windows.Forms.RadioButton quality;
-        private System.Windows.Forms.RadioButton Location;
-        private System.Windows.Forms.RadioButton severity;
-        private System.Windows.Forms.RadioButton att_relation;
-        private System.Windows.Forms.RadioButton qualification;
-        private System.Windows.Forms.RadioButton specialization;
         private MetroFramework.Controls.MetroLabel metroLabel5;
         private MetroFramework.Controls.MetroLabel metroLabel4;
         private MetroFramework.Controls.MetroLabel metroLabel3;
+        private MetroFramework.Controls.MetroRadioButton att_relation;
+        private MetroFramework.Controls.MetroRadioButton quality;
+        private MetroFramework.Controls.MetroRadioButton com_name;
+        private MetroFramework.Controls.MetroRadioButton severity;
+        private MetroFramework.Controls.MetroRadioButton Location;
+        private MetroFramework.Controls.MetroRadioButton specialization;
+        private MetroFramework.Controls.MetroRadioButton qualification;
     }
 }

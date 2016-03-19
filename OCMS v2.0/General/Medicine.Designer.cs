@@ -60,7 +60,7 @@
             this.txt_med_name.Multiline = true;
             this.txt_med_name.Name = "txt_med_name";
             this.txt_med_name.Size = new System.Drawing.Size(295, 29);
-            this.txt_med_name.TabIndex = 204;
+            this.txt_med_name.TabIndex = 2;
             // 
             // txt_med_id
             // 
@@ -69,7 +69,7 @@
             this.txt_med_id.Multiline = true;
             this.txt_med_id.Name = "txt_med_id";
             this.txt_med_id.Size = new System.Drawing.Size(110, 29);
-            this.txt_med_id.TabIndex = 203;
+            this.txt_med_id.TabIndex = 0;
             // 
             // saveBtn
             // 
@@ -80,7 +80,7 @@
             this.saveBtn.Location = new System.Drawing.Point(724, 99);
             this.saveBtn.Name = "saveBtn";
             this.saveBtn.Size = new System.Drawing.Size(56, 37);
-            this.saveBtn.TabIndex = 201;
+            this.saveBtn.TabIndex = 3;
             this.saveBtn.UseSelectable = true;
             this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
             // 
@@ -192,7 +192,7 @@
             this.txt_med_type.Location = new System.Drawing.Point(282, 63);
             this.txt_med_type.Name = "txt_med_type";
             this.txt_med_type.Size = new System.Drawing.Size(137, 29);
-            this.txt_med_type.TabIndex = 200;
+            this.txt_med_type.TabIndex = 1;
             this.txt_med_type.UseSelectable = true;
             // 
             // metroToolTip1
@@ -236,7 +236,7 @@
             this.txt_searchby.Multiline = true;
             this.txt_searchby.Name = "txt_searchby";
             this.txt_searchby.Size = new System.Drawing.Size(242, 29);
-            this.txt_searchby.TabIndex = 199;
+            this.txt_searchby.TabIndex = 1;
             this.txt_searchby.TextChanged += new System.EventHandler(this.txt_searchby_TextChanged);
             // 
             // searchCriteriaCombo
@@ -249,7 +249,7 @@
             this.searchCriteriaCombo.Location = new System.Drawing.Point(38, 24);
             this.searchCriteriaCombo.Name = "searchCriteriaCombo";
             this.searchCriteriaCombo.Size = new System.Drawing.Size(196, 29);
-            this.searchCriteriaCombo.TabIndex = 195;
+            this.searchCriteriaCombo.TabIndex = 0;
             this.searchCriteriaCombo.UseSelectable = true;
             // 
             // updateBtn
@@ -261,7 +261,7 @@
             this.updateBtn.Location = new System.Drawing.Point(662, 99);
             this.updateBtn.Name = "updateBtn";
             this.updateBtn.Size = new System.Drawing.Size(56, 37);
-            this.updateBtn.TabIndex = 209;
+            this.updateBtn.TabIndex = 4;
             this.updateBtn.UseSelectable = true;
             this.updateBtn.Click += new System.EventHandler(this.updateBtn_Click);
             // 

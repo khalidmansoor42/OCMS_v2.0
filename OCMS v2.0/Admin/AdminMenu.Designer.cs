@@ -101,7 +101,7 @@
             this.button3.Location = new System.Drawing.Point(-1, 137);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(70, 70);
-            this.button3.TabIndex = 17;
+            this.button3.TabIndex = 1;
             this.button3.Text = "Restricted Values";
             this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button3.UseVisualStyleBackColor = true;
@@ -170,7 +170,7 @@
             this.button2.Location = new System.Drawing.Point(-1, 67);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(70, 70);
-            this.button2.TabIndex = 8;
+            this.button2.TabIndex = 0;
             this.button2.Text = "Profile";
             this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button2.UseVisualStyleBackColor = true;
@@ -309,7 +309,7 @@
             this.userName.Location = new System.Drawing.Point(983, 33);
             this.userName.Name = "userName";
             this.userName.Size = new System.Drawing.Size(185, 25);
-            this.userName.TabIndex = 121;
+            this.userName.TabIndex = 0;
             this.userName.SelectedIndexChanged += new System.EventHandler(this.userName_SelectedIndexChanged);
             // 
             // pictureBox1
@@ -455,7 +455,7 @@
             this.button10.Location = new System.Drawing.Point(-1, 417);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(70, 70);
-            this.button10.TabIndex = 22;
+            this.button10.TabIndex = 5;
             this.button10.Text = "Calender";
             this.button10.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button10.UseVisualStyleBackColor = true;
@@ -473,7 +473,7 @@
             this.button8.Location = new System.Drawing.Point(-1, 347);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(70, 70);
-            this.button8.TabIndex = 21;
+            this.button8.TabIndex = 4;
             this.button8.Text = "Tasks";
             this.button8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button8.UseVisualStyleBackColor = true;
@@ -491,7 +491,7 @@
             this.button9.Location = new System.Drawing.Point(-1, 277);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(70, 70);
-            this.button9.TabIndex = 20;
+            this.button9.TabIndex = 3;
             this.button9.Text = "Settings";
             this.button9.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button9.UseVisualStyleBackColor = true;
@@ -509,7 +509,7 @@
             this.button7.Location = new System.Drawing.Point(-1, 487);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(70, 70);
-            this.button7.TabIndex = 19;
+            this.button7.TabIndex = 6;
             this.button7.Text = "Patients";
             this.button7.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button7.UseVisualStyleBackColor = true;
@@ -527,7 +527,7 @@
             this.button4.Location = new System.Drawing.Point(-1, 207);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(70, 70);
-            this.button4.TabIndex = 17;
+            this.button4.TabIndex = 2;
             this.button4.Text = "Manage User";
             this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button4.UseVisualStyleBackColor = true;
@@ -546,7 +546,7 @@
             this.metroTile3.Name = "metroTile3";
             this.metroTile3.Size = new System.Drawing.Size(210, 130);
             this.metroTile3.Style = MetroFramework.MetroColorStyle.Teal;
-            this.metroTile3.TabIndex = 140;
+            this.metroTile3.TabIndex = 2;
             this.metroTile3.Text = "Search User";
             this.metroTile3.TileCount = 2;
             this.metroTile3.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile3.TileImage")));
@@ -567,7 +567,7 @@
             this.inventoryTile.Name = "inventoryTile";
             this.inventoryTile.Size = new System.Drawing.Size(210, 130);
             this.inventoryTile.Style = MetroFramework.MetroColorStyle.Blue;
-            this.inventoryTile.TabIndex = 115;
+            this.inventoryTile.TabIndex = 1;
             this.inventoryTile.Text = "User Registration";
             this.inventoryTile.TileCount = 1;
             this.inventoryTile.TileImage = ((System.Drawing.Image)(resources.GetObject("inventoryTile.TileImage")));
@@ -588,7 +588,7 @@
             this.metroTile2.Name = "metroTile2";
             this.metroTile2.Size = new System.Drawing.Size(426, 130);
             this.metroTile2.Style = MetroFramework.MetroColorStyle.Green;
-            this.metroTile2.TabIndex = 142;
+            this.metroTile2.TabIndex = 4;
             this.metroTile2.Text = "Doctor Registration";
             this.metroTile2.TileCount = 4;
             this.metroTile2.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile2.TileImage")));
@@ -609,7 +609,7 @@
             this.metroTile4.Name = "metroTile4";
             this.metroTile4.Size = new System.Drawing.Size(210, 130);
             this.metroTile4.Style = MetroFramework.MetroColorStyle.Silver;
-            this.metroTile4.TabIndex = 141;
+            this.metroTile4.TabIndex = 5;
             this.metroTile4.Text = "Clinic Name";
             this.metroTile4.TileCount = 5;
             this.metroTile4.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile4.TileImage")));
@@ -630,7 +630,7 @@
             this.metroTile5.Name = "metroTile5";
             this.metroTile5.Size = new System.Drawing.Size(210, 130);
             this.metroTile5.Style = MetroFramework.MetroColorStyle.Red;
-            this.metroTile5.TabIndex = 143;
+            this.metroTile5.TabIndex = 6;
             this.metroTile5.Text = "Add City";
             this.metroTile5.TileCount = 6;
             this.metroTile5.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile5.TileImage")));
@@ -651,7 +651,7 @@
             this.metroTile7.Name = "metroTile7";
             this.metroTile7.Size = new System.Drawing.Size(210, 130);
             this.metroTile7.Style = MetroFramework.MetroColorStyle.Brown;
-            this.metroTile7.TabIndex = 144;
+            this.metroTile7.TabIndex = 7;
             this.metroTile7.Text = "Add Medicine";
             this.metroTile7.TileCount = 7;
             this.metroTile7.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile7.TileImage")));
@@ -672,7 +672,7 @@
             this.metroTile8.Name = "metroTile8";
             this.metroTile8.Size = new System.Drawing.Size(210, 130);
             this.metroTile8.Style = MetroFramework.MetroColorStyle.Orange;
-            this.metroTile8.TabIndex = 145;
+            this.metroTile8.TabIndex = 8;
             this.metroTile8.Text = "Add Disease";
             this.metroTile8.TileCount = 8;
             this.metroTile8.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile8.TileImage")));
@@ -693,7 +693,7 @@
             this.metroTile10.Name = "metroTile10";
             this.metroTile10.Size = new System.Drawing.Size(210, 130);
             this.metroTile10.Style = MetroFramework.MetroColorStyle.Purple;
-            this.metroTile10.TabIndex = 146;
+            this.metroTile10.TabIndex = 3;
             this.metroTile10.Text = "Reports";
             this.metroTile10.TileCount = 3;
             this.metroTile10.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile10.TileImage")));

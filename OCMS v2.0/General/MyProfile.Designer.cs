@@ -117,7 +117,7 @@
             this.saveBtn.Location = new System.Drawing.Point(152, 213);
             this.saveBtn.Name = "saveBtn";
             this.saveBtn.Size = new System.Drawing.Size(71, 31);
-            this.saveBtn.TabIndex = 19;
+            this.saveBtn.TabIndex = 9;
             this.saveBtn.UseSelectable = true;
             this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
             // 
@@ -130,7 +130,7 @@
             this.browseBtn.Location = new System.Drawing.Point(78, 213);
             this.browseBtn.Name = "browseBtn";
             this.browseBtn.Size = new System.Drawing.Size(71, 31);
-            this.browseBtn.TabIndex = 18;
+            this.browseBtn.TabIndex = 8;
             this.browseBtn.UseSelectable = true;
             this.browseBtn.Click += new System.EventHandler(this.browseBtn_Click);
             // 
@@ -197,7 +197,7 @@
             this.Text_address.SelectionLength = 0;
             this.Text_address.SelectionStart = 0;
             this.Text_address.Size = new System.Drawing.Size(245, 23);
-            this.Text_address.TabIndex = 15;
+            this.Text_address.TabIndex = 7;
             this.Text_address.UseSelectable = true;
             this.Text_address.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.Text_address.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
@@ -276,7 +276,7 @@
             this.text_Email.SelectionLength = 0;
             this.text_Email.SelectionStart = 0;
             this.text_Email.Size = new System.Drawing.Size(245, 23);
-            this.text_Email.TabIndex = 9;
+            this.text_Email.TabIndex = 6;
             this.text_Email.UseSelectable = true;
             this.text_Email.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.text_Email.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
@@ -305,7 +305,7 @@
             this.text_cnic.SelectionLength = 0;
             this.text_cnic.SelectionStart = 0;
             this.text_cnic.Size = new System.Drawing.Size(245, 23);
-            this.text_cnic.TabIndex = 8;
+            this.text_cnic.TabIndex = 5;
             this.text_cnic.UseSelectable = true;
             this.text_cnic.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.text_cnic.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
@@ -334,7 +334,7 @@
             this.text_mob.SelectionLength = 0;
             this.text_mob.SelectionStart = 0;
             this.text_mob.Size = new System.Drawing.Size(245, 23);
-            this.text_mob.TabIndex = 7;
+            this.text_mob.TabIndex = 4;
             this.text_mob.UseSelectable = true;
             this.text_mob.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.text_mob.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
@@ -363,7 +363,7 @@
             this.Text_Father_Name.SelectionLength = 0;
             this.Text_Father_Name.SelectionStart = 0;
             this.Text_Father_Name.Size = new System.Drawing.Size(245, 23);
-            this.Text_Father_Name.TabIndex = 6;
+            this.Text_Father_Name.TabIndex = 2;
             this.Text_Father_Name.UseSelectable = true;
             this.Text_Father_Name.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.Text_Father_Name.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
@@ -392,7 +392,7 @@
             this.text_full_Name.SelectionLength = 0;
             this.text_full_Name.SelectionStart = 0;
             this.text_full_Name.Size = new System.Drawing.Size(245, 23);
-            this.text_full_Name.TabIndex = 5;
+            this.text_full_Name.TabIndex = 0;
             this.text_full_Name.UseSelectable = true;
             this.text_full_Name.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.text_full_Name.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
@@ -407,7 +407,7 @@
             this.text_gender.Location = new System.Drawing.Point(421, 109);
             this.text_gender.Name = "text_gender";
             this.text_gender.Size = new System.Drawing.Size(245, 29);
-            this.text_gender.TabIndex = 4;
+            this.text_gender.TabIndex = 3;
             this.text_gender.UseSelectable = true;
             // 
             // metroLabel1

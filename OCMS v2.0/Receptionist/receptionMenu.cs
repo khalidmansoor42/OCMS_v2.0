@@ -13,13 +13,18 @@ namespace OCMS_v2_0.Receptionist
 {
     public partial class receptionMenu : MetroForm
     {
-        public receptionMenu()
+        string user = "", userType = "";
+        public receptionMenu(string user_name, string user_type)
         {
             InitializeComponent();
+            this.FocusMe();
+            userName.Select();
             notifyIcon1.BalloonTipText = "Application Minimized";
             notifyIcon1.BalloonTipTitle = "Eminence";
             dateLabel.Text = DateTime.Now.ToString("dddd  dd, MMM yyyy");
             company.Text = "© Techagentx";
+            user = user_name;
+            userType = user_type;
         }
         private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
         {
@@ -188,6 +193,12 @@ namespace OCMS_v2_0.Receptionist
             ShowInTaskbar = true;
             notifyIcon1.Visible = false;
             WindowState = FormWindowState.Normal;
+        }
+
+        private void inventoryTile_Click(object sender, EventArgs e)
+        {
+            Receptionist.PatientRegistration patientReg = new Receptionist.PatientRegistration(user, userType);
+            patientReg.Show();
         }
     }
 }

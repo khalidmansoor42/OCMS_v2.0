@@ -9,18 +9,10 @@ namespace OCMS_v2_0
 {
     public class maxvalue : connection
     {
-
-        
-        
-        
-        
         public int max(string query)
-        {
-
-            
+        {    
             //string conString = "datasource=192.168.2.11;port=3306;username=root;password=admin";
-            MySqlConnection conn = new MySqlConnection(myConnection);
-           
+            MySqlConnection conn = new MySqlConnection(myConnection);  
             conn.Open();
             try
             {

@@ -149,7 +149,7 @@
             this.metroTile2.Size = new System.Drawing.Size(238, 170);
             this.metroTile2.Style = MetroFramework.MetroColorStyle.Green;
             this.metroTile2.TabIndex = 0;
-            this.metroTile2.Text = "Update Profile";
+            this.metroTile2.Text = "Database Backup";
             this.metroTile2.TileCount = 1;
             this.metroTile2.TileImage = ((System.Drawing.Image)(resources.GetObject("metroTile2.TileImage")));
             this.metroTile2.TileImageAlign = System.Drawing.ContentAlignment.MiddleCenter;

@@ -85,8 +85,8 @@ namespace OCMS_v2_0.Admin
 
         private void metroTile2_Click(object sender, EventArgs e)
         {
-            General.MyProfile myProf = new General.MyProfile(userName, userType);
-            myProf.Show();
+            Database_Backup myBackup = new Database_Backup();
+            myBackup.dbBackup();
         }
 
         private void metroTile1_Click(object sender, EventArgs e)
